@@ -1,0 +1,7 @@
+bootargs=console=ttyPS0,115200 root=/dev/mmcblk0p2 rw rootwait earlyprintk
+bootdelay=3
+bitstream_image=zybo.bit
+loadconfigenv=load mmc 0 ${loadbootenv_addr} ${configenv}
+mmc_loadbit=if test -e mmc 0 ${bitstream_image}; then echo Loading bitstream ${bitstream_image} from microSD to RAM... && fatload mmc 0 ${loadbit_addr} ${bitstream_image} && fpga loadb 0 ${loadbit_addr} ${filesize}; fi;
+boot_snickerdoodle=mmcinfo; echo Copying Linux system from microSD to RAM...; fatload mmc 0:1 0x3000000 ${kernel_image}; fatload mmc 0:1 0x2FF0000 ${devicetree_image}; bootm 0x3000000 - 0x2FF0000
+uenvcmd= run mmc_loadbit; run boot_snickerdoodle
