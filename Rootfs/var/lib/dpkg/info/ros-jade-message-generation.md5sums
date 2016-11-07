@@ -1,0 +1,5 @@
+6a2608c5cee86609610de16b70effff0  opt/ros/jade/lib/pkgconfig/message_generation.pc
+2a63912cfe6a83b5bfe885fca63a52cf  opt/ros/jade/share/message_generation/cmake/message_generationConfig-version.cmake
+379850bc4383fd8141c3a6bf3a5ea511  opt/ros/jade/share/message_generation/cmake/message_generationConfig.cmake
+19ed541d226542f8721d8da527189789  opt/ros/jade/share/message_generation/package.xml
+c8168ca29c9ffd4deb70f42825531bb0  usr/share/doc/ros-jade-message-generation/changelog.Debian.gz

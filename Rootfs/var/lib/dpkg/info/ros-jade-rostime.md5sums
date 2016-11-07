@@ -1,0 +1,12 @@
+d3eecebb433326725c5a6bee77e05c0e  opt/ros/jade/include/ros/duration.h
+78455036127ad12ba4bc6c0080f9c9f4  opt/ros/jade/include/ros/impl/duration.h
+99880ef3c1a960e2dbb67aa1984d0320  opt/ros/jade/include/ros/impl/time.h
+f1617e31a9b4cc7325ac295f14668bc3  opt/ros/jade/include/ros/rate.h
+fe57bfd25ce611d46c476481f5de9d37  opt/ros/jade/include/ros/rostime_decl.h
+bddd19c09502fd88874fc68f92d04748  opt/ros/jade/include/ros/time.h
+ffdc18b97af0d3dc851cf64d8f4fe378  opt/ros/jade/lib/librostime.so
+c36a46832e18fba2296da75607480087  opt/ros/jade/lib/pkgconfig/rostime.pc
+208dc2c4273097aeb46ab57989f6c1b7  opt/ros/jade/share/rostime/cmake/rostimeConfig-version.cmake
+ceddfcf68771391c4ff5cbe5d9875b5b  opt/ros/jade/share/rostime/cmake/rostimeConfig.cmake
+35cd120722afd0305c4e8d24cdcca99b  opt/ros/jade/share/rostime/package.xml
+557b2dc36f199f5965d6428556147664  usr/share/doc/ros-jade-rostime/changelog.Debian.gz

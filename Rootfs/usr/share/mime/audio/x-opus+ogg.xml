@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="audio/x-opus+ogg">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Opus audio</comment>
+  <comment xml:lang="de">Opus Tondatei</comment>
+  <comment xml:lang="en_GB">Opus audio</comment>
+  <comment xml:lang="es">Sonido Opus</comment>
+  <comment xml:lang="eu">Opus audioa</comment>
+  <comment xml:lang="id">Audio opus</comment>
+  <comment xml:lang="lv">Opus audio</comment>
+  <comment xml:lang="sl">Opus audio</comment>
+  <comment xml:lang="uk">Опус аудіо</comment>
+  <comment xml:lang="zh_TW">Opus 音訊</comment>
+  <sub-class-of type="audio/ogg"/>
+  <glob pattern="*.opus"/>
+</mime-type>

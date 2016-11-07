@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libconsole-bridge0.2
+/usr/share/doc/libconsole-bridge0.2/changelog.Debian.gz
+/usr/share/doc/libconsole-bridge0.2/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libconsole_bridge.so.0.2

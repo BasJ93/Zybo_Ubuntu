@@ -1,0 +1,9 @@
+c21d4558ba7ea14ae353f17b772695a3  opt/ros/jade/include/ros/roscpp_serialization_macros.h
+94fd9d04e4ded5d21f80c65aa941a477  opt/ros/jade/include/ros/serialization.h
+15ff30567e316a528b9e4a36d1cf2e26  opt/ros/jade/include/ros/serialized_message.h
+37f03f5ddbce5cb43df862032bcd4475  opt/ros/jade/lib/libroscpp_serialization.so
+8fa469a114a7b0c36aace9706c0567b2  opt/ros/jade/lib/pkgconfig/roscpp_serialization.pc
+208dc2c4273097aeb46ab57989f6c1b7  opt/ros/jade/share/roscpp_serialization/cmake/roscpp_serializationConfig-version.cmake
+7593de8f74eb2dd05fa088bdd2bc4e44  opt/ros/jade/share/roscpp_serialization/cmake/roscpp_serializationConfig.cmake
+03b828522563d60267cf96d001f06514  opt/ros/jade/share/roscpp_serialization/package.xml
+7ec481193842e06aa2209b21eb4ed247  usr/share/doc/ros-jade-roscpp-serialization/changelog.Debian.gz

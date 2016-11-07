@@ -1,0 +1,5 @@
+# There are multiple vendors providing this library.
+package-name-doesnt-match-sonames libOpenCL1
+# the .so link needs to be here if we want to support programs
+# compiled with the Intel OpenCL SDK
+non-dev-pkg-with-shlib-symlink

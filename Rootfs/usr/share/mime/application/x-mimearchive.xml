@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-mimearchive">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>MHTML web archive</comment>
+  <comment xml:lang="ast">MHTML web archive</comment>
+  <comment xml:lang="bs">MHTML web arhiva</comment>
+  <comment xml:lang="de">MHTML-Web-Archiv</comment>
+  <comment xml:lang="en_AU">MHTML web archive</comment>
+  <comment xml:lang="en_GB">MHTML web archive</comment>
+  <comment xml:lang="es">Archivador web MHTML</comment>
+  <comment xml:lang="eu">MHTML web-artxiboa</comment>
+  <comment xml:lang="gl">Arquivo web MHTML</comment>
+  <comment xml:lang="id">Arsip web MHTML</comment>
+  <comment xml:lang="it">Archivio web MHTML</comment>
+  <comment xml:lang="lv">MHTML tīmekļa arhīvs</comment>
+  <comment xml:lang="pt_BR">Arquivo web MHTML</comment>
+  <comment xml:lang="ru">Веб-архив MHTML</comment>
+  <comment xml:lang="sl">Spletni arhiv MHTML</comment>
+  <comment xml:lang="uk">інтернет-архів MHTML</comment>
+  <comment xml:lang="zh_TW">MHTML 網頁封存檔</comment>
+  <acronym>MHTML</acronym>
+  <expanded-acronym>MIME HTML</expanded-acronym>
+  <glob pattern="*.mhtml"/>
+  <glob pattern="*.mht"/>
+  <sub-class-of type="multipart/related"/>
+</mime-type>

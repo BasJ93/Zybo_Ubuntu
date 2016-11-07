@@ -1,0 +1,12 @@
+/.
+/opt
+/opt/ros
+/opt/ros/jade
+/opt/ros/jade/share
+/opt/ros/jade/share/roscpp_core
+/opt/ros/jade/share/roscpp_core/package.xml
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/ros-jade-roscpp-core
+/usr/share/doc/ros-jade-roscpp-core/changelog.Debian.gz

@@ -1,0 +1,7 @@
+dbd32758f6141700be896d1061fdb3bf  usr/lib/arm-linux-gnueabihf/libboost_python-py27.a
+191ebb3810fac44840fe475927706a92  usr/lib/arm-linux-gnueabihf/libboost_python-py33.a
+c64d1a22cc7d4350f3d149592d84aa29  usr/lib/arm-linux-gnueabihf/libboost_python-py34.a
+5fc398b8f8138e95d8278474a35a600a  usr/share/doc/libboost-python1.54-dev/README.Debian
+e66425771863c34de39265516529d049  usr/share/doc/libboost-python1.54-dev/copyright
+bfc6ea588b829e84684ab7f141e18bfc  usr/share/lintian/overrides/libboost-python1.54-dev
+da644bc2c4ae234e722718421d47c01c  usr/share/man/man1/pyste.1.gz

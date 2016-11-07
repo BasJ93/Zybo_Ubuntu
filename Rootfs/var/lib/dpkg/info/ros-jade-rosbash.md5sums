@@ -1,0 +1,14 @@
+cf84ed46a634e3b82e3788be2e7ba4d3  opt/ros/jade/bin/rosrun
+fc161c947305a521349a5bc3dad2b948  opt/ros/jade/etc/catkin/profile.d/15.rosbash.bash
+460ffa31fc1a1eeaa9581e5c248a3944  opt/ros/jade/etc/catkin/profile.d/15.rosbash.fish
+54e30ae2be3d0cd85a46d5bb52fec221  opt/ros/jade/etc/catkin/profile.d/15.rosbash.tcsh
+5acdd21748ca6d49f2e7560ea158e5eb  opt/ros/jade/etc/catkin/profile.d/15.rosbash.zsh
+dd55a31fdb1c09b35b37ee32428ee24b  opt/ros/jade/lib/pkgconfig/rosbash.pc
+ae842d4c51f5924949013f7afc769bdc  opt/ros/jade/share/rosbash/cmake/rosbashConfig-version.cmake
+a793759fbca4a8ca906fc2bc977c4a19  opt/ros/jade/share/rosbash/cmake/rosbashConfig.cmake
+ba111df45c8d29764a6d37e280e5b980  opt/ros/jade/share/rosbash/package.xml
+a3eb41c171385d85c632d5ec231ec4bc  opt/ros/jade/share/rosbash/rosbash
+ed36ec3020fe54ab8f3dee52ba89721e  opt/ros/jade/share/rosbash/rosfish
+093b3f2405058e6ba6c7571dfb7910e3  opt/ros/jade/share/rosbash/rostcsh
+53189dbcfa2c67922a9e6c209715122a  opt/ros/jade/share/rosbash/roszsh
+0871a3289c3b0ea8441a73ab06ba0b29  usr/share/doc/ros-jade-rosbash/changelog.Debian.gz

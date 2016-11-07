@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>Inside A Docutils Command-Line Front-End Tool</title>
+<meta name="author" content="David Goodger" />
+<meta name="date" content="2012-01-03" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../../css/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="inside-a-docutils-command-line-front-end-tool">
+<h1 class="title">Inside A Docutils Command-Line Front-End Tool</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>David Goodger</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2012-01-03</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>7302</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<p><a class="reference external" href="./publisher.html">The Docutils Publisher</a> class was set up to make building
+command-line tools easy.  All that's required is to choose components
+and supply settings for variations.  Let's take a look at a typical
+command-line front-end tool, <tt class="docutils literal">tools/rst2html.py</tt>, from top to
+bottom.</p>
+<p>On Unixish systems, it's best to make the file executable (<tt class="docutils literal">chmod +x
+file</tt>), and supply an interpreter on the first line, the &quot;shebang&quot; or
+&quot;hash-bang&quot; line:</p>
+<pre class="literal-block">
+#!/usr/bin/env python
+</pre>
+<p>Windows systems can be set up to associate the Python interpreter with
+the <tt class="docutils literal">.py</tt> extension.</p>
+<p>Next are some comments providing metadata:</p>
+<pre class="literal-block">
+# $Id: cmdline-tool.txt 7302 2012-01-03 19:23:53Z grubert $
+# Author: David Goodger &lt;goodger&#64;python.org&gt;
+# Copyright: This module has been placed in the public domain.
+</pre>
+<p>The module docstring describes the purpose of the tool:</p>
+<pre class="literal-block">
+&quot;&quot;&quot;
+A minimal front end to the Docutils Publisher, producing HTML.
+&quot;&quot;&quot;
+</pre>
+<p>This next block attempts to invoke locale support for
+internationalization services, specifically text encoding.  It's not
+supported on all platforms though, so it's forgiving:</p>
+<pre class="literal-block">
+try:
+    import locale
+    locale.setlocale(locale.LC_ALL, '')
+except:
+    pass
+</pre>
+<p>The real work will be done by the code that's imported here:</p>
+<pre class="literal-block">
+from docutils.core import publish_cmdline, default_description
+</pre>
+<p>We construct a description of the tool, for command-line help:</p>
+<pre class="literal-block">
+description = ('Generates (X)HTML documents from standalone '
+               'reStructuredText sources.  ' + default_description)
+</pre>
+<p>Now we call the Publisher convenience function, which takes over.
+Most of its defaults are used (&quot;standalone&quot; Reader,
+&quot;reStructuredText&quot; Parser, etc.).  The HTML Writer is chosen by name,
+and a description for command-line help is passed in:</p>
+<pre class="literal-block">
+publish_cmdline(writer_name='html', description=description)
+</pre>
+<p>That's it!  <a class="reference external" href="./publisher.html">The Docutils Publisher</a> takes care of the rest.</p>
+</div>
+</body>
+</html>

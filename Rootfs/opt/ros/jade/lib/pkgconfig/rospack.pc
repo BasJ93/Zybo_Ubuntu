@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rospack
+Description: Description of rospack
+Version: 2.2.5
+Cflags: -I/opt/ros/jade/include -I/usr/include
+Libs: -L/opt/ros/jade/lib -lrospack -l:/usr/lib/arm-linux-gnueabihf/libpython2.7.so -l:/usr/lib/arm-linux-gnueabihf/libboost_filesystem.so -l:/usr/lib/arm-linux-gnueabihf/libboost_program_options.so -l:/usr/lib/arm-linux-gnueabihf/libboost_system.so -l:/usr/lib/arm-linux-gnueabihf/libtinyxml.so
+Requires: 

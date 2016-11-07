@@ -1,0 +1,6 @@
+ebad8c4012b9b205d9cf844b86c88fb6  usr/lib/perl5/File/FcntlLock.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/File/FcntlLock/FcntlLock.bs
+2ed63a39b9c99bc93ba2c56e1a6b444a  usr/lib/perl5/auto/File/FcntlLock/FcntlLock.so
+c04d43777b39009d432cff96d7629df5  usr/share/doc/libfile-fcntllock-perl/changelog.Debian.gz
+8e74e50a4d6f6b9436e65972e7aff5b4  usr/share/doc/libfile-fcntllock-perl/copyright
+f65ec44d3ee5683a2b27f96029d9b50a  usr/share/man/man3/File::FcntlLock.3pm.gz

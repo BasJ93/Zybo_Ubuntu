@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-trig">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>TriG RDF document</comment>
+  <comment xml:lang="ast">TriG RDF document</comment>
+  <comment xml:lang="bs">TriG RDF dokument</comment>
+  <comment xml:lang="de">TriG-RDF-Dokument</comment>
+  <comment xml:lang="en_AU">TriG RDF document</comment>
+  <comment xml:lang="en_GB">TriG RDF document</comment>
+  <comment xml:lang="es">Documento RDF de TriG</comment>
+  <comment xml:lang="gl">Documento RDF de TriG</comment>
+  <comment xml:lang="id">Dokumen RDF TriG</comment>
+  <comment xml:lang="it">Documento TriG RDF</comment>
+  <comment xml:lang="lv">TriG RDF dokuments</comment>
+  <comment xml:lang="pt_BR">Documento RDF TriG</comment>
+  <comment xml:lang="sl">Dokument TriG RDF</comment>
+  <comment xml:lang="uk">документ RDF TriG</comment>
+  <comment xml:lang="zh_TW">TriG RDF 文件</comment>
+  <acronym>TriG</acronym>
+  <expanded-acronym>TriG RDF Graph Triple Language</expanded-acronym>
+  <sub-class-of type="text/plain"/>
+  <glob pattern="*.trig"/>
+</mime-type>

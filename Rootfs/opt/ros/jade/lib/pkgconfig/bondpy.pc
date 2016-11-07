@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: bondpy
+Description: Description of bondpy
+Version: 1.7.16
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

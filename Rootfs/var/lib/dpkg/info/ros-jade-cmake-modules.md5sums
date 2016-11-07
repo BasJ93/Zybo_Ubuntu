@@ -1,0 +1,14 @@
+18d359996bd2dca80ffdb5f67f655a75  opt/ros/jade/lib/pkgconfig/cmake_modules.pc
+68feae81519999bf3300c7cf3cec951f  opt/ros/jade/share/cmake_modules/cmake/Modules/FindEigen.cmake
+1fc2abe6f43f631e9c97fc9bf6ab3364  opt/ros/jade/share/cmake_modules/cmake/Modules/FindGSL.cmake
+0aa73e1b1b51400a0693e49343027bd0  opt/ros/jade/share/cmake_modules/cmake/Modules/FindNUMPY.cmake
+97b137b3b2aaf498a0d68a6eaa113553  opt/ros/jade/share/cmake_modules/cmake/Modules/FindPoco.cmake
+ee7e93880b0e2f9a9a87ec82b4b958dc  opt/ros/jade/share/cmake_modules/cmake/Modules/FindTBB.cmake
+1f62d2635c78de8b0e1846a003718f45  opt/ros/jade/share/cmake_modules/cmake/Modules/FindTinyXML.cmake
+1185cc3c6f986ddc9674973a71cfd587  opt/ros/jade/share/cmake_modules/cmake/Modules/FindUUID.cmake
+9226d7df616eeffe1c52534fd578adf8  opt/ros/jade/share/cmake_modules/cmake/Modules/FindXenomai.cmake
+ba43eb13c2cda3d064c93c1259facb79  opt/ros/jade/share/cmake_modules/cmake/cmake_modules-extras.cmake
+ab1c0d5eafd3c74da3cf8cadb3580071  opt/ros/jade/share/cmake_modules/cmake/cmake_modulesConfig-version.cmake
+7a88dfa90d605e60c7e0a408736cda8f  opt/ros/jade/share/cmake_modules/cmake/cmake_modulesConfig.cmake
+1e0ede464474ef4c887e6d98aba89c5c  opt/ros/jade/share/cmake_modules/package.xml
+191c58e736b83eca7f913d8a337c357e  usr/share/doc/ros-jade-cmake-modules/changelog.Debian.gz

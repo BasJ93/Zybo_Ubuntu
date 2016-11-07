@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: roswtf
+Description: Description of roswtf
+Version: 1.11.16
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

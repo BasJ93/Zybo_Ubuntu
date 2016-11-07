@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/command-not-found-data
+/usr/share/doc/command-not-found-data/changelog.gz
+/usr/share/doc/command-not-found-data/copyright
+/usr/share/command-not-found
+/usr/share/command-not-found/priority.txt
+/usr/share/command-not-found/programs.d
+/usr/share/command-not-found/programs.d/all-multiverse.db
+/usr/share/command-not-found/programs.d/armhf-universe.db
+/usr/share/command-not-found/programs.d/all-main.db
+/usr/share/command-not-found/programs.d/armhf-multiverse.db
+/usr/share/command-not-found/programs.d/armhf-main.db
+/usr/share/command-not-found/programs.d/all-universe.db

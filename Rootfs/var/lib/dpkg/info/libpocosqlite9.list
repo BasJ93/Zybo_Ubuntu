@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpocosqlite9
+/usr/share/doc/libpocosqlite9/copyright
+/usr/lib
+/usr/lib/libPocoSQLite.so.9
+/usr/share/doc/libpocosqlite9/changelog.Debian.gz

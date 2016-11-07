@@ -1,0 +1,8 @@
+3905268383f52c8a063905451774f965  usr/lib/arm-linux-gnueabihf/libgtrtst.so.1.0.0
+51fa230e6f2cd55c9349bd0f63da3cdf  usr/lib/arm-linux-gnueabihf/libodbc.so.1.0.0
+6d185a82bc431356952d95587ffd63b5  usr/lib/arm-linux-gnueabihf/libodbccr.so.1.0.0
+b53a29cb451603ae94e6ae6057577680  usr/lib/arm-linux-gnueabihf/odbc/libnn.so
+43e76193181110295d78b8d40c7a1077  usr/share/doc/libodbc1/NEWS.Debian.gz
+96502bb3a3f03c04cc2a9b1055c51823  usr/share/doc/libodbc1/changelog.Debian.gz
+a41a84e564fd9781e7dd465e1693c775  usr/share/doc/libodbc1/copyright
+afca17b6e2d3386cee997a95866a7dd3  usr/share/lintian/overrides/libodbc1

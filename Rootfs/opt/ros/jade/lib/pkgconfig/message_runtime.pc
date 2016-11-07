@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: message_runtime
+Description: Description of message_runtime
+Version: 0.4.12
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: cpp_common roscpp_serialization roscpp_traits rostime

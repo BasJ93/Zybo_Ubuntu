@@ -1,0 +1,14 @@
+4a19390ed1ae11954abc7945d78d6758  usr/bin/compile_et
+b1e3784cd241530eb4c773216ebb4944  usr/include/et/com_err.h
+d5ac49a91012397541aec9b16f26f94a  usr/lib/arm-linux-gnueabihf/libcom_err.a
+9b28fee35a9a4688e8a08b18dbbf7e4d  usr/lib/arm-linux-gnueabihf/pkgconfig/com_err.pc
+eb5a24ad827bae80b198ef7bb63ff40a  usr/share/doc-base/comerr-manual
+1282f1b335633cd729797828864e9f1f  usr/share/doc/libcomerr2/com_err.texi.gz
+60a1595b08aeb2544b3a869244221449  usr/share/doc/libcomerr2/examples/ext2_err.et.gz
+854b018a524fbe1c56451876d9c07594  usr/share/doc/libcomerr2/examples/ss_err.et
+6edfaed774972b5a3624f322a09f63af  usr/share/doc/libcomerr2/html-info/com_err.html
+71fdfd25214d12014217706002cd3711  usr/share/et/et_c.awk
+a5c6d9dd3bf259cda5ef92c2f62910e9  usr/share/et/et_h.awk
+a123259bbb981e6c14e6c6d678984618  usr/share/info/com_err.info.gz
+b021d15738982196935e4e20a6d1d9de  usr/share/man/man1/compile_et.1.gz
+1acbbb4341483553e3e23aeca012a0a4  usr/share/man/man3/com_err.3.gz

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>Docutils Web Site</title>
+<meta name="author" content="David Goodger; open to all Docutils developers" />
+<meta name="date" content="2012-01-03" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../../css/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="docutils-web-site">
+<h1 class="title">Docutils Web Site</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>David Goodger; open to all Docutils developers</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2012-01-03</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>7302</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<p>The Docutils web site, &lt;<a class="reference external" href="http://docutils.sourceforge.net/">http://docutils.sourceforge.net/</a>&gt;, is
+maintained by the <tt class="docutils literal"><span class="pre">docutils-update.local</span></tt> script, run by project
+maintainers on their local machines.  The script
+will process any .txt file which is newer than the corresponding .html
+file in the local copy of the project's web directory and upload the changes
+to the web site at SourceForge.</p>
+<!-- .. old instructions, for cron job:
+
+The Docutils web site, <http://docutils.sourceforge.net/>, is
+maintained automatically by the ``docutils-update`` script, run as an
+hourly cron job on shell.berlios.de (by user "wiemann").  The script
+will process any .txt file which is newer than the corresponding .html
+file in the project's web directory on shell.berlios.de
+(``/home/groups/docutils/htdocs/aux/htdocs/``) and upload the changes
+to the web site at SourceForge. -->
+<p>Please <strong>do not</strong> add any generated .html files to the Docutils
+repository.  They will be generated automatically after a one-time
+setup (<a class="reference internal" href="#adding-txt-files">described below</a>).</p>
+<p>The <a class="reference external" href="http://docutils.sf.net/sandbox/infrastructure/docutils-update.local">docutils-update.local</a> script is located at
+<tt class="docutils literal"><span class="pre">sandbox/infrastructure/docutils-update.local</span></tt>.</p>
+<p>If you want to share files via the web, you can upload them using the
+<a class="reference external" href="http://docutils.sf.net/sandbox/infrastructure/uploaddocutils.sh">uploaddocutils.sh</a> script
+(<tt class="docutils literal">sandbox/infrastructure/uploaddocutils.sh</tt>).</p>
+<div class="section" id="setting-up">
+<h1>Setting Up</h1>
+<p>(TBA)</p>
+<div class="hint">
+<p class="first admonition-title">Hint</p>
+<p>Anyone with checkin privileges can be a web-site maintainer. You need to
+set up the directories for a local website build.</p>
+<p class="last">The procedure for that was on the docutils-devel list a while ago.</p>
+</div>
+</div>
+<div class="section" id="adding-txt-files">
+<h1>Adding .txt Files</h1>
+<div class="section" id="user-contributor">
+<h2>User/Contributor</h2>
+<p>When adding a new .txt file that should be converted to HTML:</p>
+<ol class="arabic simple">
+<li>Edit sandbox/infrastructure/htmlfiles.lst, and add the .html file
+corresponding to the new .txt file (please keep the sorted order).</li>
+<li>Commit the edited version to the SVN repository.</li>
+</ol>
+</div>
+<div class="section" id="maintainer">
+<h2>Maintainer</h2>
+<ol class="arabic">
+<li><p class="first">If there are new directories in the SVN, allow the update script to run
+once to create the directories in the filesystem before preparing for
+HTML processing.</p>
+</li>
+<li><p class="first">Run the sandbox/infrastructure/update-htmlfiles shell script to generate
+.html files:</p>
+<pre class="literal-block">
+cd &lt;DOCUTILS-ROOT&gt;/docutils/
+sandbox/infrastructure/update-htmlfiles \
+sandbox/infrastructure/htmlfiles.lst
+</pre>
+<p>(Maybe this should become part of docutils-update.local.)</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="removing-files-directories">
+<h1>Removing Files &amp; Directories</h1>
+<ol class="arabic simple">
+<li>Remove from SVN</li>
+<li>Remove to-be-generated HTML files from
+<tt class="docutils literal">sandbox/infrastructure/htmlfiles.lst</tt>.</li>
+<li>Removing files and directories from SVN will not trigger their removal
+from the web site.  Files and directories must be manually removed from
+sourceforge.net (under <tt class="docutils literal">/home/groups/d/do/docutils/htdocs/</tt>).</li>
+</ol>
+<!-- Local Variables:
+mode: indented-text
+indent-tabs-mode: nil
+sentence-end-double-space: t
+fill-column: 70
+End: -->
+</div>
+</div>
+</body>
+</html>

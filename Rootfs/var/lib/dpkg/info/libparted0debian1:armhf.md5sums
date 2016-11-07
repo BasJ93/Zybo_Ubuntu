@@ -1,0 +1,4 @@
+fb5d0429ff1823531411672f260b8ab2  lib/arm-linux-gnueabihf/libparted.so.0.0.1
+b8f5519b57b5ad95d45c68b3a96aba2a  usr/share/doc/libparted0debian1/changelog.Debian.gz
+ae9fb49acaefac7f807aa2e0463f2733  usr/share/doc/libparted0debian1/copyright
+1fd8938cf15a93f38730418382365eb8  usr/share/lintian/overrides/libparted0debian1

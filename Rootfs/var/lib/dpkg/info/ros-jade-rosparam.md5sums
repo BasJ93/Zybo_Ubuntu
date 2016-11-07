@@ -1,0 +1,9 @@
+891841eb2bfa0bff5c57f2bc360baf96  opt/ros/jade/bin/rosparam
+9b069dc6fcd953ab0d529d11df1157b9  opt/ros/jade/lib/pkgconfig/rosparam.pc
+a0fbeb1eff181228edfdba775b1fd3fe  opt/ros/jade/lib/python2.7/dist-packages/rosparam-1.11.16.egg-info
+8ce02e322176700effa9ca9b90c1ae5e  opt/ros/jade/lib/python2.7/dist-packages/rosparam/__init__.py
+f108bf812ae055a840e48b9cc80bc6f9  opt/ros/jade/lib/python2.7/dist-packages/rosparam/__init__.pyc
+8f4d7e11c4db639c09281522ffca67a4  opt/ros/jade/share/rosparam/cmake/rosparamConfig-version.cmake
+4474046a494771d4cf0656db635d663b  opt/ros/jade/share/rosparam/cmake/rosparamConfig.cmake
+e47938af982f3046299813346ebb021f  opt/ros/jade/share/rosparam/package.xml
+f3a0fff0c0263b1e61d549b72d0ccd77  usr/share/doc/ros-jade-rosparam/changelog.Debian.gz

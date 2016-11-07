@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libkdb5-7
+/usr/share/doc/libkdb5-7/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libkdb5.so.7.0
+/usr/share/doc/libkdb5-7/NEWS.Debian.gz
+/usr/share/doc/libkdb5-7/changelog.Debian.gz
+/usr/lib/arm-linux-gnueabihf/libkdb5.so.7

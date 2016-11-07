@@ -1,0 +1,16 @@
+958ea551282823456d3c8cb1acd0768f  opt/ros/jade/etc/ros/genmsg/geneus
+40cce3ff00fc5800c0d0183add749dc1  opt/ros/jade/lib/geneus/gen_eus.py
+9cc396be3d39824d1c36867be20275ce  opt/ros/jade/lib/pkgconfig/geneus.pc
+d64cc8bb4deedc25fe35fe293c4594a8  opt/ros/jade/lib/python2.7/dist-packages/geneus-2.2.4.egg-info
+7c22a2390ca3f266b0f45f2b028118c8  opt/ros/jade/lib/python2.7/dist-packages/geneus/__init__.py
+7782a6da258ac63fac23fdf6242f4928  opt/ros/jade/lib/python2.7/dist-packages/geneus/__init__.pyc
+7085342680a78f76d8c87470216dad9d  opt/ros/jade/lib/python2.7/dist-packages/geneus/generate.py
+d5edc1c062dc678f4172a6535655f0ba  opt/ros/jade/lib/python2.7/dist-packages/geneus/generate.pyc
+0885a33a6d5e061bbf711534be94b4bf  opt/ros/jade/lib/python2.7/dist-packages/geneus/geneus_main.py
+d2d629bb0727f3456f4c34c269926ca1  opt/ros/jade/lib/python2.7/dist-packages/geneus/geneus_main.pyc
+d9d9a04e7799a6b15c3eaf6a52d7a2d9  opt/ros/jade/share/geneus/cmake/geneus-extras.cmake
+c37ce5a7749eab7389918c9dfe6e01ce  opt/ros/jade/share/geneus/cmake/geneusConfig-version.cmake
+e7401796b8cf4664bba15cdefcb84312  opt/ros/jade/share/geneus/cmake/geneusConfig.cmake
+bddd328a7526855849d019f516354da2  opt/ros/jade/share/geneus/package.xml
+d41d8cd98f00b204e9800998ecf8427e  opt/ros/jade/share/roseus/rospack_nosubdirs
+a3c90cb77dea185c2846e6c821b8160a  usr/share/doc/ros-jade-geneus/changelog.Debian.gz

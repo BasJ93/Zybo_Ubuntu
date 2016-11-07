@@ -1,0 +1,6 @@
+4a67a45faddaa427bb3b0011a4744b77  opt/ros/jade/lib/pkgconfig/rosout.pc
+597eea59a5981b264ac9d2b4278939ea  opt/ros/jade/lib/rosout/rosout
+8f4d7e11c4db639c09281522ffca67a4  opt/ros/jade/share/rosout/cmake/rosoutConfig-version.cmake
+c8bded87d256037fa1925005104cc92d  opt/ros/jade/share/rosout/cmake/rosoutConfig.cmake
+f966ab275128f7f7bbf525b4c2938cb4  opt/ros/jade/share/rosout/package.xml
+e1ef9455dca330543f8372a35186119d  usr/share/doc/ros-jade-rosout/changelog.Debian.gz

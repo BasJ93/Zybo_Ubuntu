@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/pkcs7-mime">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>PKCS#7 Message or Certificate</comment>
+  <comment xml:lang="ast">PKCS#7 Message or Certificate</comment>
+  <comment xml:lang="bs">PKCS#7 poruka ili certifikat</comment>
+  <comment xml:lang="de">PKCS#7-Nachricht oder -Zertifikat</comment>
+  <comment xml:lang="en_AU">PKCS#7 Message or Certificate</comment>
+  <comment xml:lang="en_GB">PKCS#7 Message or Certificate</comment>
+  <comment xml:lang="es">Mensaje o certificado PKCS#7</comment>
+  <comment xml:lang="eu">PKCS#7 mezua edo ziurtagiria</comment>
+  <comment xml:lang="gl">PKCS#7 Mensaxe ou certificado</comment>
+  <comment xml:lang="id">Pesan atau Sertifikat PKCS#7</comment>
+  <comment xml:lang="it">Messaggio o certificato PKCS#7</comment>
+  <comment xml:lang="lv">PKCS#7 ziņojums vai sertifikāts</comment>
+  <comment xml:lang="pt_BR">Mensagem ou certificado PKCS#7</comment>
+  <comment xml:lang="sl">Sporočilo ali potrdilo PKCS#7</comment>
+  <comment xml:lang="uk">повідомлення або сертифікат PKCS#7</comment>
+  <comment xml:lang="zh_TW">PKCS#7 訊息或憑證</comment>
+  <acronym>PKCS</acronym>
+  <expanded-acronym>Public-Key Cryptography Standards</expanded-acronym>
+  <generic-icon name="text-x-generic"/>
+  <glob pattern="*.p7c"/>
+  <glob pattern="*.p7m"/>
+</mime-type>

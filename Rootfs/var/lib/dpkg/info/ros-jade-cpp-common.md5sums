@@ -1,0 +1,14 @@
+d7aec46034e9540256fe16e8cd91c0d2  opt/ros/jade/include/ros/cpp_common_decl.h
+f9e78e5bd61a09160c1f1290937ec6cb  opt/ros/jade/include/ros/datatypes.h
+b749659a74a6504df9ce72a01bcdf9ab  opt/ros/jade/include/ros/debug.h
+a34603dd1879b756ea4ba9f40052fe52  opt/ros/jade/include/ros/exception.h
+21a5be75de2eb1e3eb7b0a90c1891042  opt/ros/jade/include/ros/header.h
+6043808aa036974146490d8f2642cd55  opt/ros/jade/include/ros/macros.h
+3e9842c824cc9ab53b598d178457ed80  opt/ros/jade/include/ros/platform.h
+c5238e55613f47dfe0ddfd21d86388b3  opt/ros/jade/include/ros/types.h
+9127a7633b50071c6a039d21b482074a  opt/ros/jade/lib/libcpp_common.so
+98c3c24844713baeb92f55111606c023  opt/ros/jade/lib/pkgconfig/cpp_common.pc
+208dc2c4273097aeb46ab57989f6c1b7  opt/ros/jade/share/cpp_common/cmake/cpp_commonConfig-version.cmake
+6afadfe84d8c1c334740b68060bf0ac3  opt/ros/jade/share/cpp_common/cmake/cpp_commonConfig.cmake
+52473174eb014b1381f1d583f3015dc7  opt/ros/jade/share/cpp_common/package.xml
+43753ddd52e1641eef254f955f6e44fb  usr/share/doc/ros-jade-cpp-common/changelog.Debian.gz

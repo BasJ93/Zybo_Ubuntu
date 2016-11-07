@@ -1,0 +1,3 @@
+/etc/openmpi/openmpi-totalview.tcl
+/etc/openmpi/openmpi-default-hostfile
+/etc/openmpi/openmpi-mca-params.conf

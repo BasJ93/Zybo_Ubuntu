@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpococrypto9
+/usr/share/doc/libpococrypto9/copyright
+/usr/lib
+/usr/lib/libPocoCrypto.so.9
+/usr/share/doc/libpococrypto9/changelog.Debian.gz

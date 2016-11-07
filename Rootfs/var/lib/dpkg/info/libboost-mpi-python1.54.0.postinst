@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+# Automatically added by dhpython:
+if which pycompile >/dev/null 2>&1; then
+	pycompile -p libboost-mpi-python1.54.0 
+fi
+
+# End automatically added section
+
+# Automatically added by dhpython:
+if which py3compile >/dev/null 2>&1; then
+	py3compile -p libboost-mpi-python1.54.0 
+fi
+
+# End automatically added section
+# Automatically added by dh_makeshlibs
+if [ "$1" = "configure" ]; then
+	ldconfig
+fi
+# End automatically added section

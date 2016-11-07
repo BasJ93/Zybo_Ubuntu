@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="audio/x-amzxml">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>AmazonMP3 download file</comment>
+  <comment xml:lang="ast">AmazonMP3 download file</comment>
+  <comment xml:lang="bs">AmazonMP3 datoteka preuzimnja</comment>
+  <comment xml:lang="de">AmazonMP3-Download-Datei</comment>
+  <comment xml:lang="en_AU">AmazonMP3 download file</comment>
+  <comment xml:lang="en_GB">AmazonMP3 download file</comment>
+  <comment xml:lang="es">Archivo de descarga de AmazonMP3</comment>
+  <comment xml:lang="eu">AmazonMP3 deskarga-fitxategia</comment>
+  <comment xml:lang="gl">Ficheiro de descarga AmazonMP3</comment>
+  <comment xml:lang="id">Berkas unduhan AmazonMP3</comment>
+  <comment xml:lang="it">File scaricamento AmazonMP3</comment>
+  <comment xml:lang="lv">AmazonMP3 lejupielādēta datne</comment>
+  <comment xml:lang="ms">Fail muat turun MP3 Amazon</comment>
+  <comment xml:lang="pt_BR">Arquivo de download AmazonMP3</comment>
+  <comment xml:lang="sl">Prejeta datoteka AmazonMP3</comment>
+  <comment xml:lang="uk">файл звантаження AmazonMP3</comment>
+  <comment xml:lang="zh_TW">AmazonMP3 下載檔</comment>
+  <glob pattern="*.amz"/>
+</mime-type>

@@ -1,0 +1,6 @@
+d41e4e0e3819df17edecfa620fb24e33  usr/lib/perl5/Algorithm/Diff/XS.pm
+d41d8cd98f00b204e9800998ecf8427e  usr/lib/perl5/auto/Algorithm/Diff/XS/XS.bs
+e619af2a8dfef7b41a115387d2118c4f  usr/lib/perl5/auto/Algorithm/Diff/XS/XS.so
+dde04040fc7d21ef98688c3e8668b229  usr/share/doc/libalgorithm-diff-xs-perl/changelog.Debian.gz
+e43e7f1ffb10c8cb3fe12cb80941367c  usr/share/doc/libalgorithm-diff-xs-perl/copyright
+8bdda1b665e23f12826e48324fdcb67d  usr/share/man/man3/Algorithm::Diff::XS.3pm.gz

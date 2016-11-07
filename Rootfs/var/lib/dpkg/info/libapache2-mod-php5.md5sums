@@ -1,0 +1,5 @@
+ad9484225de9e351105ea84352bb0354  usr/lib/apache2/modules/libphp5.so
+6ca595a320107e1109c4aee99cc18a0e  usr/share/bug/libapache2-mod-php5/control
+5843637f6c693e18e1f205dd3ff266ff  usr/share/bug/libapache2-mod-php5/script
+b6042ab1557e46763a586103ecc8ad81  usr/share/lintian/overrides/libapache2-mod-php5
+d41d8cd98f00b204e9800998ecf8427e  usr/share/php5/sapi/apache2

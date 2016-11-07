@@ -1,0 +1,8 @@
+# This executes executable files that start with "# FASL." using the
+# specified sbcl wrapper script
+#
+#  -- René van Bevern <rvb@pro-linux.de>, Sun Aug 28 15:15:49 2005
+
+package sbcl
+interpreter /usr/lib/sbcl/sbcl-run
+magic # FASL\x0a

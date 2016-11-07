@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-raw-disk-image-xz-compressed">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Raw disk image (XZ-compressed)</comment>
+  <comment xml:lang="de">Rohes Disk-Abbild (XZ-komprimiert)</comment>
+  <comment xml:lang="en_AU">Raw disk image (XZ-compressed)</comment>
+  <comment xml:lang="en_GB">Raw disk image (XZ-compressed)</comment>
+  <comment xml:lang="es">Imagen de disco en bruto (comprimida XZ)</comment>
+  <comment xml:lang="gl">Imaxe de disco en bruto (XZ-comprimido)</comment>
+  <comment xml:lang="id">Image disk mentah (terkompresi XZ)</comment>
+  <comment xml:lang="lv">Jēls diska attēls (saspiests ar XZ)</comment>
+  <comment xml:lang="sl">Neposredni odtis diska (XZ-stisnjeno)</comment>
+  <comment xml:lang="uk">бітова копія диска (стиснута XZ)</comment>
+  <comment xml:lang="zh_TW">原始碟片映像 (以 XZ 壓縮)</comment>
+  <sub-class-of type="application/x-xz"/>
+  <glob pattern="*.raw-disk-image.xz"/>
+  <glob pattern="*.img.xz"/>
+</mime-type>

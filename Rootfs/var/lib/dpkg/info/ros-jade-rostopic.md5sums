@@ -1,0 +1,10 @@
+538b8b8dfec6a1983391159b746c4c7b  opt/ros/jade/bin/rostopic
+4a3183c7fab134c3988b005c24b22d92  opt/ros/jade/lib/pkgconfig/rostopic.pc
+8122dfa68df4d160db8dc550cf90b6ae  opt/ros/jade/lib/python2.7/dist-packages/rostopic-1.11.16.egg-info
+5e004d1fdbfb4c742df809d36fca1774  opt/ros/jade/lib/python2.7/dist-packages/rostopic/__init__.py
+9dea16b639c0a78d76dc885ffe1b747f  opt/ros/jade/lib/python2.7/dist-packages/rostopic/__init__.pyc
+1a35d6024e3b64d995ce1eeef83ed723  opt/ros/jade/lib/rostopic/rostopic
+8f4d7e11c4db639c09281522ffca67a4  opt/ros/jade/share/rostopic/cmake/rostopicConfig-version.cmake
+e4f091eb6df9e3ccad33058b8596546a  opt/ros/jade/share/rostopic/cmake/rostopicConfig.cmake
+cfdedc89d6849f7c597b6dd3684eccc3  opt/ros/jade/share/rostopic/package.xml
+a6a4a950a2857a748bcf33f370144e8b  usr/share/doc/ros-jade-rostopic/changelog.Debian.gz

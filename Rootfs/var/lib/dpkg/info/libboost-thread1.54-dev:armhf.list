@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libboost_thread.a
+/usr/share
+/usr/share/doc
+/usr/share/doc/libboost-thread1.54-dev
+/usr/share/doc/libboost-thread1.54-dev/copyright
+/usr/lib/arm-linux-gnueabihf/libboost_thread.so
+/usr/share/doc/libboost-thread1.54-dev/changelog.Debian.gz

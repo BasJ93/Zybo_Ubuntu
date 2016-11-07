@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: std_srvs
+Description: Description of std_srvs
+Version: 1.11.1
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: message_runtime

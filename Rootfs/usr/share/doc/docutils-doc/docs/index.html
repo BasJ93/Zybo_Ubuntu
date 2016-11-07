@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>Docutils Project Documentation Overview</title>
+<meta name="author" content="David Goodger" />
+<meta name="date" content="2012-01-03" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../css/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="docutils-project-documentation-overview">
+<h1 class="title"><a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> Project Documentation Overview</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>David Goodger</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2012-01-03</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>7302</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<p>The latest working documents may be accessed individually below, or
+from the <tt class="docutils literal">docs</tt> directory of the <a class="reference external" href="http://docutils.sourceforge.net/#download">Docutils distribution</a>.</p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#docutils-stakeholders" id="id9">Docutils Stakeholders</a></li>
+<li><a class="reference internal" href="#project-fundamentals" id="id10">Project Fundamentals</a></li>
+<li><a class="reference internal" href="#user-introductory-tutorial-material-for-end-users" id="id11"><tt class="docutils literal">user/</tt>: Introductory &amp; Tutorial Material for End-Users</a></li>
+<li><a class="reference internal" href="#ref-reference-material-for-all-groups" id="id12"><tt class="docutils literal">ref/</tt>: Reference Material for All Groups</a></li>
+<li><a class="reference internal" href="#peps-python-enhancement-proposals" id="id13"><tt class="docutils literal">peps/</tt>: Python Enhancement Proposals</a></li>
+<li><a class="reference internal" href="#api-api-reference-material-for-client-developers" id="id14"><tt class="docutils literal">api/</tt>: API Reference Material for Client-Developers</a></li>
+<li><a class="reference internal" href="#howto-instructions-for-developers" id="id15"><tt class="docutils literal">howto/</tt>: Instructions for Developers</a></li>
+<li><a class="reference internal" href="#dev-development-notes-and-plans-for-core-developers" id="id16"><tt class="docutils literal">dev/</tt>: Development Notes and Plans for Core-Developers</a></li>
+</ul>
+</div>
+<div class="section" id="docutils-stakeholders">
+<h1><a class="toc-backref" href="#id9">Docutils Stakeholders</a></h1>
+<p>Docutils stakeholders can be categorized in several groups:</p>
+<ol class="arabic simple">
+<li>End-users: users of reStructuredText and the Docutils tools.
+Although some are developers (e.g. Python developers utilizing
+reStructuredText for docstrings in their source), many are not.</li>
+<li>Client-developers: developers using Docutils as a library,
+programmers developing <em>with</em> Docutils.</li>
+<li>Component-developers: those who implement application-specific
+components, directives, and/or roles, separately from Docutils.</li>
+<li>Core-developers: developers of the Docutils codebase and
+participants in the Docutils project community.</li>
+<li>Re-implementers: developers of alternate implementations of
+Docutils.</li>
+</ol>
+<p>There's a lot of overlap between these groups.  Most (perhaps all)
+core-developers, component-developers, client-developers, and
+re-implementers are also end-users.  Core-developers are also
+client-developers, and may also be component-developers in other
+projects.  Component-developers are also client-developers.</p>
+</div>
+<div class="section" id="project-fundamentals">
+<h1><a class="toc-backref" href="#id10">Project Fundamentals</a></h1>
+<p>These files are for all Docutils stakeholders.  They are kept at the
+top level of the Docutils project directory.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name"><a class="reference external" href="../README.html">README.txt</a>:</th><td class="field-body">Project overview: quick-start, requirements,
+installation, and usage.</td>
+</tr>
+<tr class="field"><th class="field-name"><a class="reference external" href="../COPYING.html">COPYING.txt</a>:</th><td class="field-body">Conditions for Docutils redistribution, with links to
+licenses.</td>
+</tr>
+<tr class="field"><th class="field-name"><a class="reference external" href="../FAQ.html">FAQ.txt</a>:</th><td class="field-body">Docutils Frequently Asked Questions.  If you have a
+question or issue, there's a good chance it's already
+answered here.</td>
+</tr>
+<tr class="field"><th class="field-name"><a class="reference external" href="../BUGS.html">BUGS.txt</a>:</th><td class="field-body">A list of known bugs, and how to report a bug.</td>
+</tr>
+<tr class="field"><th class="field-name" colspan="2"><a class="reference external" href="../RELEASE-NOTES.html">RELEASE-NOTES.txt</a>:</th></tr>
+<tr class="field"><td>&nbsp;</td><td class="field-body">Summary of the major changes in recent releases.</td>
+</tr>
+<tr class="field"><th class="field-name"><a class="reference external" href="../HISTORY.html">HISTORY.txt</a>:</th><td class="field-body">Detailed change history log.</td>
+</tr>
+<tr class="field"><th class="field-name"><a class="reference external" href="../THANKS.html">THANKS.txt</a>:</th><td class="field-body">Acknowledgements.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="user-introductory-tutorial-material-for-end-users">
+<span id="user"></span><h1><a class="toc-backref" href="#id11"><tt class="docutils literal">user/</tt>: Introductory &amp; Tutorial Material for End-Users</a></h1>
+<p>Docutils-general:</p>
+<ul class="simple">
+<li><a class="reference external" href="user/tools.html">Docutils Front-End Tools</a></li>
+<li><a class="reference external" href="user/config.html">Docutils Configuration</a></li>
+<li><a class="reference external" href="user/mailing-lists.html">Docutils Mailing Lists</a></li>
+<li><a class="reference external" href="user/links.html">Docutils Link List</a></li>
+</ul>
+<p>Writer-specific:</p>
+<ul class="simple">
+<li><a class="reference external" href="user/slide-shows.html">Easy Slide Shows With reStructuredText &amp; S5</a></li>
+<li><a class="reference external" href="user/latex.html">Docutils LaTeX Writer</a></li>
+<li><a class="reference external" href="user/odt.html">Docutils ODF/OpenOffice/odt Writer</a></li>
+</ul>
+<p><a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>:</p>
+<ul class="simple">
+<li><a class="reference external" href="user/rst/quickstart.html">A ReStructuredText Primer (HTML)</a> (or
+<a class="reference external" href="user/rst/quickstart.txt">text source</a>)</li>
+<li><a class="reference external" href="user/rst/quickref.html">Quick reStructuredText</a> (user reference)</li>
+<li><a class="reference external" href="user/rst/cheatsheet.txt">reStructuredText Cheat Sheet</a> (text
+only; 1 page for syntax, 1 page directive &amp; role reference)</li>
+<li><a class="reference external" href="user/rst/demo.html">reStructuredText Demonstration</a> (a
+demonstration of most reStructuredText features; you can also have a
+look at the <a class="reference external" href="user/rst/demo.txt">text source</a>)</li>
+</ul>
+<p>Editor support:</p>
+<ul class="simple">
+<li><a class="reference external" href="user/emacs.html">Emacs support for reStructuredText</a></li>
+</ul>
+</div>
+<div class="section" id="ref-reference-material-for-all-groups">
+<span id="ref"></span><h1><a class="toc-backref" href="#id12"><tt class="docutils literal">ref/</tt>: Reference Material for All Groups</a></h1>
+<p>Many of these files began as developer specifications, but now that
+they're mature and used by end-users and client-developers, they have
+become reference material.  Successful specs evolve into refs.</p>
+<p>Docutils-general:</p>
+<ul class="simple">
+<li><a class="reference external" href="ref/doctree.html">The Docutils Document Tree</a> (incomplete)</li>
+<li><a class="reference external" href="ref/transforms.html">Docutils Transforms</a></li>
+<li><a class="reference external" href="ref/docutils.dtd">Docutils Generic DTD</a></li>
+<li><a class="reference external" href="ref/soextblx.dtd">OASIS XML Exchange Table Model Declaration Module</a> (CALS tables DTD module)</li>
+</ul>
+<p>Although not in the &quot;ref&quot; directory, <a class="reference external" href="peps/pep-0258.html">PEP 258</a> is a must-read
+reference for any Docutils developer.</p>
+<p><a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>:</p>
+<ul class="simple">
+<li><a class="reference external" href="ref/rst/introduction.html">An Introduction to reStructuredText</a>
+(includes the <a class="reference external" href="ref/rst/introduction.html#goals">Goals</a> and
+<a class="reference external" href="ref/rst/introduction.html#history">History</a> of reStructuredText)</li>
+<li><a class="reference external" href="ref/rst/restructuredtext.html">reStructuredText Markup Specification</a></li>
+<li><a class="reference external" href="ref/rst/directives.html">reStructuredText Directives</a></li>
+<li><a class="reference external" href="ref/rst/roles.html">reStructuredText Interpreted Text Roles</a></li>
+<li><a class="reference external" href="ref/rst/definitions.html">reStructuredText Standard Definition Files</a></li>
+</ul>
+<p>Prehistoric:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://docutils.sourceforge.net/mirror/setext.html">Setext Documents Mirror</a></li>
+</ul>
+</div>
+<div class="section" id="peps-python-enhancement-proposals">
+<span id="peps"></span><h1><a class="toc-backref" href="#id13"><tt class="docutils literal">peps/</tt>: Python Enhancement Proposals</a></h1>
+<ul class="simple">
+<li><a class="reference external" href="peps/pep-0256.html">PEP 256: Docstring Processing System Framework</a> is a high-level
+generic proposal.  [<a class="reference external" href="http://www.python.org/peps/pep-0256.html">PEP 256</a> in the <a class="reference external" href="http://www.python.org/peps/">master repository</a>]</li>
+<li><a class="reference external" href="peps/pep-0257.html">PEP 257: Docstring Conventions</a> addresses docstring style and
+touches on content.  [<a class="reference external" href="http://www.python.org/peps/pep-0257.html">PEP 257</a> in the <a class="reference external" href="http://www.python.org/peps/">master repository</a>]</li>
+<li><a class="reference external" href="peps/pep-0258.html">PEP 258: Docutils Design Specification</a> is an overview of the
+architecture of Docutils.  It documents design issues and
+implementation details.  [<a class="reference external" href="http://www.python.org/peps/pep-0258.html">PEP 258</a> in the <a class="reference external" href="http://www.python.org/peps/">master repository</a>]</li>
+<li><a class="reference external" href="peps/pep-0287.html">PEP 287: reStructuredText Docstring Format</a> proposes a standard
+markup syntax.  [<a class="reference external" href="http://www.python.org/peps/pep-0287.html">PEP 287</a> in the <a class="reference external" href="http://www.python.org/peps/">master repository</a>]</li>
+</ul>
+<p>Please note that PEPs in the <a class="reference external" href="http://www.python.org/peps/">master repository</a> may not be current,
+whereas the local versions are.</p>
+</div>
+<div class="section" id="api-api-reference-material-for-client-developers">
+<span id="api"></span><h1><a class="toc-backref" href="#id14"><tt class="docutils literal">api/</tt>: API Reference Material for Client-Developers</a></h1>
+<ul class="simple">
+<li><a class="reference external" href="api/publisher.html">The Docutils Publisher</a></li>
+<li><a class="reference external" href="api/cmdline-tool.html">Inside A Docutils Command-Line Front-End Tool</a></li>
+<li><a class="reference external" href="api/runtime-settings.html">Docutils Runtime Settings</a></li>
+<li>(<a class="reference external" href="ref/transforms.html">Docutils Transforms</a> should be moved here)</li>
+</ul>
+<p><a class="reference external" href="peps/pep-0258.html">PEP 258</a> is an overview of the architecture of Docutils.</p>
+</div>
+<div class="section" id="howto-instructions-for-developers">
+<span id="howto"></span><h1><a class="toc-backref" href="#id15"><tt class="docutils literal">howto/</tt>: Instructions for Developers</a></h1>
+<ul class="simple">
+<li><strong>Security:</strong> <a class="reference external" href="howto/security.html">Deploying Docutils Securely</a></li>
+<li><a class="reference external" href="howto/html-stylesheets.html">Writing HTML (CSS) Stylesheets for Docutils</a></li>
+<li><a class="reference external" href="howto/i18n.html">Docutils Internationalization</a></li>
+<li><a class="reference external" href="howto/rst-directives.html">Creating reStructuredText Directives</a></li>
+<li><a class="reference external" href="howto/rst-roles.html">Creating reStructuredText Interpreted Text Roles</a></li>
+</ul>
+</div>
+<div class="section" id="dev-development-notes-and-plans-for-core-developers">
+<span id="dev"></span><h1><a class="toc-backref" href="#id16"><tt class="docutils literal">dev/</tt>: Development Notes and Plans for Core-Developers</a></h1>
+<p>Docutils-general:</p>
+<ul class="simple">
+<li><a class="reference external" href="dev/hacking.html">Docutils Hacker's Guide</a></li>
+<li><a class="reference external" href="dev/distributing.html">Docutils Distributor's Guide</a></li>
+<li><a class="reference external" href="dev/todo.html">Docutils To Do List</a></li>
+<li><a class="reference external" href="dev/policies.html">Docutils Project Policies</a></li>
+<li><a class="reference external" href="dev/website.html">Docutils Web Site</a></li>
+<li><a class="reference external" href="dev/release.html">Docutils Release Procedure</a></li>
+<li><a class="reference external" href="dev/repository.html">The Docutils Subversion Repository</a></li>
+<li><a class="reference external" href="dev/testing.html">Docutils Testing</a></li>
+<li><a class="reference external" href="dev/semantics.html">Docstring Semantics</a> (incomplete)</li>
+<li><a class="reference external" href="dev/pysource.html">Python Source Reader</a> (incomplete)</li>
+<li><a class="reference external" href="dev/pysource.dtd">Docutils Python DTD</a> (experimental)</li>
+<li><a class="reference external" href="dev/enthought-plan.html">Plan for Enthought API Documentation Tool</a></li>
+<li><a class="reference external" href="dev/enthought-rfp.html">Enthought API Documentation Tool RFP</a></li>
+</ul>
+<p><a class="reference external" href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>:</p>
+<ul class="simple">
+<li><a class="reference external" href="dev/rst/alternatives.html">A Record of reStructuredText Syntax Alternatives</a></li>
+<li><a class="reference external" href="dev/rst/problems.html">Problems With StructuredText</a></li>
+</ul>
+<!-- Local Variables:
+mode: indented-text
+indent-tabs-mode: nil
+sentence-end-double-space: t
+fill-column: 70
+End: -->
+</div>
+</div>
+</body>
+</html>

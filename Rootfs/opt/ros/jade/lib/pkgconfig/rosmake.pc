@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rosmake
+Description: Description of rosmake
+Version: 1.12.5
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

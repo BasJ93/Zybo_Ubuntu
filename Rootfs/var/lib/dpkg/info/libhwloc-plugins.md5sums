@@ -1,0 +1,4 @@
+46fa93f1b13143b453fd701068bcc62c  usr/lib/arm-linux-gnueabihf/hwloc/hwloc_opencl.so
+5250a4434c35909b5a8582a3e4f077ed  usr/lib/arm-linux-gnueabihf/hwloc/hwloc_pci.so
+f2fe79840b84156977d2b05f5421514e  usr/lib/arm-linux-gnueabihf/hwloc/hwloc_xml_libxml.so
+e8d6aeae1824edc844105abe00f204d8  usr/share/doc/libhwloc-plugins/copyright

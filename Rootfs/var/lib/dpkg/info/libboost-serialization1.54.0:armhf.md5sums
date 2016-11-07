@@ -1,0 +1,5 @@
+91ad660567fc8e91d6d6c5ab1f7bdeb2  usr/lib/arm-linux-gnueabihf/libboost_serialization.so.1.54.0
+fd5bd4f285342b0e564e61925970a371  usr/lib/arm-linux-gnueabihf/libboost_wserialization.so.1.54.0
+c4dc0a3f6324adf0dd4af1f2482fea78  usr/share/doc/libboost-serialization1.54.0/changelog.Debian.gz
+e66425771863c34de39265516529d049  usr/share/doc/libboost-serialization1.54.0/copyright
+7b0f22459e8e0f9d186adb5b9145f7b2  usr/share/lintian/overrides/libboost-serialization1.54.0

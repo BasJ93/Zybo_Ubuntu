@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libcr0
+/usr/share/doc/libcr0/copyright
+/usr/share/doc/libcr0/changelog.Debian.gz
+/usr/lib
+/usr/lib/libcr_omit.so.0.5.5
+/usr/lib/libcr_run.so.0.5.5
+/usr/lib/libcr.so.0.5.5
+/usr/lib/libcr_omit.so.0
+/usr/lib/libcr_run.so.0
+/usr/lib/libcr.so.0

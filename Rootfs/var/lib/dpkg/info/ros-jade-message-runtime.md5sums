@@ -1,0 +1,5 @@
+1b34a063a2df26f4b1a4f6b26031b2ec  opt/ros/jade/lib/pkgconfig/message_runtime.pc
+f59b4c140680999b3c5aefbcd5921f0b  opt/ros/jade/share/message_runtime/cmake/message_runtimeConfig-version.cmake
+f2d217947e729e87a4c3ab0f71d65001  opt/ros/jade/share/message_runtime/cmake/message_runtimeConfig.cmake
+72a87ae6e4338e74efa593a14396c896  opt/ros/jade/share/message_runtime/package.xml
+0902f75c1cb99d04ef1e53fdc3ff0518  usr/share/doc/ros-jade-message-runtime/changelog.Debian.gz

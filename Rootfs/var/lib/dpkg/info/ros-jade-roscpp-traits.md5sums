@@ -1,0 +1,11 @@
+dd6aa61d26cf934b670e407179415905  opt/ros/jade/include/ros/builtin_message_traits.h
+d80ac027f38f0b8407cb2119ef7986b6  opt/ros/jade/include/ros/message_event.h
+130fe72b096d74fb3670a988c10e9476  opt/ros/jade/include/ros/message_forward.h
+0d27f97bfbb6ce51de1c3b9944ea7523  opt/ros/jade/include/ros/message_operations.h
+3ca3c1b37dd75e4e589c69b93e288a63  opt/ros/jade/include/ros/message_traits.h
+c95a3652c84a026977c2c2cce9a162ed  opt/ros/jade/include/ros/service_traits.h
+79b0335f2c952c293f2499bef8fd540e  opt/ros/jade/lib/pkgconfig/roscpp_traits.pc
+208dc2c4273097aeb46ab57989f6c1b7  opt/ros/jade/share/roscpp_traits/cmake/roscpp_traitsConfig-version.cmake
+08fb5219928999385f7b0f49090d42ca  opt/ros/jade/share/roscpp_traits/cmake/roscpp_traitsConfig.cmake
+230fa472199a39efcb1139b3f3e4e6e5  opt/ros/jade/share/roscpp_traits/package.xml
+c6b471bdf6bb3b810ec025bb93a3b1c9  usr/share/doc/ros-jade-roscpp-traits/changelog.Debian.gz

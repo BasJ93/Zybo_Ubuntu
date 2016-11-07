@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>Docutils Transforms</title>
+<meta name="author" content="David Goodger" />
+<meta name="date" content="2012-10-16" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../../css/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="docutils-transforms">
+<h1 class="title">Docutils Transforms</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>David Goodger</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>7530</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2012-10-16</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#transforms-listed-in-priority-order" id="id1">Transforms Listed in Priority Order</a></li>
+<li><a class="reference internal" href="#transform-priority-range-categories" id="id2">Transform Priority Range Categories</a></li>
+<li><a class="reference internal" href="#transforms-added-by-components" id="id3">Transforms added by components</a></li>
+</ul>
+</div>
+<p>Transforms change the document tree in-place, add to the tree, or prune it.
+Transforms resolve references and footnote numbers, process interpreted
+text, and do other context-sensitive processing. Each transform is a
+subclass of <tt class="docutils literal">docutils.tranforms.Transform</tt>.</p>
+<p>There are <a class="reference internal" href="#transforms-added-by-components">transforms added by components</a>, others (e.g.
+<tt class="docutils literal">parts.Contents</tt>) are added by the parser, if a corresponding directive is
+found in the document.</p>
+<p>To add a transform, components (objects inheriting from
+Docutils.Component like Readers, Parsers, Writers, Input, Output) overwrite
+the <tt class="docutils literal">get_transforms()</tt> method of their base class. After the Reader has
+finished processing, the Publisher calls
+<tt class="docutils literal">Transformer.populate_from_components()</tt> with a list of components and all
+transforms returned by the component's <tt class="docutils literal">get_transforms()</tt> method are
+stored in a <span class="incremental">transformer object</span> attached to the document tree.</p>
+<p>For more about transforms and the Transformer object, see also <a class="reference external" href="../peps/pep-0258.html#transformer">PEP
+258</a>. (The <tt class="docutils literal">default_transforms()</tt> attribute of component classes mentioned
+there is deprecated. Use the <tt class="docutils literal">get_transforms()</tt> method instead.)</p>
+<div class="section" id="transforms-listed-in-priority-order">
+<h1><a class="toc-backref" href="#id1">Transforms Listed in Priority Order</a></h1>
+<p>Transform classes each have a default_priority attribute which is used by
+the Transformer to apply transforms in order (low to high). The default
+priority can be overridden when adding transforms to the Transformer object.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="45%" />
+<col width="42%" />
+<col width="12%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Transform: module.Class</th>
+<th class="head">Added By</th>
+<th class="head">Priority</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>misc.class</td>
+<td>&quot;class&quot; (d/p)</td>
+<td>210</td>
+</tr>
+<tr><td>references.Substitutions</td>
+<td>standalone (r), pep (r)</td>
+<td>220</td>
+</tr>
+<tr><td>references.PropagateTargets</td>
+<td>standalone (r), pep (r)</td>
+<td>260</td>
+</tr>
+<tr><td>frontmatter.DocTitle</td>
+<td>standalone (r)</td>
+<td>320</td>
+</tr>
+<tr><td>frontmatter.DocInfo</td>
+<td>standalone (r)</td>
+<td>340</td>
+</tr>
+<tr><td>frontmatter.SectSubTitle</td>
+<td>standalone (r)</td>
+<td>350</td>
+</tr>
+<tr><td>peps.Headers</td>
+<td>pep (r)</td>
+<td>360</td>
+</tr>
+<tr><td>peps.Contents</td>
+<td>pep (r)</td>
+<td>380</td>
+</tr>
+<tr><td>universal.StripClasses...</td>
+<td>Writer (w)</td>
+<td>420</td>
+</tr>
+<tr><td>references.AnonymousHyperlinks</td>
+<td>standalone (r), pep (r)</td>
+<td>440</td>
+</tr>
+<tr><td>references.IndirectHyperlinks</td>
+<td>standalone (r), pep (r)</td>
+<td>460</td>
+</tr>
+<tr><td>peps.TargetNotes</td>
+<td>pep (r)</td>
+<td>520</td>
+</tr>
+<tr><td>references.TargetNotes</td>
+<td>peps.TargetNotes (t/p)</td>
+<td>0</td>
+</tr>
+<tr><td>misc.CallBack</td>
+<td>peps.TargetNotes (t/p)</td>
+<td>1</td>
+</tr>
+<tr><td>references.TargetNotes</td>
+<td>&quot;target-notes&quot; (d/p)</td>
+<td>540</td>
+</tr>
+<tr><td>references.Footnotes</td>
+<td>standalone (r), pep (r)</td>
+<td>620</td>
+</tr>
+<tr><td>references.ExternalTargets</td>
+<td>standalone (r), pep (r)</td>
+<td>640</td>
+</tr>
+<tr><td>references.InternalTargets</td>
+<td>standalone (r), pep (r)</td>
+<td>660</td>
+</tr>
+<tr><td>parts.SectNum</td>
+<td>&quot;sectnum&quot; (d/p)</td>
+<td>710</td>
+</tr>
+<tr><td>parts.Contents</td>
+<td>&quot;contents&quot; (d/p),
+peps.Contents (t/p)</td>
+<td>720</td>
+</tr>
+<tr><td>universal.StripComments</td>
+<td>Reader (r)</td>
+<td>740</td>
+</tr>
+<tr><td>peps.PEPZero</td>
+<td>peps.Headers (t/p)</td>
+<td>760</td>
+</tr>
+<tr><td>components.Filter</td>
+<td>&quot;meta&quot; (d/p)</td>
+<td>780</td>
+</tr>
+<tr><td>universal.Decorations</td>
+<td>Reader (r)</td>
+<td>820</td>
+</tr>
+<tr><td>misc.Transitions</td>
+<td>standalone (r), pep (r)</td>
+<td>830</td>
+</tr>
+<tr><td>universal.ExposeInternals</td>
+<td>Reader (r)</td>
+<td>840</td>
+</tr>
+<tr><td>references.DanglingReferences</td>
+<td>standalone (r), pep (r)</td>
+<td>850</td>
+</tr>
+<tr><td>universal.Messages</td>
+<td>Writer (w)</td>
+<td>860</td>
+</tr>
+<tr><td>universal.FilterMessages</td>
+<td>Writer (w)</td>
+<td>870</td>
+</tr>
+<tr><td>universal.SmartQuotes</td>
+<td>Parser</td>
+<td>850</td>
+</tr>
+<tr><td>universal.TestMessages</td>
+<td>DocutilsTestSupport</td>
+<td>880</td>
+</tr>
+<tr><td>writer_aux.Compound</td>
+<td>newlatex2e (w)</td>
+<td>910</td>
+</tr>
+<tr><td>writer_aux.Admonitions</td>
+<td>html4css1 (w),
+latex2e (w)</td>
+<td>920</td>
+</tr>
+<tr><td>misc.CallBack</td>
+<td>n/a</td>
+<td>990</td>
+</tr>
+</tbody>
+</table>
+<p>Key:</p>
+<ul class="simple">
+<li>(r): Reader</li>
+<li>(w): Writer</li>
+<li>(d): Directive</li>
+<li>(t): Transform</li>
+<li>(/p): Via a &quot;pending&quot; node</li>
+</ul>
+</div>
+<div class="section" id="transform-priority-range-categories">
+<h1><a class="toc-backref" href="#id2">Transform Priority Range Categories</a></h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="7%" />
+<col width="86%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head" colspan="2">Priority</th>
+<th class="head">&nbsp;</th>
+</tr>
+<tr><th class="head">From</th>
+<th class="head">To</th>
+<th class="head">Category</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>0</td>
+<td>99</td>
+<td>immediate execution (added by another transform)</td>
+</tr>
+<tr><td>100</td>
+<td>199</td>
+<td>very early (non-standard)</td>
+</tr>
+<tr><td>200</td>
+<td>299</td>
+<td>very early</td>
+</tr>
+<tr><td>300</td>
+<td>399</td>
+<td>early</td>
+</tr>
+<tr><td>400</td>
+<td>699</td>
+<td>main</td>
+</tr>
+<tr><td>700</td>
+<td>799</td>
+<td>late</td>
+</tr>
+<tr><td>800</td>
+<td>899</td>
+<td>very late</td>
+</tr>
+<tr><td>900</td>
+<td>999</td>
+<td>very late (non-standard)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="transforms-added-by-components">
+<h1><a class="toc-backref" href="#id3">Transforms added by components</a></h1>
+<dl class="docutils">
+<dt>readers.Reader:</dt>
+<dd><div class="first last line-block">
+<div class="line">universal.Decorations,</div>
+<div class="line">universal.ExposeInternals,</div>
+<div class="line">universal.StripComments</div>
+</div>
+</dd>
+<dt>readers.ReReader:</dt>
+<dd>None</dd>
+<dt>readers.standalone.Reader:</dt>
+<dd><div class="first last line-block">
+<div class="line">references.Substitutions,</div>
+<div class="line">references.PropagateTargets,</div>
+<div class="line">frontmatter.DocTitle,</div>
+<div class="line">frontmatter.SectionSubTitle,</div>
+<div class="line">frontmatter.DocInfo,</div>
+<div class="line">references.AnonymousHyperlinks,</div>
+<div class="line">references.IndirectHyperlinks,</div>
+<div class="line">references.Footnotes,</div>
+<div class="line">references.ExternalTargets,</div>
+<div class="line">references.InternalTargets,</div>
+<div class="line">references.DanglingReferences,</div>
+<div class="line">misc.Transitions</div>
+</div>
+</dd>
+<dt>readers.pep.Reader:</dt>
+<dd><div class="first last line-block">
+<div class="line">references.Substitutions,</div>
+<div class="line">references.PropagateTargets,</div>
+<div class="line">references.AnonymousHyperlinks,</div>
+<div class="line">references.IndirectHyperlinks,</div>
+<div class="line">references.Footnotes,</div>
+<div class="line">references.ExternalTargets,</div>
+<div class="line">references.InternalTargets,</div>
+<div class="line">references.DanglingReferences,</div>
+<div class="line">misc.Transitions,</div>
+<div class="line">peps.Headers,</div>
+<div class="line">peps.Contents,</div>
+<div class="line">peps.TargetNotes</div>
+</div>
+</dd>
+<dt>parsers.rst.Parser</dt>
+<dd>universal.SmartQuotes</dd>
+<dt>writers.Writer:</dt>
+<dd><div class="first last line-block">
+<div class="line">universal.Messages,</div>
+<div class="line">universal.FilterMessages,</div>
+<div class="line">universal.StripClassesAndElements</div>
+</div>
+</dd>
+<dt>writers.UnfilteredWriter</dt>
+<dd>None</dd>
+<dt>writers.latex2e.Writer</dt>
+<dd>writer_aux.Admonitions</dd>
+<dt>writers.html4css1.Writer:</dt>
+<dd>writer_aux.Admonitions</dd>
+<dt>writers.odf_odt.Writer:</dt>
+<dd>removes references.DanglingReferences</dd>
+</dl>
+</div>
+</div>
+</body>
+</html>

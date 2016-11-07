@@ -1,0 +1,12 @@
+/.
+/opt
+/opt/ros
+/opt/ros/jade
+/opt/ros/jade/share
+/opt/ros/jade/share/ros_comm
+/opt/ros/jade/share/ros_comm/package.xml
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/ros-jade-ros-comm
+/usr/share/doc/ros-jade-ros-comm/changelog.Debian.gz

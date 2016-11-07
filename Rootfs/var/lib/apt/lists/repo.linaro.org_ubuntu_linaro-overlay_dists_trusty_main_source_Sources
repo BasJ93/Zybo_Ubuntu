@@ -1,0 +1,1316 @@
+Package: acpica-unix
+Format: 3.0 (quilt)
+Binary: acpica-tools, iasl, acpidump
+Architecture: any all
+Version: 20140926-1
+Maintainer: Mattia Dongili <malattia@debian.org>
+Uploaders: Al Stone <ahs3@debian.org>
+Homepage: http://www.acpica.org
+Standards-Version: 3.9.5
+Vcs-Browser: https://github.com/acpica/acpica.git
+Vcs-Git: git://github.com/acpica-unix.git
+Build-Depends: debhelper (>= 9.0), flex, bison
+Package-List:
+ acpica-tools deb devel optional
+ acpidump deb oldlibs optional
+ iasl deb oldlibs optional
+Priority: optional
+Section: devel
+Directory: pool/main/a/acpica-unix
+Files: 
+ 9f3e93d00e38e9addf52c8821bf84535 1609 acpica-unix_20140926-1.dsc
+ 1f548ee26b5435ebb39ba0859b9834b3 1887904 acpica-unix_20140926.orig.tar.xz
+ 97bc99f1e88cc12f808db9e6940aed4e 36668 acpica-unix_20140926-1.debian.tar.gz
+Checksums-Sha1: 
+ 58e0f4005304d0030ace8d9c306b5e3709143f03 1609 acpica-unix_20140926-1.dsc
+ b4ee14dd2824f470e082a884e22dc61858ef5fde 1887904 acpica-unix_20140926.orig.tar.xz
+ 5b86f90cd65f92416ee2d4b081717561f11565c6 36668 acpica-unix_20140926-1.debian.tar.gz
+Checksums-Sha256: 
+ 9c50562cbc544949c082e756683f49735d8d40c309656acc8e0994cc949922d5 1609 acpica-unix_20140926-1.dsc
+ d6eaf47412ab18a4390d436315b22c2796ae53dfcd7ebdb208d2cb71bbf66538 1887904 acpica-unix_20140926.orig.tar.xz
+ 677f366f0806b1d4fe80270a3c7c88e047acc3018e09cb79aff85d23f3b66059 36668 acpica-unix_20140926-1.debian.tar.gz
+
+Package: collada-dom
+Format: 3.0 (quilt)
+Binary: libcollada-dom2.4-dp0, libcollada-dom2.4-dp-dev
+Architecture: any
+Version: 2.4.3+ds3-1
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Jochen Sprickerhof <debian@jochen.sprickerhof.de>, Leopold Palomo-Avellaneda <leo@alaxarxa.net>, Rosen Diankov <rosen.diankov@gmail.com>, Wookey <wookey@debian.org>
+Homepage: https://github.com/rdiankov/collada-dom
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/cgit/debian-science/packages/collada-dom.git
+Vcs-Git: git://anonscm.debian.org/debian-science/packages/collada-dom.git
+Build-Depends: debhelper (>= 9), quilt, cmake, libxml2-dev, libboost-dev, zlib1g-dev, libboost-filesystem-dev, libboost-system-dev, libpcre3-dev, pkg-config, libminizip-dev
+Package-List:
+ libcollada-dom2.4-dp-dev deb libdevel optional arch=any
+ libcollada-dom2.4-dp0 deb libs optional arch=any
+Priority: optional
+Section: Libs
+Directory: pool/main/c/collada-dom
+Files: 
+ 5a831494787adb492abc6afce1b3c9eb 2379 collada-dom_2.4.3+ds3-1.dsc
+ 93fd2843a25e7a01e24a2e3eb2aaea3c 799724 collada-dom_2.4.3+ds3.orig.tar.gz
+ 11c5b7f02ecba74ce8ab756b54b15434 22300 collada-dom_2.4.3+ds3-1.debian.tar.xz
+Checksums-Sha1: 
+ f8330afdf772d7086563a8c21d2f15507e209d8c 2379 collada-dom_2.4.3+ds3-1.dsc
+ 75a22f5adc8e93f7ebb65021f316efa87ae4dd8d 799724 collada-dom_2.4.3+ds3.orig.tar.gz
+ 493ca8fc34014510c68502703ed01d93e51a6971 22300 collada-dom_2.4.3+ds3-1.debian.tar.xz
+Checksums-Sha256: 
+ c1a9f72f2cbc8871689d0749fa92689dae8e694e846ac09eaebf802c7914a03b 2379 collada-dom_2.4.3+ds3-1.dsc
+ 8cdbeb7748bb916686ededccc68ba77ec7b567e2d96d7f3484ca28a746e47d1e 799724 collada-dom_2.4.3+ds3.orig.tar.gz
+ ac0e3a0c5c74d660059a4ca73f8a4b0e9ffbd12caac33c52db129193993418c0 22300 collada-dom_2.4.3+ds3-1.debian.tar.xz
+
+Package: debian-installer
+Format: 1.0
+Binary: debian-installer
+Architecture: any
+Version: 20150108
+Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
+Uploaders: Cyril Brulebois <kibi@debian.org>
+Standards-Version: 3.9.5
+Vcs-Browser: http://git.debian.org/?p=d-i/debian-installer.git;a=summary
+Vcs-Git: git://git.debian.org/d-i/debian-installer.git
+Build-Depends: debhelper (>= 7.0.0), apt (>= 0.8.16), apt-utils, gnupg, debian-archive-keyring (>= 2006.11.22), dctrl-tools, wget, bc, debiandoc-sgml, xsltproc, docbook-xml, docbook-xsl, libbogl-dev, glibc-pic, libslang2-pic (>= 2.0.6-4), libnewt-pic (>= 0.52.2-11.3) [!mipsel], libnewt-dev (>= 0.52.2-11.3) [mipsel], libgcc1 [i386 amd64], genext2fs (>= 1.3-7.1), e2fsprogs, mklibs (>= 0.1.40), genisoimage [!s390 !s390x], genromfs [sparc sparc64], hfsutils [powerpc], dosfstools [i386 ia64 m68k amd64 arm64], cpio, xz-utils, devio [armeb armel], slugimage (>= 0.10+r58-6) [armeb armel], dns323-firmware-tools (>= 0.3-2) [armel], u-boot-tools [armel armhf], syslinux [i386 amd64], syslinux-utils [i386 amd64], isolinux [i386 amd64], pxelinux [i386 amd64], syslinux-common (>= 3:6) [i386 amd64], elilo [ia64], yaboot [powerpc], aboot (>= 0.9b-2) [alpha], silo [sparc], sparc-utils [sparc sparc64], genisovh [mips], tip22 [mips], sibyl [mips mipsel], atari-bootstrap [m68k], vmelilo [m68k], m68k-vme-tftplilo [m68k], amiboot [m68k], emile [m68k], emile-bootblocks [m68k], apex-nslu2 [armeb armel], grub-efi-amd64-bin [amd64], grub-efi-arm64-bin [arm64], grub-efi-ia32-bin [i386], grub-common [amd64 arm64 i386], xorriso, grub-ieee1275-bin [ppc64el], tofrodos [i386 amd64 kfreebsd-i386 kfreebsd-amd64], mtools [i386 ia64 m68k amd64 arm64 kfreebsd-i386 kfreebsd-amd64 hurd-i386], module-init-tools [linux-any], bf-utf-source [!s390 !s390x], mkvmlinuz [powerpc], openssl, win32-loader (>= 0.7.2) [i386 amd64 kfreebsd-i386 kfreebsd-amd64 hurd-i386], makefs [kfreebsd-any], grub-pc (>= 2.02~beta2~) [kfreebsd-i386 kfreebsd-amd64 hurd-i386], xorriso (>= 1.3.2-1~) [kfreebsd-i386 kfreebsd-amd64 hurd-i386], debian-ports-archive-keyring [sh4 sparc64], librsvg2-bin [any-amd64 any-i386]
+Build-Conflicts: libnewt-pic [mipsel]
+Package-List:
+ debian-installer deb devel optional arch=any
+Priority: optional
+Section: devel
+Directory: pool/main/d/debian-installer
+Files: 
+ 1640cf4ee3b90ddcf227d621b31a4d23 3416 debian-installer_20150108.dsc
+ 9d73482d33b35a2b8b1c852f910efc14 24137909 debian-installer_20150108.tar.gz
+Checksums-Sha1: 
+ 3fa0daa0e122b05539a2b4f059ee51a0837b9048 3416 debian-installer_20150108.dsc
+ 3cd3b561a4bb9b0b5c07a61951de15e5fb7abdd3 24137909 debian-installer_20150108.tar.gz
+Checksums-Sha256: 
+ 24f686bd92b3fa95e1609f964ff20c4ec4cecb4c2bce8967e4ff78993d63ba3b 3416 debian-installer_20150108.dsc
+ 23594a042d29634050bf8cb81ca6e08d2066a9d1d033816caa0c1b323a903c79 24137909 debian-installer_20150108.tar.gz
+
+Package: fvp-pre-boot
+Format: 3.0 (quilt)
+Binary: fvp-pre-boot
+Architecture: all
+Version: 0.2.20140715+git45+ab406f1-0linaro1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 8.0.0)
+Package-List:
+ fvp-pre-boot deb admin extra
+Priority: extra
+Section: admin
+Directory: pool/main/f/fvp-pre-boot
+Files: 
+ 1f5d0932b02b60bfab640de5b92eaa3d 1349 fvp-pre-boot_0.2.20140715+git45+ab406f1-0linaro1.dsc
+ 875236a52fd8ff99dd95208d9783e51e 519364 fvp-pre-boot_0.2.20140715+git45+ab406f1.orig.tar.xz
+ 9fbfa7c8c1411ec5a68a8009fdf09d9a 2289 fvp-pre-boot_0.2.20140715+git45+ab406f1-0linaro1.debian.tar.gz
+Checksums-Sha1: 
+ 7a8c3a37942121527a6608b720d37a661c758cda 1349 fvp-pre-boot_0.2.20140715+git45+ab406f1-0linaro1.dsc
+ d132ef87e4946da0ec0d84e3ea18a432bbb5f2b5 519364 fvp-pre-boot_0.2.20140715+git45+ab406f1.orig.tar.xz
+ 01ffcd158a423f077db794be123d0f415ec6ca00 2289 fvp-pre-boot_0.2.20140715+git45+ab406f1-0linaro1.debian.tar.gz
+Checksums-Sha256: 
+ 5b06b2216f845ddca62b574ecaadb07c6725064dd7a424f3f39ba56d3aa4b006 1349 fvp-pre-boot_0.2.20140715+git45+ab406f1-0linaro1.dsc
+ bdd429af24348ee697c61f6c9f23ace9cbe0d463bbd979d18ecff25dd11ea83a 519364 fvp-pre-boot_0.2.20140715+git45+ab406f1.orig.tar.xz
+ c9a1d0e9772382b2c406b7038ff83df3a580f823b17e968d3c74d4d6328de2ac 2289 fvp-pre-boot_0.2.20140715+git45+ab406f1-0linaro1.debian.tar.gz
+
+Package: juno-pre-boot
+Format: 3.0 (quilt)
+Binary: juno-pre-boot
+Architecture: all
+Version: 0.8.2.20140930-0linaro1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 8.0.0)
+Package-List:
+ juno-pre-boot deb admin extra arch=all
+Priority: extra
+Section: admin
+Directory: pool/main/j/juno-pre-boot
+Files: 
+ 170f45a2b114b17773a9c81215802d34 1279 juno-pre-boot_0.8.2.20140930-0linaro1.dsc
+ b12beb6ad44d89a7e78fa6da8ccc6bb1 557316 juno-pre-boot_0.8.2.20140930.orig.tar.xz
+ fe37f5fbab5c3016b861f7a2e4e5274e 2136 juno-pre-boot_0.8.2.20140930-0linaro1.debian.tar.xz
+Checksums-Sha1: 
+ 241f47713d6b75b24b4f936c1d697b677a92a1c6 1279 juno-pre-boot_0.8.2.20140930-0linaro1.dsc
+ 81f2eb117cf9b6b69c85531295830167eb8615f6 557316 juno-pre-boot_0.8.2.20140930.orig.tar.xz
+ 09509c1fc6778aa4f3d0bcee2d781fdcfc5cd9e5 2136 juno-pre-boot_0.8.2.20140930-0linaro1.debian.tar.xz
+Checksums-Sha256: 
+ 5a93cb27a3ba8d253dfdcd5fc40988eb7a3436047f6385239ddcab0fab77eb39 1279 juno-pre-boot_0.8.2.20140930-0linaro1.dsc
+ 6257ab436cda3341eda659e40dbd8608f6d9a63db8bc9295245ff487df35b92b 557316 juno-pre-boot_0.8.2.20140930.orig.tar.xz
+ 4c4b5bfa17b5eb53d6e0aabeaf7db02d72e5da4c81cbf7bbd46c384e7c90bfa4 2136 juno-pre-boot_0.8.2.20140930-0linaro1.debian.tar.xz
+
+Package: linaro-meta
+Format: 3.0 (native)
+Binary: linaro-nano, linaro-nano-dev, linaro-headless, linaro-development, linaro-x11-base, linaro-xfce-base, linaro-alip, linaro-graphical-engineering, linaro-ubuntu-desktop, linaro-lamp-server, linaro-headless-dev, linaro-development-dev, linaro-x11-base-dev, linaro-xfce-base-dev, linaro-alip-dev, linaro-graphical-engineering-dev, linaro-ubuntu-desktop-dev, linaro-lamp-server-dev
+Architecture: armhf arm64
+Version: 039-trusty3
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.9.3
+Build-Depends: debhelper (>= 7.0.8), germinate (>= 1.18)
+Package-List:
+ linaro-alip deb metapackages optional
+ linaro-alip-dev deb metapackages optional
+ linaro-development deb metapackages optional
+ linaro-development-dev deb metapackages optional
+ linaro-graphical-engineering deb metapackages optional
+ linaro-graphical-engineering-dev deb metapackages optional
+ linaro-headless deb metapackages optional
+ linaro-headless-dev deb metapackages optional
+ linaro-lamp-server deb metapackages optional
+ linaro-lamp-server-dev deb metapackages optional
+ linaro-nano deb metapackages optional
+ linaro-nano-dev deb metapackages optional
+ linaro-ubuntu-desktop deb metapackages optional
+ linaro-ubuntu-desktop-dev deb metapackages optional
+ linaro-x11-base deb metapackages optional
+ linaro-x11-base-dev deb metapackages optional
+ linaro-xfce-base deb metapackages optional
+ linaro-xfce-base-dev deb metapackages optional
+Priority: optional
+Section: metapackages
+Directory: pool/main/l/linaro-meta
+Files: 
+ a3c48b20f3f444ef2667f6567bab91fb 2122 linaro-meta_039-trusty3.dsc
+ 184658264b15bcb68c1ad56c3c5104f0 27314 linaro-meta_039-trusty3.tar.gz
+Checksums-Sha1: 
+ 724bf668588f0b2ec4c66da6986a67c47e973d90 2122 linaro-meta_039-trusty3.dsc
+ 8d439d58a8298408644da5befde4db609b51515c 27314 linaro-meta_039-trusty3.tar.gz
+Checksums-Sha256: 
+ f9269094f9ca3773b6d2815f899eebc3be2faaf175b8bf2d867e31341b187d9d 2122 linaro-meta_039-trusty3.dsc
+ 64de3b21bac2ff839960891ca1c45e89e4232f8945d8c5bacf906d5b9ac5baf2 27314 linaro-meta_039-trusty3.tar.gz
+
+Package: linaro-overlay
+Format: 1.0
+Binary: linaro-overlay, linaro-overlay-minimal
+Architecture: all
+Version: 1112.7
+Maintainer: Linaro Developers <linaro-dev@lists.linaro.org>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7)
+Package-List:
+ linaro-overlay deb utils optional arch=all
+ linaro-overlay-minimal deb utils optional arch=all
+Priority: optional
+Section: utils
+Directory: pool/main/l/linaro-overlay
+Files: 
+ 1d9347555939f3c62c6577d61cc1531a 1489 linaro-overlay_1112.7.dsc
+ de857405c3caad3ec5fea9023112583e 6259 linaro-overlay_1112.7.tar.gz
+Checksums-Sha1: 
+ 334bf182101f6e9b5836f438c9a1debd8cac1745 1489 linaro-overlay_1112.7.dsc
+ d278ad0006062c7d9fd568d92e2fad6ef2ebc5c1 6259 linaro-overlay_1112.7.tar.gz
+Checksums-Sha256: 
+ a69b4d780c8d4e2a94667b2cd23bc4759a4eb2be882cb9c71464c5600317b442 1489 linaro-overlay_1112.7.dsc
+ d17a7cea4c3f72ab4c4447865e8e04f1e4c3e0b158b8be976631b0bfd54d1a81 6259 linaro-overlay_1112.7.tar.gz
+
+Package: linux
+Format: 3.0 (quilt)
+Binary: linux-source-3.14, linux-doc-3.14, linux-manual-3.14, linux-support-3.14-trunk, linux-libc-dev, linux-headers-3.14-trunk-all, linux-headers-3.14-trunk-all-alpha, linux-headers-3.14-trunk-common, linux-image-3.14-trunk-alpha-generic, linux-headers-3.14-trunk-alpha-generic, linux-image-3.14-trunk-alpha-smp, linux-headers-3.14-trunk-alpha-smp, linux-image-3.14-trunk-alpha-legacy, linux-headers-3.14-trunk-alpha-legacy, linux-headers-3.14-trunk-all-amd64, kernel-image-3.14-trunk-amd64-di, nic-modules-3.14-trunk-amd64-di, nic-wireless-modules-3.14-trunk-amd64-di, nic-shared-modules-3.14-trunk-amd64-di, serial-modules-3.14-trunk-amd64-di, usb-serial-modules-3.14-trunk-amd64-di, ppp-modules-3.14-trunk-amd64-di, pata-modules-3.14-trunk-amd64-di, cdrom-core-modules-3.14-trunk-amd64-di, firewire-core-modules-3.14-trunk-amd64-di, scsi-core-modules-3.14-trunk-amd64-di, scsi-modules-3.14-trunk-amd64-di, scsi-common-modules-3.14-trunk-amd64-di,
+ scsi-extra-modules-3.14-trunk-amd64-di, loop-modules-3.14-trunk-amd64-di, btrfs-modules-3.14-trunk-amd64-di, ext4-modules-3.14-trunk-amd64-di, isofs-modules-3.14-trunk-amd64-di, jfs-modules-3.14-trunk-amd64-di, ntfs-modules-3.14-trunk-amd64-di, xfs-modules-3.14-trunk-amd64-di, fat-modules-3.14-trunk-amd64-di, md-modules-3.14-trunk-amd64-di, multipath-modules-3.14-trunk-amd64-di, usb-modules-3.14-trunk-amd64-di, usb-storage-modules-3.14-trunk-amd64-di, pcmcia-storage-modules-3.14-trunk-amd64-di, fb-modules-3.14-trunk-amd64-di, input-modules-3.14-trunk-amd64-di, event-modules-3.14-trunk-amd64-di, mouse-modules-3.14-trunk-amd64-di, nic-pcmcia-modules-3.14-trunk-amd64-di, pcmcia-modules-3.14-trunk-amd64-di, nic-usb-modules-3.14-trunk-amd64-di, sata-modules-3.14-trunk-amd64-di, core-modules-3.14-trunk-amd64-di, acpi-modules-3.14-trunk-amd64-di, i2c-modules-3.14-trunk-amd64-di, crc-modules-3.14-trunk-amd64-di, crypto-modules-3.14-trunk-amd64-di,
+ crypto-dm-modules-3.14-trunk-amd64-di, efi-modules-3.14-trunk-amd64-di, ata-modules-3.14-trunk-amd64-di, mmc-core-modules-3.14-trunk-amd64-di, mmc-modules-3.14-trunk-amd64-di, nbd-modules-3.14-trunk-amd64-di, squashfs-modules-3.14-trunk-amd64-di, speakup-modules-3.14-trunk-amd64-di, virtio-modules-3.14-trunk-amd64-di, uinput-modules-3.14-trunk-amd64-di, sound-modules-3.14-trunk-amd64-di, hyperv-modules-3.14-trunk-amd64-di, udf-modules-3.14-trunk-amd64-di, fuse-modules-3.14-trunk-amd64-di, linux-image-3.14-trunk-amd64, linux-headers-3.14-trunk-amd64, linux-image-3.14-trunk-amd64-dbg, xen-linux-system-3.14-trunk-amd64, linux-headers-3.14-trunk-common-rt, linux-image-3.14-trunk-rt-amd64, linux-headers-3.14-trunk-rt-amd64, linux-image-3.14-trunk-rt-amd64-dbg, linux-headers-3.14-trunk-all-armel, kernel-image-3.14-trunk-kirkwood-di, nic-modules-3.14-trunk-kirkwood-di, nic-shared-modules-3.14-trunk-kirkwood-di, usb-serial-modules-3.14-trunk-kirkwood-di,
+ ppp-modules-3.14-trunk-kirkwood-di, cdrom-core-modules-3.14-trunk-kirkwood-di, scsi-core-modules-3.14-trunk-kirkwood-di, loop-modules-3.14-trunk-kirkwood-di, btrfs-modules-3.14-trunk-kirkwood-di, ext4-modules-3.14-trunk-kirkwood-di, isofs-modules-3.14-trunk-kirkwood-di, jfs-modules-3.14-trunk-kirkwood-di, fat-modules-3.14-trunk-kirkwood-di, minix-modules-3.14-trunk-kirkwood-di, md-modules-3.14-trunk-kirkwood-di, multipath-modules-3.14-trunk-kirkwood-di, usb-modules-3.14-trunk-kirkwood-di, usb-storage-modules-3.14-trunk-kirkwood-di, fb-modules-3.14-trunk-kirkwood-di, input-modules-3.14-trunk-kirkwood-di, event-modules-3.14-trunk-kirkwood-di, mouse-modules-3.14-trunk-kirkwood-di, nic-usb-modules-3.14-trunk-kirkwood-di, sata-modules-3.14-trunk-kirkwood-di, core-modules-3.14-trunk-kirkwood-di, crc-modules-3.14-trunk-kirkwood-di, crypto-modules-3.14-trunk-kirkwood-di, crypto-dm-modules-3.14-trunk-kirkwood-di, mmc-modules-3.14-trunk-kirkwood-di,
+ nbd-modules-3.14-trunk-kirkwood-di, squashfs-modules-3.14-trunk-kirkwood-di, uinput-modules-3.14-trunk-kirkwood-di, leds-modules-3.14-trunk-kirkwood-di, udf-modules-3.14-trunk-kirkwood-di, fuse-modules-3.14-trunk-kirkwood-di, kernel-image-3.14-trunk-orion5x-di, nic-modules-3.14-trunk-orion5x-di, nic-shared-modules-3.14-trunk-orion5x-di, usb-serial-modules-3.14-trunk-orion5x-di, ppp-modules-3.14-trunk-orion5x-di, cdrom-core-modules-3.14-trunk-orion5x-di, scsi-core-modules-3.14-trunk-orion5x-di, loop-modules-3.14-trunk-orion5x-di, ipv6-modules-3.14-trunk-orion5x-di, btrfs-modules-3.14-trunk-orion5x-di, ext4-modules-3.14-trunk-orion5x-di, isofs-modules-3.14-trunk-orion5x-di, jffs2-modules-3.14-trunk-orion5x-di, jfs-modules-3.14-trunk-orion5x-di, fat-modules-3.14-trunk-orion5x-di, minix-modules-3.14-trunk-orion5x-di, md-modules-3.14-trunk-orion5x-di, multipath-modules-3.14-trunk-orion5x-di, usb-modules-3.14-trunk-orion5x-di, usb-storage-modules-3.14-trunk-orion5x-di,
+ event-modules-3.14-trunk-orion5x-di, nic-usb-modules-3.14-trunk-orion5x-di, sata-modules-3.14-trunk-orion5x-di, core-modules-3.14-trunk-orion5x-di, crc-modules-3.14-trunk-orion5x-di, crypto-modules-3.14-trunk-orion5x-di, crypto-dm-modules-3.14-trunk-orion5x-di, nbd-modules-3.14-trunk-orion5x-di, squashfs-modules-3.14-trunk-orion5x-di, zlib-modules-3.14-trunk-orion5x-di, lzo-modules-3.14-trunk-orion5x-di, udf-modules-3.14-trunk-orion5x-di, fuse-modules-3.14-trunk-orion5x-di, kernel-image-3.14-trunk-versatile-di, nic-modules-3.14-trunk-versatile-di, nic-shared-modules-3.14-trunk-versatile-di, usb-serial-modules-3.14-trunk-versatile-di, ppp-modules-3.14-trunk-versatile-di, cdrom-core-modules-3.14-trunk-versatile-di, scsi-core-modules-3.14-trunk-versatile-di, scsi-common-modules-3.14-trunk-versatile-di, loop-modules-3.14-trunk-versatile-di, btrfs-modules-3.14-trunk-versatile-di, ext4-modules-3.14-trunk-versatile-di, isofs-modules-3.14-trunk-versatile-di,
+ fat-modules-3.14-trunk-versatile-di, md-modules-3.14-trunk-versatile-di, multipath-modules-3.14-trunk-versatile-di, usb-modules-3.14-trunk-versatile-di, usb-storage-modules-3.14-trunk-versatile-di, nic-usb-modules-3.14-trunk-versatile-di, sata-modules-3.14-trunk-versatile-di, core-modules-3.14-trunk-versatile-di, crc-modules-3.14-trunk-versatile-di, crypto-modules-3.14-trunk-versatile-di, crypto-dm-modules-3.14-trunk-versatile-di, nbd-modules-3.14-trunk-versatile-di, squashfs-modules-3.14-trunk-versatile-di, virtio-modules-3.14-trunk-versatile-di, zlib-modules-3.14-trunk-versatile-di, lzo-modules-3.14-trunk-versatile-di, udf-modules-3.14-trunk-versatile-di, fuse-modules-3.14-trunk-versatile-di, linux-image-3.14-trunk-kirkwood, linux-headers-3.14-trunk-kirkwood, linux-image-3.14-trunk-mv78xx0, linux-headers-3.14-trunk-mv78xx0, linux-image-3.14-trunk-orion5x, linux-headers-3.14-trunk-orion5x, linux-image-3.14-trunk-versatile, linux-headers-3.14-trunk-versatile,
+ linux-headers-3.14-trunk-all-armhf, kernel-image-3.14-trunk-armmp-di, nic-modules-3.14-trunk-armmp-di, nic-wireless-modules-3.14-trunk-armmp-di, nic-shared-modules-3.14-trunk-armmp-di, ppp-modules-3.14-trunk-armmp-di, pata-modules-3.14-trunk-armmp-di, scsi-core-modules-3.14-trunk-armmp-di, scsi-modules-3.14-trunk-armmp-di, loop-modules-3.14-trunk-armmp-di, btrfs-modules-3.14-trunk-armmp-di, ext4-modules-3.14-trunk-armmp-di, isofs-modules-3.14-trunk-armmp-di, jfs-modules-3.14-trunk-armmp-di, fat-modules-3.14-trunk-armmp-di, md-modules-3.14-trunk-armmp-di, multipath-modules-3.14-trunk-armmp-di, usb-modules-3.14-trunk-armmp-di, usb-storage-modules-3.14-trunk-armmp-di, input-modules-3.14-trunk-armmp-di, event-modules-3.14-trunk-armmp-di, nic-usb-modules-3.14-trunk-armmp-di, sata-modules-3.14-trunk-armmp-di, core-modules-3.14-trunk-armmp-di, crc-modules-3.14-trunk-armmp-di, crypto-modules-3.14-trunk-armmp-di, crypto-dm-modules-3.14-trunk-armmp-di,
+ ata-modules-3.14-trunk-armmp-di, mmc-modules-3.14-trunk-armmp-di, nbd-modules-3.14-trunk-armmp-di, squashfs-modules-3.14-trunk-armmp-di, uinput-modules-3.14-trunk-armmp-di, zlib-modules-3.14-trunk-armmp-di, udf-modules-3.14-trunk-armmp-di, fuse-modules-3.14-trunk-armmp-di, linux-image-3.14-trunk-armmp, linux-headers-3.14-trunk-armmp, linux-image-3.14-trunk-armmp-lpae, linux-headers-3.14-trunk-armmp-lpae, linux-headers-3.14-trunk-all-hppa, kernel-image-3.14-trunk-parisc-di, nic-modules-3.14-trunk-parisc-di, ppp-modules-3.14-trunk-parisc-di, pata-modules-3.14-trunk-parisc-di, cdrom-core-modules-3.14-trunk-parisc-di, scsi-core-modules-3.14-trunk-parisc-di, scsi-modules-3.14-trunk-parisc-di, loop-modules-3.14-trunk-parisc-di, btrfs-modules-3.14-trunk-parisc-di, ext4-modules-3.14-trunk-parisc-di, fat-modules-3.14-trunk-parisc-di, md-modules-3.14-trunk-parisc-di, multipath-modules-3.14-trunk-parisc-di, usb-modules-3.14-trunk-parisc-di,
+ usb-storage-modules-3.14-trunk-parisc-di, input-modules-3.14-trunk-parisc-di, core-modules-3.14-trunk-parisc-di, crypto-modules-3.14-trunk-parisc-di, crypto-dm-modules-3.14-trunk-parisc-di, nbd-modules-3.14-trunk-parisc-di, zlib-modules-3.14-trunk-parisc-di, fuse-modules-3.14-trunk-parisc-di, kernel-image-3.14-trunk-parisc64-smp-di, nic-modules-3.14-trunk-parisc64-smp-di, ppp-modules-3.14-trunk-parisc64-smp-di, pata-modules-3.14-trunk-parisc64-smp-di, cdrom-core-modules-3.14-trunk-parisc64-smp-di, scsi-core-modules-3.14-trunk-parisc64-smp-di, scsi-modules-3.14-trunk-parisc64-smp-di, loop-modules-3.14-trunk-parisc64-smp-di, btrfs-modules-3.14-trunk-parisc64-smp-di, ext4-modules-3.14-trunk-parisc64-smp-di, fat-modules-3.14-trunk-parisc64-smp-di, md-modules-3.14-trunk-parisc64-smp-di, multipath-modules-3.14-trunk-parisc64-smp-di, usb-modules-3.14-trunk-parisc64-smp-di, usb-storage-modules-3.14-trunk-parisc64-smp-di, fb-modules-3.14-trunk-parisc64-smp-di,
+ input-modules-3.14-trunk-parisc64-smp-di, core-modules-3.14-trunk-parisc64-smp-di, crypto-modules-3.14-trunk-parisc64-smp-di, crypto-dm-modules-3.14-trunk-parisc64-smp-di, nbd-modules-3.14-trunk-parisc64-smp-di, zlib-modules-3.14-trunk-parisc64-smp-di, fuse-modules-3.14-trunk-parisc64-smp-di, linux-image-3.14-trunk-parisc, linux-headers-3.14-trunk-parisc, linux-image-3.14-trunk-parisc64-smp, linux-headers-3.14-trunk-parisc64-smp, linux-headers-3.14-trunk-all-i386, kernel-image-3.14-trunk-486-di, nic-modules-3.14-trunk-486-di, nic-wireless-modules-3.14-trunk-486-di, nic-shared-modules-3.14-trunk-486-di, serial-modules-3.14-trunk-486-di, usb-serial-modules-3.14-trunk-486-di, ppp-modules-3.14-trunk-486-di, pata-modules-3.14-trunk-486-di, cdrom-core-modules-3.14-trunk-486-di, firewire-core-modules-3.14-trunk-486-di, scsi-core-modules-3.14-trunk-486-di, scsi-modules-3.14-trunk-486-di, scsi-common-modules-3.14-trunk-486-di, scsi-extra-modules-3.14-trunk-486-di,
+ loop-modules-3.14-trunk-486-di, btrfs-modules-3.14-trunk-486-di, ext4-modules-3.14-trunk-486-di, isofs-modules-3.14-trunk-486-di, jfs-modules-3.14-trunk-486-di, ntfs-modules-3.14-trunk-486-di, xfs-modules-3.14-trunk-486-di, fat-modules-3.14-trunk-486-di, md-modules-3.14-trunk-486-di, multipath-modules-3.14-trunk-486-di, usb-modules-3.14-trunk-486-di, usb-storage-modules-3.14-trunk-486-di, pcmcia-storage-modules-3.14-trunk-486-di, fb-modules-3.14-trunk-486-di, input-modules-3.14-trunk-486-di, event-modules-3.14-trunk-486-di, mouse-modules-3.14-trunk-486-di, nic-pcmcia-modules-3.14-trunk-486-di, pcmcia-modules-3.14-trunk-486-di, nic-usb-modules-3.14-trunk-486-di, sata-modules-3.14-trunk-486-di, core-modules-3.14-trunk-486-di, acpi-modules-3.14-trunk-486-di, i2c-modules-3.14-trunk-486-di, crc-modules-3.14-trunk-486-di, crypto-modules-3.14-trunk-486-di, crypto-dm-modules-3.14-trunk-486-di, efi-modules-3.14-trunk-486-di, ata-modules-3.14-trunk-486-di,
+ mmc-core-modules-3.14-trunk-486-di, mmc-modules-3.14-trunk-486-di, nbd-modules-3.14-trunk-486-di, squashfs-modules-3.14-trunk-486-di, speakup-modules-3.14-trunk-486-di, virtio-modules-3.14-trunk-486-di, uinput-modules-3.14-trunk-486-di, sound-modules-3.14-trunk-486-di, hyperv-modules-3.14-trunk-486-di, udf-modules-3.14-trunk-486-di, fuse-modules-3.14-trunk-486-di, kernel-image-3.14-trunk-686-pae-di, nic-modules-3.14-trunk-686-pae-di, nic-wireless-modules-3.14-trunk-686-pae-di, nic-shared-modules-3.14-trunk-686-pae-di, serial-modules-3.14-trunk-686-pae-di, usb-serial-modules-3.14-trunk-686-pae-di, ppp-modules-3.14-trunk-686-pae-di, pata-modules-3.14-trunk-686-pae-di, cdrom-core-modules-3.14-trunk-686-pae-di, firewire-core-modules-3.14-trunk-686-pae-di, scsi-core-modules-3.14-trunk-686-pae-di, scsi-modules-3.14-trunk-686-pae-di, scsi-common-modules-3.14-trunk-686-pae-di, scsi-extra-modules-3.14-trunk-686-pae-di, loop-modules-3.14-trunk-686-pae-di,
+ btrfs-modules-3.14-trunk-686-pae-di, ext4-modules-3.14-trunk-686-pae-di, isofs-modules-3.14-trunk-686-pae-di, jfs-modules-3.14-trunk-686-pae-di, ntfs-modules-3.14-trunk-686-pae-di, xfs-modules-3.14-trunk-686-pae-di, fat-modules-3.14-trunk-686-pae-di, md-modules-3.14-trunk-686-pae-di, multipath-modules-3.14-trunk-686-pae-di, usb-modules-3.14-trunk-686-pae-di, usb-storage-modules-3.14-trunk-686-pae-di, pcmcia-storage-modules-3.14-trunk-686-pae-di, fb-modules-3.14-trunk-686-pae-di, input-modules-3.14-trunk-686-pae-di, event-modules-3.14-trunk-686-pae-di, mouse-modules-3.14-trunk-686-pae-di, nic-pcmcia-modules-3.14-trunk-686-pae-di, pcmcia-modules-3.14-trunk-686-pae-di, nic-usb-modules-3.14-trunk-686-pae-di, sata-modules-3.14-trunk-686-pae-di, core-modules-3.14-trunk-686-pae-di, acpi-modules-3.14-trunk-686-pae-di, i2c-modules-3.14-trunk-686-pae-di, crc-modules-3.14-trunk-686-pae-di, crypto-modules-3.14-trunk-686-pae-di, crypto-dm-modules-3.14-trunk-686-pae-di,
+ efi-modules-3.14-trunk-686-pae-di, ata-modules-3.14-trunk-686-pae-di, mmc-core-modules-3.14-trunk-686-pae-di, mmc-modules-3.14-trunk-686-pae-di, nbd-modules-3.14-trunk-686-pae-di, squashfs-modules-3.14-trunk-686-pae-di, speakup-modules-3.14-trunk-686-pae-di, virtio-modules-3.14-trunk-686-pae-di, uinput-modules-3.14-trunk-686-pae-di, sound-modules-3.14-trunk-686-pae-di, hyperv-modules-3.14-trunk-686-pae-di, udf-modules-3.14-trunk-686-pae-di, fuse-modules-3.14-trunk-686-pae-di, linux-image-3.14-trunk-486, linux-headers-3.14-trunk-486, linux-image-3.14-trunk-686-pae, linux-headers-3.14-trunk-686-pae, linux-image-3.14-trunk-686-pae-dbg, linux-image-3.14-trunk-rt-686-pae, linux-headers-3.14-trunk-rt-686-pae, linux-image-3.14-trunk-rt-686-pae-dbg, linux-headers-3.14-trunk-all-ia64, kernel-image-3.14-trunk-itanium-di, nic-modules-3.14-trunk-itanium-di, nic-shared-modules-3.14-trunk-itanium-di, serial-modules-3.14-trunk-itanium-di, ppp-modules-3.14-trunk-itanium-di,
+ pata-modules-3.14-trunk-itanium-di, cdrom-core-modules-3.14-trunk-itanium-di, firewire-core-modules-3.14-trunk-itanium-di, scsi-core-modules-3.14-trunk-itanium-di, scsi-modules-3.14-trunk-itanium-di, loop-modules-3.14-trunk-itanium-di, btrfs-modules-3.14-trunk-itanium-di, ext4-modules-3.14-trunk-itanium-di, isofs-modules-3.14-trunk-itanium-di, jfs-modules-3.14-trunk-itanium-di, ntfs-modules-3.14-trunk-itanium-di, xfs-modules-3.14-trunk-itanium-di, fat-modules-3.14-trunk-itanium-di, md-modules-3.14-trunk-itanium-di, multipath-modules-3.14-trunk-itanium-di, usb-modules-3.14-trunk-itanium-di, usb-storage-modules-3.14-trunk-itanium-di, fb-modules-3.14-trunk-itanium-di, input-modules-3.14-trunk-itanium-di, event-modules-3.14-trunk-itanium-di, mouse-modules-3.14-trunk-itanium-di, pcmcia-modules-3.14-trunk-itanium-di, nic-usb-modules-3.14-trunk-itanium-di, sata-modules-3.14-trunk-itanium-di, core-modules-3.14-trunk-itanium-di, crc-modules-3.14-trunk-itanium-di,
+ crypto-modules-3.14-trunk-itanium-di, crypto-dm-modules-3.14-trunk-itanium-di, ata-modules-3.14-trunk-itanium-di, nbd-modules-3.14-trunk-itanium-di, squashfs-modules-3.14-trunk-itanium-di, uinput-modules-3.14-trunk-itanium-di, udf-modules-3.14-trunk-itanium-di, fuse-modules-3.14-trunk-itanium-di, ide-core-modules-3.14-trunk-itanium-di, ide-modules-3.14-trunk-itanium-di, sn-modules-3.14-trunk-itanium-di, linux-image-3.14-trunk-itanium, linux-headers-3.14-trunk-itanium, linux-image-3.14-trunk-mckinley, linux-headers-3.14-trunk-mckinley, linux-headers-3.14-trunk-all-m68k, kernel-image-3.14-trunk-m68k-di, nic-shared-modules-3.14-trunk-m68k-di, ppp-modules-3.14-trunk-m68k-di, cdrom-core-modules-3.14-trunk-m68k-di, scsi-modules-3.14-trunk-m68k-di, btrfs-modules-3.14-trunk-m68k-di, ext4-modules-3.14-trunk-m68k-di, isofs-modules-3.14-trunk-m68k-di, fat-modules-3.14-trunk-m68k-di, md-modules-3.14-trunk-m68k-di, core-modules-3.14-trunk-m68k-di, crc-modules-3.14-trunk-m68k-di,
+ crypto-modules-3.14-trunk-m68k-di, nbd-modules-3.14-trunk-m68k-di, squashfs-modules-3.14-trunk-m68k-di, zlib-modules-3.14-trunk-m68k-di, udf-modules-3.14-trunk-m68k-di, fuse-modules-3.14-trunk-m68k-di, linux-image-3.14-trunk-m68k, linux-headers-3.14-trunk-m68k, linux-headers-3.14-trunk-all-mips, kernel-image-3.14-trunk-sb1-bcm91250a-di, nic-shared-modules-3.14-trunk-sb1-bcm91250a-di, ppp-modules-3.14-trunk-sb1-bcm91250a-di, cdrom-core-modules-3.14-trunk-sb1-bcm91250a-di, scsi-core-modules-3.14-trunk-sb1-bcm91250a-di, scsi-modules-3.14-trunk-sb1-bcm91250a-di, scsi-common-modules-3.14-trunk-sb1-bcm91250a-di, loop-modules-3.14-trunk-sb1-bcm91250a-di, btrfs-modules-3.14-trunk-sb1-bcm91250a-di, isofs-modules-3.14-trunk-sb1-bcm91250a-di, jfs-modules-3.14-trunk-sb1-bcm91250a-di, xfs-modules-3.14-trunk-sb1-bcm91250a-di, fat-modules-3.14-trunk-sb1-bcm91250a-di, md-modules-3.14-trunk-sb1-bcm91250a-di, multipath-modules-3.14-trunk-sb1-bcm91250a-di,
+ usb-modules-3.14-trunk-sb1-bcm91250a-di, usb-storage-modules-3.14-trunk-sb1-bcm91250a-di, fb-modules-3.14-trunk-sb1-bcm91250a-di, input-modules-3.14-trunk-sb1-bcm91250a-di, sata-modules-3.14-trunk-sb1-bcm91250a-di, crc-modules-3.14-trunk-sb1-bcm91250a-di, crypto-modules-3.14-trunk-sb1-bcm91250a-di, crypto-dm-modules-3.14-trunk-sb1-bcm91250a-di, nbd-modules-3.14-trunk-sb1-bcm91250a-di, squashfs-modules-3.14-trunk-sb1-bcm91250a-di, rtc-modules-3.14-trunk-sb1-bcm91250a-di, zlib-modules-3.14-trunk-sb1-bcm91250a-di, udf-modules-3.14-trunk-sb1-bcm91250a-di, fuse-modules-3.14-trunk-sb1-bcm91250a-di, kernel-image-3.14-trunk-r4k-ip22-di, nic-shared-modules-3.14-trunk-r4k-ip22-di, loop-modules-3.14-trunk-r4k-ip22-di, btrfs-modules-3.14-trunk-r4k-ip22-di, isofs-modules-3.14-trunk-r4k-ip22-di, jfs-modules-3.14-trunk-r4k-ip22-di, xfs-modules-3.14-trunk-r4k-ip22-di, md-modules-3.14-trunk-r4k-ip22-di, multipath-modules-3.14-trunk-r4k-ip22-di, crc-modules-3.14-trunk-r4k-ip22-di,
+ crypto-modules-3.14-trunk-r4k-ip22-di, crypto-dm-modules-3.14-trunk-r4k-ip22-di, nbd-modules-3.14-trunk-r4k-ip22-di, squashfs-modules-3.14-trunk-r4k-ip22-di, zlib-modules-3.14-trunk-r4k-ip22-di, udf-modules-3.14-trunk-r4k-ip22-di, fuse-modules-3.14-trunk-r4k-ip22-di, kernel-image-3.14-trunk-r5k-ip32-di, nic-shared-modules-3.14-trunk-r5k-ip32-di, loop-modules-3.14-trunk-r5k-ip32-di, btrfs-modules-3.14-trunk-r5k-ip32-di, isofs-modules-3.14-trunk-r5k-ip32-di, jfs-modules-3.14-trunk-r5k-ip32-di, xfs-modules-3.14-trunk-r5k-ip32-di, md-modules-3.14-trunk-r5k-ip32-di, multipath-modules-3.14-trunk-r5k-ip32-di, crc-modules-3.14-trunk-r5k-ip32-di, crypto-modules-3.14-trunk-r5k-ip32-di, crypto-dm-modules-3.14-trunk-r5k-ip32-di, nbd-modules-3.14-trunk-r5k-ip32-di, squashfs-modules-3.14-trunk-r5k-ip32-di, zlib-modules-3.14-trunk-r5k-ip32-di, udf-modules-3.14-trunk-r5k-ip32-di, fuse-modules-3.14-trunk-r5k-ip32-di, kernel-image-3.14-trunk-4kc-malta-di,
+ ppp-modules-3.14-trunk-4kc-malta-di, cdrom-core-modules-3.14-trunk-4kc-malta-di, loop-modules-3.14-trunk-4kc-malta-di, btrfs-modules-3.14-trunk-4kc-malta-di, isofs-modules-3.14-trunk-4kc-malta-di, jfs-modules-3.14-trunk-4kc-malta-di, xfs-modules-3.14-trunk-4kc-malta-di, fat-modules-3.14-trunk-4kc-malta-di, md-modules-3.14-trunk-4kc-malta-di, multipath-modules-3.14-trunk-4kc-malta-di, usb-modules-3.14-trunk-4kc-malta-di, usb-storage-modules-3.14-trunk-4kc-malta-di, input-modules-3.14-trunk-4kc-malta-di, sata-modules-3.14-trunk-4kc-malta-di, crc-modules-3.14-trunk-4kc-malta-di, crypto-modules-3.14-trunk-4kc-malta-di, crypto-dm-modules-3.14-trunk-4kc-malta-di, nbd-modules-3.14-trunk-4kc-malta-di, squashfs-modules-3.14-trunk-4kc-malta-di, virtio-modules-3.14-trunk-4kc-malta-di, zlib-modules-3.14-trunk-4kc-malta-di, udf-modules-3.14-trunk-4kc-malta-di, fuse-modules-3.14-trunk-4kc-malta-di, kernel-image-3.14-trunk-octeon-di, nic-shared-modules-3.14-trunk-octeon-di,
+ ppp-modules-3.14-trunk-octeon-di, cdrom-core-modules-3.14-trunk-octeon-di, scsi-core-modules-3.14-trunk-octeon-di, scsi-modules-3.14-trunk-octeon-di, scsi-common-modules-3.14-trunk-octeon-di, loop-modules-3.14-trunk-octeon-di, btrfs-modules-3.14-trunk-octeon-di, isofs-modules-3.14-trunk-octeon-di, jfs-modules-3.14-trunk-octeon-di, xfs-modules-3.14-trunk-octeon-di, fat-modules-3.14-trunk-octeon-di, md-modules-3.14-trunk-octeon-di, multipath-modules-3.14-trunk-octeon-di, usb-modules-3.14-trunk-octeon-di, usb-storage-modules-3.14-trunk-octeon-di, input-modules-3.14-trunk-octeon-di, sata-modules-3.14-trunk-octeon-di, crc-modules-3.14-trunk-octeon-di, crypto-modules-3.14-trunk-octeon-di, crypto-dm-modules-3.14-trunk-octeon-di, nbd-modules-3.14-trunk-octeon-di, squashfs-modules-3.14-trunk-octeon-di, rtc-modules-3.14-trunk-octeon-di, zlib-modules-3.14-trunk-octeon-di, udf-modules-3.14-trunk-octeon-di, fuse-modules-3.14-trunk-octeon-di, linux-image-3.14-trunk-r4k-ip22,
+ linux-headers-3.14-trunk-r4k-ip22, linux-image-3.14-trunk-r5k-ip32, linux-headers-3.14-trunk-r5k-ip32, linux-image-3.14-trunk-sb1-bcm91250a, linux-headers-3.14-trunk-sb1-bcm91250a, linux-image-3.14-trunk-sb1a-bcm91480b, linux-headers-3.14-trunk-sb1a-bcm91480b, linux-image-3.14-trunk-4kc-malta, linux-headers-3.14-trunk-4kc-malta, linux-image-3.14-trunk-5kc-malta, linux-headers-3.14-trunk-5kc-malta, linux-image-3.14-trunk-octeon, linux-headers-3.14-trunk-octeon, linux-headers-3.14-trunk-all-mipsel, kernel-image-3.14-trunk-loongson-2e-di, nic-modules-3.14-trunk-loongson-2e-di, nic-shared-modules-3.14-trunk-loongson-2e-di, ppp-modules-3.14-trunk-loongson-2e-di, cdrom-core-modules-3.14-trunk-loongson-2e-di, loop-modules-3.14-trunk-loongson-2e-di, btrfs-modules-3.14-trunk-loongson-2e-di, isofs-modules-3.14-trunk-loongson-2e-di, jfs-modules-3.14-trunk-loongson-2e-di, xfs-modules-3.14-trunk-loongson-2e-di, fat-modules-3.14-trunk-loongson-2e-di,
+ md-modules-3.14-trunk-loongson-2e-di, multipath-modules-3.14-trunk-loongson-2e-di, usb-modules-3.14-trunk-loongson-2e-di, usb-storage-modules-3.14-trunk-loongson-2e-di, input-modules-3.14-trunk-loongson-2e-di, nic-usb-modules-3.14-trunk-loongson-2e-di, sata-modules-3.14-trunk-loongson-2e-di, crc-modules-3.14-trunk-loongson-2e-di, crypto-modules-3.14-trunk-loongson-2e-di, crypto-dm-modules-3.14-trunk-loongson-2e-di, nbd-modules-3.14-trunk-loongson-2e-di, squashfs-modules-3.14-trunk-loongson-2e-di, virtio-modules-3.14-trunk-loongson-2e-di, zlib-modules-3.14-trunk-loongson-2e-di, udf-modules-3.14-trunk-loongson-2e-di, fuse-modules-3.14-trunk-loongson-2e-di, kernel-image-3.14-trunk-loongson-2f-di, nic-modules-3.14-trunk-loongson-2f-di, nic-shared-modules-3.14-trunk-loongson-2f-di, ppp-modules-3.14-trunk-loongson-2f-di, cdrom-core-modules-3.14-trunk-loongson-2f-di, loop-modules-3.14-trunk-loongson-2f-di, btrfs-modules-3.14-trunk-loongson-2f-di,
+ isofs-modules-3.14-trunk-loongson-2f-di, jfs-modules-3.14-trunk-loongson-2f-di, xfs-modules-3.14-trunk-loongson-2f-di, fat-modules-3.14-trunk-loongson-2f-di, md-modules-3.14-trunk-loongson-2f-di, multipath-modules-3.14-trunk-loongson-2f-di, usb-modules-3.14-trunk-loongson-2f-di, usb-storage-modules-3.14-trunk-loongson-2f-di, input-modules-3.14-trunk-loongson-2f-di, nic-usb-modules-3.14-trunk-loongson-2f-di, sata-modules-3.14-trunk-loongson-2f-di, crc-modules-3.14-trunk-loongson-2f-di, crypto-modules-3.14-trunk-loongson-2f-di, crypto-dm-modules-3.14-trunk-loongson-2f-di, nbd-modules-3.14-trunk-loongson-2f-di, squashfs-modules-3.14-trunk-loongson-2f-di, virtio-modules-3.14-trunk-loongson-2f-di, zlib-modules-3.14-trunk-loongson-2f-di, udf-modules-3.14-trunk-loongson-2f-di, fuse-modules-3.14-trunk-loongson-2f-di, linux-image-3.14-trunk-loongson-2e, linux-headers-3.14-trunk-loongson-2e, linux-image-3.14-trunk-loongson-2f, linux-headers-3.14-trunk-loongson-2f,
+ linux-headers-3.14-trunk-all-powerpc, kernel-image-3.14-trunk-powerpc-di, nic-modules-3.14-trunk-powerpc-di, nic-shared-modules-3.14-trunk-powerpc-di, serial-modules-3.14-trunk-powerpc-di, usb-serial-modules-3.14-trunk-powerpc-di, ppp-modules-3.14-trunk-powerpc-di, pata-modules-3.14-trunk-powerpc-di, cdrom-core-modules-3.14-trunk-powerpc-di, firewire-core-modules-3.14-trunk-powerpc-di, scsi-core-modules-3.14-trunk-powerpc-di, scsi-modules-3.14-trunk-powerpc-di, scsi-common-modules-3.14-trunk-powerpc-di, scsi-extra-modules-3.14-trunk-powerpc-di, loop-modules-3.14-trunk-powerpc-di, btrfs-modules-3.14-trunk-powerpc-di, ext4-modules-3.14-trunk-powerpc-di, isofs-modules-3.14-trunk-powerpc-di, jfs-modules-3.14-trunk-powerpc-di, xfs-modules-3.14-trunk-powerpc-di, fat-modules-3.14-trunk-powerpc-di, hfs-modules-3.14-trunk-powerpc-di, affs-modules-3.14-trunk-powerpc-di, md-modules-3.14-trunk-powerpc-di, multipath-modules-3.14-trunk-powerpc-di,
+ usb-modules-3.14-trunk-powerpc-di, usb-storage-modules-3.14-trunk-powerpc-di, pcmcia-storage-modules-3.14-trunk-powerpc-di, input-modules-3.14-trunk-powerpc-di, event-modules-3.14-trunk-powerpc-di, mouse-modules-3.14-trunk-powerpc-di, nic-pcmcia-modules-3.14-trunk-powerpc-di, pcmcia-modules-3.14-trunk-powerpc-di, sata-modules-3.14-trunk-powerpc-di, core-modules-3.14-trunk-powerpc-di, crc-modules-3.14-trunk-powerpc-di, crypto-modules-3.14-trunk-powerpc-di, crypto-dm-modules-3.14-trunk-powerpc-di, ata-modules-3.14-trunk-powerpc-di, nbd-modules-3.14-trunk-powerpc-di, squashfs-modules-3.14-trunk-powerpc-di, virtio-modules-3.14-trunk-powerpc-di, uinput-modules-3.14-trunk-powerpc-di, zlib-modules-3.14-trunk-powerpc-di, udf-modules-3.14-trunk-powerpc-di, fuse-modules-3.14-trunk-powerpc-di, kernel-image-3.14-trunk-powerpc64-di, nic-modules-3.14-trunk-powerpc64-di, nic-shared-modules-3.14-trunk-powerpc64-di, serial-modules-3.14-trunk-powerpc64-di,
+ usb-serial-modules-3.14-trunk-powerpc64-di, ppp-modules-3.14-trunk-powerpc64-di, pata-modules-3.14-trunk-powerpc64-di, cdrom-core-modules-3.14-trunk-powerpc64-di, firewire-core-modules-3.14-trunk-powerpc64-di, scsi-core-modules-3.14-trunk-powerpc64-di, scsi-modules-3.14-trunk-powerpc64-di, scsi-common-modules-3.14-trunk-powerpc64-di, scsi-extra-modules-3.14-trunk-powerpc64-di, loop-modules-3.14-trunk-powerpc64-di, btrfs-modules-3.14-trunk-powerpc64-di, ext4-modules-3.14-trunk-powerpc64-di, isofs-modules-3.14-trunk-powerpc64-di, jfs-modules-3.14-trunk-powerpc64-di, xfs-modules-3.14-trunk-powerpc64-di, fat-modules-3.14-trunk-powerpc64-di, hfs-modules-3.14-trunk-powerpc64-di, affs-modules-3.14-trunk-powerpc64-di, md-modules-3.14-trunk-powerpc64-di, multipath-modules-3.14-trunk-powerpc64-di, usb-modules-3.14-trunk-powerpc64-di, usb-storage-modules-3.14-trunk-powerpc64-di, pcmcia-storage-modules-3.14-trunk-powerpc64-di, input-modules-3.14-trunk-powerpc64-di,
+ event-modules-3.14-trunk-powerpc64-di, mouse-modules-3.14-trunk-powerpc64-di, nic-pcmcia-modules-3.14-trunk-powerpc64-di, pcmcia-modules-3.14-trunk-powerpc64-di, sata-modules-3.14-trunk-powerpc64-di, core-modules-3.14-trunk-powerpc64-di, crc-modules-3.14-trunk-powerpc64-di, crypto-modules-3.14-trunk-powerpc64-di, crypto-dm-modules-3.14-trunk-powerpc64-di, ata-modules-3.14-trunk-powerpc64-di, nbd-modules-3.14-trunk-powerpc64-di, squashfs-modules-3.14-trunk-powerpc64-di, virtio-modules-3.14-trunk-powerpc64-di, uinput-modules-3.14-trunk-powerpc64-di, udf-modules-3.14-trunk-powerpc64-di, fuse-modules-3.14-trunk-powerpc64-di, hypervisor-modules-3.14-trunk-powerpc64-di, fancontrol-modules-3.14-trunk-powerpc64-di, linux-image-3.14-trunk-powerpc, linux-headers-3.14-trunk-powerpc, linux-image-3.14-trunk-powerpc-smp, linux-headers-3.14-trunk-powerpc-smp, linux-image-3.14-trunk-powerpc64, linux-headers-3.14-trunk-powerpc64, linux-headers-3.14-trunk-all-powerpcspe,
+ linux-image-3.14-trunk-powerpcspe, linux-headers-3.14-trunk-powerpcspe, linux-headers-3.14-trunk-all-ppc64, linux-headers-3.14-trunk-all-s390, kernel-image-3.14-trunk-s390x-di, nic-modules-3.14-trunk-s390x-di, scsi-core-modules-3.14-trunk-s390x-di, scsi-modules-3.14-trunk-s390x-di, ext4-modules-3.14-trunk-s390x-di, xfs-modules-3.14-trunk-s390x-di, fat-modules-3.14-trunk-s390x-di, md-modules-3.14-trunk-s390x-di, multipath-modules-3.14-trunk-s390x-di, core-modules-3.14-trunk-s390x-di, crypto-modules-3.14-trunk-s390x-di, crypto-dm-modules-3.14-trunk-s390x-di, nbd-modules-3.14-trunk-s390x-di, virtio-modules-3.14-trunk-s390x-di, fuse-modules-3.14-trunk-s390x-di, dasd-modules-3.14-trunk-s390x-di, dasd-extra-modules-3.14-trunk-s390x-di, linux-image-3.14-trunk-s390x, linux-headers-3.14-trunk-s390x, linux-image-3.14-trunk-s390x-dbg, linux-headers-3.14-trunk-all-s390x, linux-headers-3.14-trunk-all-sh4, kernel-image-3.14-trunk-sh7751r-di, nic-modules-3.14-trunk-sh7751r-di,
+ usb-serial-modules-3.14-trunk-sh7751r-di, ppp-modules-3.14-trunk-sh7751r-di, pata-modules-3.14-trunk-sh7751r-di, cdrom-core-modules-3.14-trunk-sh7751r-di, firewire-core-modules-3.14-trunk-sh7751r-di, scsi-core-modules-3.14-trunk-sh7751r-di, loop-modules-3.14-trunk-sh7751r-di, btrfs-modules-3.14-trunk-sh7751r-di, ext4-modules-3.14-trunk-sh7751r-di, isofs-modules-3.14-trunk-sh7751r-di, jfs-modules-3.14-trunk-sh7751r-di, xfs-modules-3.14-trunk-sh7751r-di, fat-modules-3.14-trunk-sh7751r-di, minix-modules-3.14-trunk-sh7751r-di, md-modules-3.14-trunk-sh7751r-di, multipath-modules-3.14-trunk-sh7751r-di, usb-storage-modules-3.14-trunk-sh7751r-di, nic-usb-modules-3.14-trunk-sh7751r-di, sata-modules-3.14-trunk-sh7751r-di, i2c-modules-3.14-trunk-sh7751r-di, crc-modules-3.14-trunk-sh7751r-di, crypto-modules-3.14-trunk-sh7751r-di, crypto-dm-modules-3.14-trunk-sh7751r-di, nbd-modules-3.14-trunk-sh7751r-di, squashfs-modules-3.14-trunk-sh7751r-di,
+ speakup-modules-3.14-trunk-sh7751r-di, virtio-modules-3.14-trunk-sh7751r-di, sound-modules-3.14-trunk-sh7751r-di, zlib-modules-3.14-trunk-sh7751r-di, udf-modules-3.14-trunk-sh7751r-di, fuse-modules-3.14-trunk-sh7751r-di, kernel-image-3.14-trunk-sh7785lcr-di, nic-modules-3.14-trunk-sh7785lcr-di, usb-serial-modules-3.14-trunk-sh7785lcr-di, ppp-modules-3.14-trunk-sh7785lcr-di, pata-modules-3.14-trunk-sh7785lcr-di, cdrom-core-modules-3.14-trunk-sh7785lcr-di, firewire-core-modules-3.14-trunk-sh7785lcr-di, scsi-core-modules-3.14-trunk-sh7785lcr-di, loop-modules-3.14-trunk-sh7785lcr-di, btrfs-modules-3.14-trunk-sh7785lcr-di, ext4-modules-3.14-trunk-sh7785lcr-di, isofs-modules-3.14-trunk-sh7785lcr-di, jfs-modules-3.14-trunk-sh7785lcr-di, xfs-modules-3.14-trunk-sh7785lcr-di, fat-modules-3.14-trunk-sh7785lcr-di, minix-modules-3.14-trunk-sh7785lcr-di, md-modules-3.14-trunk-sh7785lcr-di, multipath-modules-3.14-trunk-sh7785lcr-di, nic-usb-modules-3.14-trunk-sh7785lcr-di,
+ sata-modules-3.14-trunk-sh7785lcr-di, crc-modules-3.14-trunk-sh7785lcr-di, crypto-modules-3.14-trunk-sh7785lcr-di, crypto-dm-modules-3.14-trunk-sh7785lcr-di, nbd-modules-3.14-trunk-sh7785lcr-di, squashfs-modules-3.14-trunk-sh7785lcr-di, speakup-modules-3.14-trunk-sh7785lcr-di, sound-modules-3.14-trunk-sh7785lcr-di, zlib-modules-3.14-trunk-sh7785lcr-di, udf-modules-3.14-trunk-sh7785lcr-di, fuse-modules-3.14-trunk-sh7785lcr-di, linux-image-3.14-trunk-sh7751r, linux-headers-3.14-trunk-sh7751r, linux-image-3.14-trunk-sh7785lcr, linux-headers-3.14-trunk-sh7785lcr, linux-headers-3.14-trunk-all-sparc, kernel-image-3.14-trunk-sparc64-di, nic-modules-3.14-trunk-sparc64-di, ppp-modules-3.14-trunk-sparc64-di, pata-modules-3.14-trunk-sparc64-di, cdrom-core-modules-3.14-trunk-sparc64-di, scsi-core-modules-3.14-trunk-sparc64-di, scsi-modules-3.14-trunk-sparc64-di, scsi-common-modules-3.14-trunk-sparc64-di, btrfs-modules-3.14-trunk-sparc64-di, ext4-modules-3.14-trunk-sparc64-di,
+ isofs-modules-3.14-trunk-sparc64-di, jfs-modules-3.14-trunk-sparc64-di, xfs-modules-3.14-trunk-sparc64-di, fat-modules-3.14-trunk-sparc64-di, md-modules-3.14-trunk-sparc64-di, multipath-modules-3.14-trunk-sparc64-di, usb-modules-3.14-trunk-sparc64-di, usb-storage-modules-3.14-trunk-sparc64-di, input-modules-3.14-trunk-sparc64-di, sata-modules-3.14-trunk-sparc64-di, core-modules-3.14-trunk-sparc64-di, crc-modules-3.14-trunk-sparc64-di, crypto-modules-3.14-trunk-sparc64-di, crypto-dm-modules-3.14-trunk-sparc64-di, ata-modules-3.14-trunk-sparc64-di, nbd-modules-3.14-trunk-sparc64-di, squashfs-modules-3.14-trunk-sparc64-di, virtio-modules-3.14-trunk-sparc64-di, zlib-modules-3.14-trunk-sparc64-di, udf-modules-3.14-trunk-sparc64-di, fuse-modules-3.14-trunk-sparc64-di, linux-image-3.14-trunk-sparc64, linux-headers-3.14-trunk-sparc64, linux-image-3.14-trunk-sparc64-smp, linux-headers-3.14-trunk-sparc64-smp, linux-headers-3.14-trunk-all-sparc64, linux-compiler-gcc-4.9-arm,
+ linux-compiler-gcc-4.8-s390,
+ linux-compiler-gcc-4.8-x86
+Architecture: all alpha amd64 arm64 armel armhf hppa i386 ia64 m68k mips mipsel powerpc powerpcspe ppc64 s390 s390x sh4 sparc sparc64 x32
+Version: 3.14.0-1+hip04
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Uploaders: Bastian Blank <waldi@debian.org>, Frederik Schüler <fs@debian.org>, maximilian attems <maks@debian.org>, Ben Hutchings <ben@decadent.org.uk>
+Homepage: https://www.kernel.org/
+Standards-Version: 3.9.4
+Vcs-Browser: http://anonscm.debian.org/viewvc/kernel/dists/trunk/linux/
+Vcs-Svn: svn://anonscm.debian.org/svn/kernel/dists/trunk/linux/
+Build-Depends: debhelper, cpio, kmod, python, python-six, lzma [armel], kernel-wedge, quilt, patchutils, bc, gcc-4.9 [alpha amd64 armel armhf hppa i386 mips mipsel powerpc powerpcspe ppc64 s390 s390x sparc sparc64], gcc-4.6 [ia64], gcc-4.8 [m68k], gcc-4.7 [sh4]
+Build-Depends-Indep: xz-utils, xmlto
+Package-List:
+ acpi-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ acpi-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ acpi-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ affs-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ affs-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ ata-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ ata-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ ata-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ ata-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ ata-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ ata-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ ata-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ ata-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ btrfs-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ btrfs-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ btrfs-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ btrfs-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ btrfs-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ btrfs-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ btrfs-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ btrfs-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ btrfs-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ btrfs-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ btrfs-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ btrfs-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ btrfs-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ btrfs-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ btrfs-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ btrfs-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ btrfs-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ btrfs-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ btrfs-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ btrfs-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ btrfs-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ btrfs-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ btrfs-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ cdrom-core-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ cdrom-core-modules-3.14-trunk-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ cdrom-core-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ cdrom-core-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ cdrom-core-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ cdrom-core-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ cdrom-core-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ cdrom-core-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ cdrom-core-modules-3.14-trunk-m68k-di udeb debian-installer standard arch=m68k
+ cdrom-core-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ cdrom-core-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ cdrom-core-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ cdrom-core-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ cdrom-core-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ cdrom-core-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ cdrom-core-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ cdrom-core-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ cdrom-core-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ cdrom-core-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ cdrom-core-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ core-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ core-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ core-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ core-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ core-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ core-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ core-modules-3.14-trunk-m68k-di udeb debian-installer standard arch=m68k
+ core-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ core-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ core-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ core-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ core-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ core-modules-3.14-trunk-s390x-di udeb debian-installer standard arch=s390,s390x
+ core-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ core-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ crc-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ crc-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ crc-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ crc-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ crc-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ crc-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ crc-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ crc-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ crc-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ crc-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ crc-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ crc-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ crc-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ crc-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ crc-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ crc-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ crc-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ crc-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ crc-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ crc-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ crc-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ crypto-dm-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ crypto-dm-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ crypto-dm-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ crypto-dm-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ crypto-dm-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ crypto-dm-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ crypto-dm-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ crypto-dm-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ crypto-dm-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ crypto-dm-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ crypto-dm-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ crypto-dm-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ crypto-dm-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ crypto-dm-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ crypto-dm-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ crypto-dm-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ crypto-dm-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ crypto-dm-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ crypto-dm-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ crypto-dm-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ crypto-dm-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ crypto-dm-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ crypto-dm-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ crypto-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ crypto-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ crypto-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ crypto-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ crypto-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ crypto-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ crypto-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ crypto-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ crypto-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ crypto-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ crypto-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ crypto-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ crypto-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ crypto-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ crypto-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ crypto-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ crypto-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ crypto-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ crypto-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ crypto-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ crypto-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ crypto-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ crypto-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ crypto-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ dasd-extra-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ dasd-modules-3.14-trunk-s390x-di udeb debian-installer standard arch=s390,s390x
+ efi-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ efi-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ efi-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ event-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ event-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ event-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ event-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ event-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ event-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ event-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ event-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ event-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ ext4-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ ext4-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ ext4-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ ext4-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ ext4-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ ext4-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ ext4-modules-3.14-trunk-m68k-di udeb debian-installer standard arch=m68k
+ ext4-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ ext4-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ ext4-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ ext4-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ ext4-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ ext4-modules-3.14-trunk-s390x-di udeb debian-installer standard arch=s390,s390x
+ ext4-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ ext4-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ ext4-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ ext4-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ fancontrol-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ fat-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ fat-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ fat-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ fat-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ fat-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ fat-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ fat-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ fat-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ fat-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ fat-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ fat-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ fat-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ fat-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ fat-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ fat-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ fat-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ fat-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ fat-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ fat-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ fat-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ fat-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ fat-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ fb-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ fb-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ fb-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ fb-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ fb-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ fb-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ fb-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ firewire-core-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ firewire-core-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ firewire-core-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ firewire-core-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ firewire-core-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ firewire-core-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ firewire-core-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ firewire-core-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ fuse-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ fuse-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ fuse-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ fuse-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ fuse-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ fuse-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ fuse-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ fuse-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ fuse-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ fuse-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ fuse-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ fuse-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ fuse-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ fuse-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ fuse-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ fuse-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ fuse-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ fuse-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ fuse-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ fuse-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ fuse-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ fuse-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ fuse-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ fuse-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ hfs-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ hfs-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ hyperv-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ hyperv-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ hyperv-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ hypervisor-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ i2c-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ i2c-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ i2c-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ i2c-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ ide-core-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ ide-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ input-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ input-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ input-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ input-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ input-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ input-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ input-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ input-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ input-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ input-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ input-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ input-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ input-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ input-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ input-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ input-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ ipv6-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ isofs-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ isofs-modules-3.14-trunk-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ isofs-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ isofs-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ isofs-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ isofs-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ isofs-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ isofs-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ isofs-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ isofs-modules-3.14-trunk-m68k-di udeb debian-installer standard arch=m68k
+ isofs-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ isofs-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ isofs-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ isofs-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ isofs-modules-3.14-trunk-r4k-ip22-di udeb debian-installer standard arch=mips
+ isofs-modules-3.14-trunk-r5k-ip32-di udeb debian-installer standard arch=mips
+ isofs-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ isofs-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ isofs-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ isofs-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ isofs-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ jffs2-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ jfs-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ jfs-modules-3.14-trunk-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ jfs-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ jfs-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ jfs-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ jfs-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ jfs-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ jfs-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ jfs-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ jfs-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ jfs-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ jfs-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ jfs-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ jfs-modules-3.14-trunk-r4k-ip22-di udeb debian-installer standard arch=mips
+ jfs-modules-3.14-trunk-r5k-ip32-di udeb debian-installer standard arch=mips
+ jfs-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ jfs-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ jfs-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ jfs-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ kernel-image-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ kernel-image-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ kernel-image-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ kernel-image-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ kernel-image-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ kernel-image-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ kernel-image-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ kernel-image-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ kernel-image-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ kernel-image-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ kernel-image-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ kernel-image-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ kernel-image-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ kernel-image-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ kernel-image-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ kernel-image-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ kernel-image-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ kernel-image-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ kernel-image-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ kernel-image-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ kernel-image-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ kernel-image-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ kernel-image-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ kernel-image-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ leds-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ linux-compiler-gcc-4.8-s390 deb kernel optional arch=s390,s390x
+ linux-compiler-gcc-4.8-x86 deb kernel optional arch=amd64,i386,x32
+ linux-compiler-gcc-4.9-arm deb kernel optional arch=armel,armhf
+ linux-doc-3.14 deb doc optional arch=all
+ linux-headers-3.14-trunk-486 deb kernel optional arch=i386
+ linux-headers-3.14-trunk-4kc-malta deb kernel optional arch=mips,mipsel
+ linux-headers-3.14-trunk-5kc-malta deb kernel optional arch=mips,mipsel
+ linux-headers-3.14-trunk-686-pae deb kernel optional arch=i386
+ linux-headers-3.14-trunk-all deb kernel optional arch=alpha,amd64,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,powerpc,powerpcspe,ppc64,s390,s390x,sh4,sparc,sparc64
+ linux-headers-3.14-trunk-all-alpha deb kernel optional arch=alpha
+ linux-headers-3.14-trunk-all-amd64 deb kernel optional arch=amd64
+ linux-headers-3.14-trunk-all-armel deb kernel optional arch=armel
+ linux-headers-3.14-trunk-all-armhf deb kernel optional arch=armhf
+ linux-headers-3.14-trunk-all-hppa deb kernel optional arch=hppa
+ linux-headers-3.14-trunk-all-i386 deb kernel optional arch=i386
+ linux-headers-3.14-trunk-all-ia64 deb kernel optional arch=ia64
+ linux-headers-3.14-trunk-all-m68k deb kernel optional arch=m68k
+ linux-headers-3.14-trunk-all-mips deb kernel optional arch=mips
+ linux-headers-3.14-trunk-all-mipsel deb kernel optional arch=mipsel
+ linux-headers-3.14-trunk-all-powerpc deb kernel optional arch=powerpc
+ linux-headers-3.14-trunk-all-powerpcspe deb kernel optional arch=powerpcspe
+ linux-headers-3.14-trunk-all-ppc64 deb kernel optional arch=ppc64
+ linux-headers-3.14-trunk-all-s390 deb kernel optional arch=s390
+ linux-headers-3.14-trunk-all-s390x deb kernel optional arch=s390x
+ linux-headers-3.14-trunk-all-sh4 deb kernel optional arch=sh4
+ linux-headers-3.14-trunk-all-sparc deb kernel optional arch=sparc
+ linux-headers-3.14-trunk-all-sparc64 deb kernel optional arch=sparc64
+ linux-headers-3.14-trunk-alpha-generic deb kernel optional arch=alpha
+ linux-headers-3.14-trunk-alpha-legacy deb kernel optional arch=alpha
+ linux-headers-3.14-trunk-alpha-smp deb kernel optional arch=alpha
+ linux-headers-3.14-trunk-amd64 deb kernel optional arch=amd64,i386
+ linux-headers-3.14-trunk-armmp deb kernel optional arch=armhf
+ linux-headers-3.14-trunk-armmp-lpae deb kernel optional arch=armhf
+ linux-headers-3.14-trunk-common deb kernel optional arch=alpha,amd64,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,powerpc,powerpcspe,ppc64,s390,s390x,sh4,sparc,sparc64
+ linux-headers-3.14-trunk-common-rt deb kernel optional arch=amd64,i386
+ linux-headers-3.14-trunk-itanium deb kernel optional arch=ia64
+ linux-headers-3.14-trunk-kirkwood deb kernel optional arch=armel
+ linux-headers-3.14-trunk-loongson-2e deb kernel optional arch=mipsel
+ linux-headers-3.14-trunk-loongson-2f deb kernel optional arch=mipsel
+ linux-headers-3.14-trunk-m68k deb kernel optional arch=m68k
+ linux-headers-3.14-trunk-mckinley deb kernel optional arch=ia64
+ linux-headers-3.14-trunk-mv78xx0 deb kernel optional arch=armel
+ linux-headers-3.14-trunk-octeon deb kernel optional arch=mips
+ linux-headers-3.14-trunk-orion5x deb kernel optional arch=armel
+ linux-headers-3.14-trunk-parisc deb kernel optional arch=hppa
+ linux-headers-3.14-trunk-parisc64-smp deb kernel optional arch=hppa
+ linux-headers-3.14-trunk-powerpc deb kernel optional arch=powerpc
+ linux-headers-3.14-trunk-powerpc-smp deb kernel optional arch=powerpc
+ linux-headers-3.14-trunk-powerpc64 deb kernel optional arch=powerpc,ppc64
+ linux-headers-3.14-trunk-powerpcspe deb kernel optional arch=powerpcspe
+ linux-headers-3.14-trunk-r4k-ip22 deb kernel optional arch=mips
+ linux-headers-3.14-trunk-r5k-ip32 deb kernel optional arch=mips
+ linux-headers-3.14-trunk-rt-686-pae deb kernel optional arch=i386
+ linux-headers-3.14-trunk-rt-amd64 deb kernel optional arch=amd64
+ linux-headers-3.14-trunk-s390x deb kernel optional arch=s390,s390x
+ linux-headers-3.14-trunk-sb1-bcm91250a deb kernel optional arch=mips,mipsel
+ linux-headers-3.14-trunk-sb1a-bcm91480b deb kernel optional arch=mips,mipsel
+ linux-headers-3.14-trunk-sh7751r deb kernel optional arch=sh4
+ linux-headers-3.14-trunk-sh7785lcr deb kernel optional arch=sh4
+ linux-headers-3.14-trunk-sparc64 deb kernel optional arch=sparc,sparc64
+ linux-headers-3.14-trunk-sparc64-smp deb kernel optional arch=sparc,sparc64
+ linux-headers-3.14-trunk-versatile deb kernel optional arch=armel
+ linux-image-3.14-trunk-486 deb kernel optional arch=i386
+ linux-image-3.14-trunk-4kc-malta deb kernel optional arch=mips,mipsel
+ linux-image-3.14-trunk-5kc-malta deb kernel optional arch=mips,mipsel
+ linux-image-3.14-trunk-686-pae deb kernel optional arch=i386
+ linux-image-3.14-trunk-686-pae-dbg deb debug extra arch=i386
+ linux-image-3.14-trunk-alpha-generic deb kernel optional arch=alpha
+ linux-image-3.14-trunk-alpha-legacy deb kernel optional arch=alpha
+ linux-image-3.14-trunk-alpha-smp deb kernel optional arch=alpha
+ linux-image-3.14-trunk-amd64 deb kernel optional arch=amd64,i386
+ linux-image-3.14-trunk-amd64-dbg deb debug extra arch=amd64
+ linux-image-3.14-trunk-armmp deb kernel optional arch=armhf
+ linux-image-3.14-trunk-armmp-lpae deb kernel optional arch=armhf
+ linux-image-3.14-trunk-itanium deb kernel optional arch=ia64
+ linux-image-3.14-trunk-kirkwood deb kernel optional arch=armel
+ linux-image-3.14-trunk-loongson-2e deb kernel optional arch=mipsel
+ linux-image-3.14-trunk-loongson-2f deb kernel optional arch=mipsel
+ linux-image-3.14-trunk-m68k deb kernel optional arch=m68k
+ linux-image-3.14-trunk-mckinley deb kernel optional arch=ia64
+ linux-image-3.14-trunk-mv78xx0 deb kernel optional arch=armel
+ linux-image-3.14-trunk-octeon deb kernel optional arch=mips
+ linux-image-3.14-trunk-orion5x deb kernel optional arch=armel
+ linux-image-3.14-trunk-parisc deb kernel optional arch=hppa
+ linux-image-3.14-trunk-parisc64-smp deb kernel optional arch=hppa
+ linux-image-3.14-trunk-powerpc deb kernel optional arch=powerpc
+ linux-image-3.14-trunk-powerpc-smp deb kernel optional arch=powerpc
+ linux-image-3.14-trunk-powerpc64 deb kernel optional arch=powerpc,ppc64
+ linux-image-3.14-trunk-powerpcspe deb kernel optional arch=powerpcspe
+ linux-image-3.14-trunk-r4k-ip22 deb kernel optional arch=mips
+ linux-image-3.14-trunk-r5k-ip32 deb kernel optional arch=mips
+ linux-image-3.14-trunk-rt-686-pae deb kernel optional arch=i386
+ linux-image-3.14-trunk-rt-686-pae-dbg deb debug extra arch=i386
+ linux-image-3.14-trunk-rt-amd64 deb kernel optional arch=amd64
+ linux-image-3.14-trunk-rt-amd64-dbg deb debug extra arch=amd64
+ linux-image-3.14-trunk-s390x deb kernel optional arch=s390,s390x
+ linux-image-3.14-trunk-s390x-dbg deb debug extra arch=s390,s390x
+ linux-image-3.14-trunk-sb1-bcm91250a deb kernel optional arch=mips,mipsel
+ linux-image-3.14-trunk-sb1a-bcm91480b deb kernel optional arch=mips,mipsel
+ linux-image-3.14-trunk-sh7751r deb kernel optional arch=sh4
+ linux-image-3.14-trunk-sh7785lcr deb kernel optional arch=sh4
+ linux-image-3.14-trunk-sparc64 deb kernel optional arch=sparc,sparc64
+ linux-image-3.14-trunk-sparc64-smp deb kernel optional arch=sparc,sparc64
+ linux-image-3.14-trunk-versatile deb kernel optional arch=armel
+ linux-libc-dev deb devel optional arch=alpha,amd64,arm64,armel,armhf,hppa,i386,ia64,m68k,mips,mipsel,powerpc,powerpcspe,ppc64,s390,s390x,sh4,sparc,sparc64,x32
+ linux-manual-3.14 deb doc optional arch=all
+ linux-source-3.14 deb kernel optional arch=all
+ linux-support-3.14-trunk deb devel optional arch=all
+ loop-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ loop-modules-3.14-trunk-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ loop-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ loop-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ loop-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ loop-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ loop-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ loop-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ loop-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ loop-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ loop-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ loop-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ loop-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ loop-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ loop-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ loop-modules-3.14-trunk-r4k-ip22-di udeb debian-installer standard arch=mips
+ loop-modules-3.14-trunk-r5k-ip32-di udeb debian-installer standard arch=mips
+ loop-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ loop-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ loop-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ loop-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ lzo-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ lzo-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ md-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ md-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ md-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ md-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ md-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ md-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ md-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ md-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ md-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ md-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ md-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ md-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ md-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ md-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ md-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ md-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ md-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ md-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ md-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ md-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ md-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ md-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ md-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ md-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ minix-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ minix-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ minix-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ minix-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ mmc-core-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ mmc-core-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ mmc-core-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ mmc-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ mmc-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ mmc-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ mmc-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ mmc-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ mouse-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ mouse-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ mouse-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ mouse-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ mouse-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ mouse-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ mouse-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ multipath-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ multipath-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ multipath-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ multipath-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ multipath-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ multipath-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ multipath-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ multipath-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ multipath-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ multipath-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ multipath-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ multipath-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ multipath-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ multipath-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ multipath-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ multipath-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ multipath-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ multipath-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ multipath-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ multipath-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ multipath-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ multipath-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ multipath-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ nbd-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ nbd-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ nbd-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ nbd-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ nbd-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ nbd-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ nbd-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ nbd-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ nbd-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ nbd-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ nbd-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ nbd-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ nbd-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ nbd-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ nbd-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ nbd-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ nbd-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ nbd-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ nbd-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ nbd-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ nbd-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ nbd-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ nbd-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ nbd-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ nic-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ nic-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ nic-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ nic-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ nic-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ nic-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ nic-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ nic-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ nic-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ nic-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ nic-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ nic-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ nic-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ nic-modules-3.14-trunk-s390x-di udeb debian-installer standard arch=s390,s390x
+ nic-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ nic-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ nic-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ nic-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ nic-pcmcia-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ nic-pcmcia-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ nic-pcmcia-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ nic-pcmcia-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ nic-pcmcia-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ nic-shared-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ nic-shared-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ nic-shared-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ nic-shared-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ nic-shared-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ nic-shared-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ nic-shared-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ nic-shared-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ nic-shared-modules-3.14-trunk-m68k-di udeb debian-installer standard arch=m68k
+ nic-shared-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ nic-shared-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ nic-shared-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ nic-shared-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ nic-shared-modules-3.14-trunk-r4k-ip22-di udeb debian-installer standard arch=mips
+ nic-shared-modules-3.14-trunk-r5k-ip32-di udeb debian-installer standard arch=mips
+ nic-shared-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ nic-shared-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ nic-usb-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ nic-usb-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ nic-usb-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ nic-usb-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ nic-usb-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ nic-usb-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ nic-usb-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ nic-usb-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ nic-usb-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ nic-usb-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ nic-usb-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ nic-usb-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ nic-wireless-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ nic-wireless-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ nic-wireless-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ nic-wireless-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ ntfs-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ ntfs-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ ntfs-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ ntfs-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ pata-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ pata-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ pata-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ pata-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ pata-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ pata-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ pata-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ pata-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ pata-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ pata-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ pata-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ pata-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ pcmcia-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ pcmcia-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ pcmcia-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ pcmcia-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ pcmcia-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ pcmcia-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ pcmcia-storage-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ pcmcia-storage-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ pcmcia-storage-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ pcmcia-storage-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ pcmcia-storage-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ ppp-modules-3.14-trunk-486-di udeb debian-installer optional arch=i386
+ ppp-modules-3.14-trunk-4kc-malta-di udeb debian-installer optional arch=mips,mipsel
+ ppp-modules-3.14-trunk-686-pae-di udeb debian-installer optional arch=i386
+ ppp-modules-3.14-trunk-amd64-di udeb debian-installer optional arch=amd64
+ ppp-modules-3.14-trunk-armmp-di udeb debian-installer optional arch=armhf
+ ppp-modules-3.14-trunk-itanium-di udeb debian-installer optional arch=ia64
+ ppp-modules-3.14-trunk-kirkwood-di udeb debian-installer optional arch=armel
+ ppp-modules-3.14-trunk-loongson-2e-di udeb debian-installer optional arch=mipsel
+ ppp-modules-3.14-trunk-loongson-2f-di udeb debian-installer optional arch=mipsel
+ ppp-modules-3.14-trunk-m68k-di udeb debian-installer optional arch=m68k
+ ppp-modules-3.14-trunk-octeon-di udeb debian-installer optional arch=mips
+ ppp-modules-3.14-trunk-orion5x-di udeb debian-installer optional arch=armel
+ ppp-modules-3.14-trunk-parisc-di udeb debian-installer optional arch=hppa
+ ppp-modules-3.14-trunk-parisc64-smp-di udeb debian-installer optional arch=hppa
+ ppp-modules-3.14-trunk-powerpc-di udeb debian-installer optional arch=powerpc
+ ppp-modules-3.14-trunk-powerpc64-di udeb debian-installer optional arch=powerpc,ppc64
+ ppp-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer optional arch=mips,mipsel
+ ppp-modules-3.14-trunk-sh7751r-di udeb debian-installer optional arch=sh4
+ ppp-modules-3.14-trunk-sh7785lcr-di udeb debian-installer optional arch=sh4
+ ppp-modules-3.14-trunk-sparc64-di udeb debian-installer optional arch=sparc,sparc64
+ ppp-modules-3.14-trunk-versatile-di udeb debian-installer optional arch=armel
+ rtc-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ rtc-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ sata-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ sata-modules-3.14-trunk-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ sata-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ sata-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ sata-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ sata-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ sata-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ sata-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ sata-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ sata-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ sata-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ sata-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ sata-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ sata-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ sata-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ sata-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ sata-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ sata-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ scsi-common-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ scsi-common-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ scsi-common-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ scsi-common-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ scsi-common-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ scsi-common-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ scsi-common-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ scsi-common-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ scsi-common-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ scsi-core-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ scsi-core-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ scsi-core-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ scsi-core-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ scsi-core-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ scsi-core-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ scsi-core-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ scsi-core-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ scsi-core-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ scsi-core-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ scsi-core-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ scsi-core-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ scsi-core-modules-3.14-trunk-s390x-di udeb debian-installer standard arch=s390,s390x
+ scsi-core-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ scsi-core-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ scsi-core-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ scsi-core-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ scsi-core-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ scsi-extra-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ scsi-extra-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ scsi-extra-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ scsi-extra-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ scsi-extra-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ scsi-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ scsi-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ scsi-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ scsi-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ scsi-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ scsi-modules-3.14-trunk-m68k-di udeb debian-installer standard arch=m68k
+ scsi-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ scsi-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ scsi-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ scsi-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ scsi-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ scsi-modules-3.14-trunk-s390x-di udeb debian-installer standard arch=s390,s390x
+ scsi-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ scsi-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ serial-modules-3.14-trunk-486-di udeb debian-installer optional arch=i386
+ serial-modules-3.14-trunk-686-pae-di udeb debian-installer optional arch=i386
+ serial-modules-3.14-trunk-amd64-di udeb debian-installer optional arch=amd64
+ serial-modules-3.14-trunk-itanium-di udeb debian-installer optional arch=ia64
+ serial-modules-3.14-trunk-powerpc-di udeb debian-installer optional arch=powerpc
+ serial-modules-3.14-trunk-powerpc64-di udeb debian-installer optional arch=powerpc,ppc64
+ sn-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ sound-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ sound-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ sound-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ sound-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ sound-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ speakup-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ speakup-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ speakup-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ speakup-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ speakup-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ squashfs-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ squashfs-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ squashfs-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ squashfs-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ squashfs-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ squashfs-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ squashfs-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ squashfs-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ squashfs-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ squashfs-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ squashfs-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ squashfs-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ squashfs-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ squashfs-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ squashfs-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ squashfs-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ squashfs-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ squashfs-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ squashfs-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ squashfs-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ squashfs-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ udf-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ udf-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ udf-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ udf-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ udf-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ udf-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ udf-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ udf-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ udf-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ udf-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ udf-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ udf-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ udf-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ udf-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ udf-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ udf-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ udf-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ udf-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ udf-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ udf-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ udf-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ uinput-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ uinput-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ uinput-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ uinput-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ uinput-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ uinput-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ uinput-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ uinput-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ usb-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ usb-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ usb-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ usb-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ usb-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ usb-modules-3.14-trunk-itanium-di udeb debian-installer extra arch=ia64
+ usb-modules-3.14-trunk-kirkwood-di udeb debian-installer extra arch=armel
+ usb-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ usb-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ usb-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ usb-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ usb-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ usb-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ usb-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ usb-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ usb-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ usb-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ usb-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ usb-serial-modules-3.14-trunk-486-di udeb debian-installer optional arch=i386
+ usb-serial-modules-3.14-trunk-686-pae-di udeb debian-installer optional arch=i386
+ usb-serial-modules-3.14-trunk-amd64-di udeb debian-installer optional arch=amd64
+ usb-serial-modules-3.14-trunk-kirkwood-di udeb debian-installer optional arch=armel
+ usb-serial-modules-3.14-trunk-orion5x-di udeb debian-installer optional arch=armel
+ usb-serial-modules-3.14-trunk-powerpc-di udeb debian-installer optional arch=powerpc
+ usb-serial-modules-3.14-trunk-powerpc64-di udeb debian-installer optional arch=powerpc,ppc64
+ usb-serial-modules-3.14-trunk-sh7751r-di udeb debian-installer optional arch=sh4
+ usb-serial-modules-3.14-trunk-sh7785lcr-di udeb debian-installer optional arch=sh4
+ usb-serial-modules-3.14-trunk-versatile-di udeb debian-installer optional arch=armel
+ usb-storage-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ usb-storage-modules-3.14-trunk-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ usb-storage-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ usb-storage-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ usb-storage-modules-3.14-trunk-armmp-di udeb debian-installer standard arch=armhf
+ usb-storage-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ usb-storage-modules-3.14-trunk-kirkwood-di udeb debian-installer standard arch=armel
+ usb-storage-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ usb-storage-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ usb-storage-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ usb-storage-modules-3.14-trunk-orion5x-di udeb debian-installer standard arch=armel
+ usb-storage-modules-3.14-trunk-parisc-di udeb debian-installer standard arch=hppa
+ usb-storage-modules-3.14-trunk-parisc64-smp-di udeb debian-installer standard arch=hppa
+ usb-storage-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ usb-storage-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ usb-storage-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ usb-storage-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ usb-storage-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ usb-storage-modules-3.14-trunk-versatile-di udeb debian-installer standard arch=armel
+ virtio-modules-3.14-trunk-486-di udeb debian-installer extra arch=i386
+ virtio-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ virtio-modules-3.14-trunk-686-pae-di udeb debian-installer extra arch=i386
+ virtio-modules-3.14-trunk-amd64-di udeb debian-installer extra arch=amd64
+ virtio-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ virtio-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ virtio-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ virtio-modules-3.14-trunk-powerpc64-di udeb debian-installer extra arch=powerpc,ppc64
+ virtio-modules-3.14-trunk-s390x-di udeb debian-installer extra arch=s390,s390x
+ virtio-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ virtio-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ virtio-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+ xen-linux-system-3.14-trunk-amd64 deb metapackages optional arch=amd64
+ xfs-modules-3.14-trunk-486-di udeb debian-installer standard arch=i386
+ xfs-modules-3.14-trunk-4kc-malta-di udeb debian-installer standard arch=mips,mipsel
+ xfs-modules-3.14-trunk-686-pae-di udeb debian-installer standard arch=i386
+ xfs-modules-3.14-trunk-amd64-di udeb debian-installer standard arch=amd64
+ xfs-modules-3.14-trunk-itanium-di udeb debian-installer standard arch=ia64
+ xfs-modules-3.14-trunk-loongson-2e-di udeb debian-installer standard arch=mipsel
+ xfs-modules-3.14-trunk-loongson-2f-di udeb debian-installer standard arch=mipsel
+ xfs-modules-3.14-trunk-octeon-di udeb debian-installer standard arch=mips
+ xfs-modules-3.14-trunk-powerpc-di udeb debian-installer standard arch=powerpc
+ xfs-modules-3.14-trunk-powerpc64-di udeb debian-installer standard arch=powerpc,ppc64
+ xfs-modules-3.14-trunk-r4k-ip22-di udeb debian-installer standard arch=mips
+ xfs-modules-3.14-trunk-r5k-ip32-di udeb debian-installer standard arch=mips
+ xfs-modules-3.14-trunk-s390x-di udeb debian-installer standard arch=s390,s390x
+ xfs-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer standard arch=mips,mipsel
+ xfs-modules-3.14-trunk-sh7751r-di udeb debian-installer standard arch=sh4
+ xfs-modules-3.14-trunk-sh7785lcr-di udeb debian-installer standard arch=sh4
+ xfs-modules-3.14-trunk-sparc64-di udeb debian-installer standard arch=sparc,sparc64
+ zlib-modules-3.14-trunk-4kc-malta-di udeb debian-installer extra arch=mips,mipsel
+ zlib-modules-3.14-trunk-armmp-di udeb debian-installer extra arch=armhf
+ zlib-modules-3.14-trunk-loongson-2e-di udeb debian-installer extra arch=mipsel
+ zlib-modules-3.14-trunk-loongson-2f-di udeb debian-installer extra arch=mipsel
+ zlib-modules-3.14-trunk-m68k-di udeb debian-installer extra arch=m68k
+ zlib-modules-3.14-trunk-octeon-di udeb debian-installer extra arch=mips
+ zlib-modules-3.14-trunk-orion5x-di udeb debian-installer extra arch=armel
+ zlib-modules-3.14-trunk-parisc-di udeb debian-installer extra arch=hppa
+ zlib-modules-3.14-trunk-parisc64-smp-di udeb debian-installer extra arch=hppa
+ zlib-modules-3.14-trunk-powerpc-di udeb debian-installer extra arch=powerpc
+ zlib-modules-3.14-trunk-r4k-ip22-di udeb debian-installer extra arch=mips
+ zlib-modules-3.14-trunk-r5k-ip32-di udeb debian-installer extra arch=mips
+ zlib-modules-3.14-trunk-sb1-bcm91250a-di udeb debian-installer extra arch=mips,mipsel
+ zlib-modules-3.14-trunk-sh7751r-di udeb debian-installer extra arch=sh4
+ zlib-modules-3.14-trunk-sh7785lcr-di udeb debian-installer extra arch=sh4
+ zlib-modules-3.14-trunk-sparc64-di udeb debian-installer extra arch=sparc,sparc64
+ zlib-modules-3.14-trunk-versatile-di udeb debian-installer extra arch=armel
+Priority: optional
+Section: kernel
+Directory: pool/main/l/linux
+Files: 
+ a22fe7bfb604c4e20cca186b37c083aa 103697 linux_3.14.0-1+hip04.dsc
+ 58fb089531f9d84ca03747cf809a6941 123979117 linux_3.14.0.orig.tar.gz
+ 26607e1026736bcee567fab5d607918e 768084 linux_3.14.0-1+hip04.debian.tar.xz
+Checksums-Sha1: 
+ f792c9ddd9dfee66c85fde03618c697acc5907f6 103697 linux_3.14.0-1+hip04.dsc
+ 12692e953e0035e250350e306ffd4f03bc34640b 123979117 linux_3.14.0.orig.tar.gz
+ afe5d33d17d34780c5539e35dc3eac5714835f6c 768084 linux_3.14.0-1+hip04.debian.tar.xz
+Checksums-Sha256: 
+ 1355bafba21d89e9cc40b4b72ec948267c9e8c6ae9c9bb5de283258dc6b37865 103697 linux_3.14.0-1+hip04.dsc
+ d03d018b7b188a0ef5881b5cd7953f8af1e9cf7ba3bd551d6a7d659c52bb313e 123979117 linux_3.14.0.orig.tar.gz
+ 04870333b3b700549524d193f6e2c7770986d5fb2f708a563f8c814320a4051a 768084 linux_3.14.0-1+hip04.debian.tar.xz
+
+Package: linux-linaro-vexpress64-3.15
+Format: 1.0
+Binary: linux-linaro-tools-3.15.0-1-linaro-vexpress64, linux-image-3.15.0-1-linaro-vexpress64, linux-image-extra-3.15.0-1-linaro-vexpress64, linux-headers-3.15.0-1-linaro-vexpress64, linux-image-3.15.0-1-linaro-vexpress64-dbgsym, kernel-image-3.15.0-1-linaro-vexpress64-di
+Architecture: armel armhf arm64
+Version: 3.15.0-1.1ubuntu1~ci+140525172720
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.8.4.0
+Vcs-Git: git://github.com/jcrigby/linaro-ci-kernels.git linux-linaro-vexpress64-3.15_3.15.0-1.1ubuntu1--ci+140525172720
+Build-Depends: debhelper (>= 5), cpio, module-init-tools, kernel-wedge (>= 2.24ubuntu1), makedumpfile [amd64 i386], device-tree-compiler [powerpc], libelf-dev, libnewt-dev, libiberty-dev, rsync, libdw-dev, dpkg (>= 1.16.0~ubuntu4), util-linux, pkg-config, flex, bison, bc
+Build-Depends-Indep: xmlto, docbook-utils, ghostscript, transfig, bzip2, sharutils, asciidoc
+Build-Conflicts: findutils (= 4.4.1-1ubuntu1)
+Package-List:
+ kernel-image-3.15.0-1-linaro-vexpress64-di udeb debian-installer extra
+ linux-headers-3.15.0-1-linaro-vexpress64 deb devel optional
+ linux-image-3.15.0-1-linaro-vexpress64 deb kernel optional
+ linux-image-3.15.0-1-linaro-vexpress64-dbgsym deb devel optional
+ linux-image-extra-3.15.0-1-linaro-vexpress64 deb kernel optional
+ linux-linaro-tools-3.15.0-1-linaro-vexpress64 deb devel optional
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-linaro-vexpress64-3.15
+Files: 
+ 7b02d4c4c056586e6be184da6540b259 2196 linux-linaro-vexpress64-3.15_3.15.0-1.1ubuntu1~ci+140525172720.dsc
+ 91fa9bb1c96b55d930568c8ac07efcaa 125230882 linux-linaro-vexpress64-3.15_3.15.0-1.1ubuntu1~ci+140525172720.tar.gz
+Checksums-Sha1: 
+ aa269df7ded9dfd950c4c9dd8858548b1e86e4d5 2196 linux-linaro-vexpress64-3.15_3.15.0-1.1ubuntu1~ci+140525172720.dsc
+ a61e791f996099c38f22764d0adac25b0996a856 125230882 linux-linaro-vexpress64-3.15_3.15.0-1.1ubuntu1~ci+140525172720.tar.gz
+Checksums-Sha256: 
+ b7abe966a64478f13fc73633970f8988c5e9ffa9216335f3219ae92fef90fc2e 2196 linux-linaro-vexpress64-3.15_3.15.0-1.1ubuntu1~ci+140525172720.dsc
+ e4b6ad873601ac56621f35f44e7973707028d94e1d8c1d2dcc78af3e383a492d 125230882 linux-linaro-vexpress64-3.15_3.15.0-1.1ubuntu1~ci+140525172720.tar.gz
+
+Package: linux-meta-linaro-vexpress64
+Format: 1.0
+Binary: linux-headers-linaro-vexpress64, linux-image-linaro-vexpress64, linux-tools-linaro-vexpress64
+Architecture: arm64
+Version: 3.15.0.1.1
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Standards-Version: 3.6.1
+Vcs-Git: http://git.linaro.org/git-ro/ubuntu/linux-meta-linaro.git
+Build-Depends: dpkg (>= 1.13.19), debhelper (>= 5), gawk
+Package-List:
+ linux-headers-linaro-vexpress64 deb devel optional
+ linux-image-linaro-vexpress64 deb metapackages optional
+ linux-tools-linaro-vexpress64 deb metapackages optional
+Priority: optional
+Section: devel
+Directory: pool/main/l/linux-meta-linaro-vexpress64
+Files: 
+ 99133bb687f069daf7e127f9d7b97582 1272 linux-meta-linaro-vexpress64_3.15.0.1.1.dsc
+ b4fe25bbe53314e685309295248c6e0d 2397 linux-meta-linaro-vexpress64_3.15.0.1.1.tar.gz
+Checksums-Sha1: 
+ 503a232e491c5b588fb0c79fb40eee8f6856d9a5 1272 linux-meta-linaro-vexpress64_3.15.0.1.1.dsc
+ 22c0386d69da7ce4a9df293bb0448773a4f3f7f0 2397 linux-meta-linaro-vexpress64_3.15.0.1.1.tar.gz
+Checksums-Sha256: 
+ acea2888f357916665a7a95a7aa78f4c5b24596220d97872abdbc8b54ab46090 1272 linux-meta-linaro-vexpress64_3.15.0.1.1.dsc
+ 678f52146d61da136599863087bdcc471d84db7e717c11ebe19c215da063f619 2397 linux-meta-linaro-vexpress64_3.15.0.1.1.tar.gz
+
+Package: python-debian
+Format: 3.0 (native)
+Binary: python-debian, python3-debian
+Architecture: all
+Version: 0.1.24+linaro1
+Maintainer: Debian python-debian Maintainers <pkg-python-debian-maint@lists.alioth.debian.org>
+Uploaders:  Adeodato Simó <dato@net.com.org.es>, Enrico Zini <enrico@debian.org>, James Westby <jw+debian@jameswestby.net>, Reinhard Tartler <siretart@tauware.de>, Stefano Zacchiroli <zack@debian.org>, John Wright <jsw@debian.org>, Stuart Prescott <stuart@debian.org>
+Standards-Version: 3.9.5
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-python-debian/python-debian.git
+Vcs-Git: git://anonscm.debian.org/pkg-python-debian/python-debian.git
+Build-Depends: debhelper (>= 9), dh-python, python-all (>= 2.6.6-3~), python-apt, python-chardet, python-nose, python-setuptools, python-six (>> 1.4~), python3-all (>= 3.1.2-8~), python3-apt, python3-chardet, python3-nose, python3-setuptools, python3-six (>> 1.4~)
+Package-List:
+ python-debian deb python optional
+ python3-debian deb python optional
+Priority: optional
+Section: python
+Directory: pool/main/p/python-debian
+Files: 
+ c967084706df3111ed6f964d8dd8889c 2217 python-debian_0.1.24+linaro1.dsc
+ 91f7d16ecba7499d8556951591f587ab 345006 python-debian_0.1.24+linaro1.tar.gz
+Checksums-Sha1: 
+ 66fadb83bd7ed5f43d518b75df998633f12ced91 2217 python-debian_0.1.24+linaro1.dsc
+ 72085620e81bc4866128969a08ada62288d4f8f1 345006 python-debian_0.1.24+linaro1.tar.gz
+Checksums-Sha256: 
+ 451329bbbe942fdd37c1a2c36f9f91519ed0ee9f8a4d3d5a157208b54307c1cd 2217 python-debian_0.1.24+linaro1.dsc
+ c784fb7e28b229b61309cff5072a4b84aacb8a1ca5e826016cf9534164b7a767 345006 python-debian_0.1.24+linaro1.tar.gz
+Testsuite: autopkgtest
+
+Package: qemu-linaro
+Format: 1.0
+Binary: qemu-linaro-keymaps, qemu-system, qemu-user, qemu-user-static, qemu-utils
+Architecture: all amd64 arm armel armhf arm64 hppa i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc ppc64 sparc sparc64 s390x
+Version: 2.2.0~rc3+git8+gdb12451-63linaro+trusty
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders: Aurelien Jarno <aurel32@debian.org>, Riku Voipio <riku.voipio@iki.fi>, Vagrant Cascadian <vagrant@debian.org>
+Homepage: https://launchpad.net/qemu-linaro/
+Standards-Version: 3.9.1
+Vcs-Bzr: lp:ubuntu/qemu-linaro
+Build-Depends: debhelper (>= 7.0.50~), libasound2-dev [!kfreebsd-any], libbluetooth-dev [!kfreebsd-any], libbrlapi-dev, libcurl4-gnutls-dev, libfdt-dev, libgnutls-dev, libncurses5-dev, libpixman-1-dev, libpulse-dev, libsasl2-dev, libsdl1.2-dev (>> 1.2.1), libvdeplug2-dev [!kfreebsd-any], libx11-dev, python:any, texinfo, uuid-dev, zlib1g-dev
+Build-Conflicts: oss4-dev
+Package-List:
+ qemu-linaro-keymaps deb misc optional
+ qemu-system deb misc optional
+ qemu-user deb misc optional
+ qemu-user-static deb misc optional
+ qemu-utils deb misc optional
+Priority: optional
+Section: misc
+Directory: pool/main/q/qemu-linaro
+Files: 
+ 522cc5bec097f11a696bc28bf02e3965 2437 qemu-linaro_2.2.0~rc3+git8+gdb12451-63linaro+trusty.dsc
+ a5f44f495ce8dbf814dbeb7ae5880034 10693157 qemu-linaro_2.2.0~rc3+git8+gdb12451.orig.tar.gz
+ 5a0d280bc0a5d6ef68ffdcf14ae430d1 13265 qemu-linaro_2.2.0~rc3+git8+gdb12451-63linaro+trusty.diff.gz
+Checksums-Sha1: 
+ e546bdcd254557e546203f9c0ff15a6da47a0600 2437 qemu-linaro_2.2.0~rc3+git8+gdb12451-63linaro+trusty.dsc
+ 8afb1199606260a043acdf2d99cf36d22a34c5ac 10693157 qemu-linaro_2.2.0~rc3+git8+gdb12451.orig.tar.gz
+ 529c1de0162cb632adbe02b8252a64a292e08489 13265 qemu-linaro_2.2.0~rc3+git8+gdb12451-63linaro+trusty.diff.gz
+Checksums-Sha256: 
+ 55494b4938b694ab2798452f59c7b2d040d5aa83959d4c02b41719139f9a7ab3 2437 qemu-linaro_2.2.0~rc3+git8+gdb12451-63linaro+trusty.dsc
+ 947a38736744ab2be71d78225c90ccde3e2db724e84a07c5cafdade73b9f8c10 10693157 qemu-linaro_2.2.0~rc3+git8+gdb12451.orig.tar.gz
+ 2a3cd9791a9a541d2f9b0cd1ab4735aa1a88d42252101692ef3217cb3c71eb3a 13265 qemu-linaro_2.2.0~rc3+git8+gdb12451-63linaro+trusty.diff.gz
+Original-Maintainer: Debian QEMU Team <pkg-qemu-devel@lists.alioth.debian.org>
+
+Package: xen
+Format: 1.0
+Binary: libxen-4.4, libxenstore3.0, libxen-dev, xenstore-utils, libxen-ocaml, libxen-ocaml-dev, xen-utils-common, xen-utils-4.4, xen-hypervisor-4.4-amd64, xen-system-amd64, xen-hypervisor-4.4-armhf, xen-system-armhf, xen-hypervisor-4.4-arm64, xen-system-arm64, xen-hypervisor-4.1-amd64, xen-hypervisor-4.1-i386, xen-hypervisor-4.3-amd64, xen-hypervisor-4.3-armhf
+Architecture: amd64 i386 armhf arm64 all
+Version: 4.4.0+git52+20140923+e01fa4e-1linarotrusty1
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders: Guido Trotter <ultrotter@debian.org>, Bastian Blank <waldi@debian.org>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>> 7), dpkg-dev (>= 1.16.0~), lsb-release, python-dev, bcc, gcc-multilib [!arm64], e2fslibs-dev, iasl, ipxe-qemu, seabios, libaio-dev, libglib2.0-dev, libgnutls-dev, liblzma-dev, libncurses5-dev, libpci-dev, libyajl-dev, libssl-dev, pkg-config, uuid-dev, zlib1g-dev, ocaml-nox, dh-ocaml, ocaml-findlib, libfdt-dev [armhf arm64]
+Package-List:
+ libxen-4.4 deb libs optional
+ libxen-dev deb libdevel optional
+ libxen-ocaml deb ocaml optional
+ libxen-ocaml-dev deb ocaml optional
+ libxenstore3.0 deb libs optional
+ xen-hypervisor-4.1-amd64 deb oldlibs optional
+ xen-hypervisor-4.1-i386 deb oldlibs optional
+ xen-hypervisor-4.3-amd64 deb oldlibs optional
+ xen-hypervisor-4.3-armhf deb oldlibs optional
+ xen-hypervisor-4.4-amd64 deb kernel optional
+ xen-hypervisor-4.4-arm64 deb kernel optional
+ xen-hypervisor-4.4-armhf deb kernel optional
+ xen-system-amd64 deb kernel optional
+ xen-system-arm64 deb kernel optional
+ xen-system-armhf deb kernel optional
+ xen-utils-4.4 deb kernel optional
+ xen-utils-common deb kernel optional
+ xenstore-utils deb admin optional
+Priority: optional
+Section: kernel
+Directory: pool/main/x/xen
+Files: 
+ 8fd4e503822d305046895341da0e1994 3037 xen_4.4.0+git52+20140923+e01fa4e-1linarotrusty1.dsc
+ 3ef74aed1f902d0fed1168c89dc281f5 5017380 xen_4.4.0+git52+20140923+e01fa4e.orig.tar.gz
+ b3a9b9dde6962294a81e35cad798801f 27081 xen_4.4.0+git52+20140923+e01fa4e-1linarotrusty1.diff.gz
+Checksums-Sha1: 
+ 717a7a37938be2298b504adbfa60de1522169b55 3037 xen_4.4.0+git52+20140923+e01fa4e-1linarotrusty1.dsc
+ 65924ab175c6ad9b451c961058d0c43b22d2a677 5017380 xen_4.4.0+git52+20140923+e01fa4e.orig.tar.gz
+ 1c7099388e18a950dfbbae3f1e8a4b337504908b 27081 xen_4.4.0+git52+20140923+e01fa4e-1linarotrusty1.diff.gz
+Checksums-Sha256: 
+ fadff00c02f0340ad4723e583608810b5a97e18e221c98f04bf597f94dca12f1 3037 xen_4.4.0+git52+20140923+e01fa4e-1linarotrusty1.dsc
+ e3c376af184dc7e36e4b42413c62d5e04cbaa534a8679947abe1166671b7cd05 5017380 xen_4.4.0+git52+20140923+e01fa4e.orig.tar.gz
+ f54a816aff79f29e97cc6e886032ad97757098fae607bbe7200ef3066d798d1d 27081 xen_4.4.0+git52+20140923+e01fa4e-1linarotrusty1.diff.gz
+Original-Maintainer: Debian Xen Team <pkg-xen-devel@lists.alioth.debian.org>
+Python-Version: current
+

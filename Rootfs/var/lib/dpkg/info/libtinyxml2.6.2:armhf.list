@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libtinyxml.so.2.6.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtinyxml2.6.2
+/usr/share/doc/libtinyxml2.6.2/copyright
+/usr/share/doc/libtinyxml2.6.2/changelog.Debian.gz

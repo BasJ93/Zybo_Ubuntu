@@ -1,0 +1,9 @@
+c5cf7a8ca8a5bb2b24e3adf9bc9e531f  opt/ros/jade/bin/rosclean
+dd6ae757a4744262a1d781c2e969e76e  opt/ros/jade/lib/pkgconfig/rosclean.pc
+fe8e53e5935533bc7dd21f4a0af94e6a  opt/ros/jade/lib/python2.7/dist-packages/rosclean-1.12.5.egg-info
+cb54ebe9160f958d6160c737247ead05  opt/ros/jade/lib/python2.7/dist-packages/rosclean/__init__.py
+a2ef133ec6460634fd72bd263630dbae  opt/ros/jade/lib/python2.7/dist-packages/rosclean/__init__.pyc
+ae842d4c51f5924949013f7afc769bdc  opt/ros/jade/share/rosclean/cmake/roscleanConfig-version.cmake
+2626fbea257154f979984fa657b10a59  opt/ros/jade/share/rosclean/cmake/roscleanConfig.cmake
+bcc1b0c7f34f720a7793b9b49f2a612d  opt/ros/jade/share/rosclean/package.xml
+a15968a5c1cf5b7dade7afbe61bcfd60  usr/share/doc/ros-jade-rosclean/changelog.Debian.gz

@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: roslib
+Description: Description of roslib
+Version: 1.12.5
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib -lroslib
+Requires: 

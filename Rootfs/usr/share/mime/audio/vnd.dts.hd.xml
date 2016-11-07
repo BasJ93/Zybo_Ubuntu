@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="audio/vnd.dts.hd">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>DTSHD audio</comment>
+  <comment xml:lang="ast">DTSHD audio</comment>
+  <comment xml:lang="bs">DTSHD audio</comment>
+  <comment xml:lang="de">DTSHD-Audio</comment>
+  <comment xml:lang="en_AU">DTSHD audio</comment>
+  <comment xml:lang="en_GB">DTSHD audio</comment>
+  <comment xml:lang="es">Sonido DTSHD</comment>
+  <comment xml:lang="eu">DTSHD audioa</comment>
+  <comment xml:lang="gl">Son DTSHD</comment>
+  <comment xml:lang="id">Audio DTSHD</comment>
+  <comment xml:lang="it">Audio DTSHD</comment>
+  <comment xml:lang="lv">DTSHD audio</comment>
+  <comment xml:lang="pt_BR">Áudio DTSHD</comment>
+  <comment xml:lang="sl">Zvok DTSHD</comment>
+  <comment xml:lang="uk">звукові дані DTSHD</comment>
+  <comment xml:lang="zh_TW">DTSHD 音訊</comment>
+  <sub-class-of type="audio/vnd.dts"/>
+  <alias type="audio/x-dtshd"/>
+  <glob pattern="*.dtshd"/>
+</mime-type>

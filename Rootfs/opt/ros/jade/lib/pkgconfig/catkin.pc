@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: catkin
+Description: Description of catkin
+Version: 0.6.16
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

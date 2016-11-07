@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: genmsg
+Description: Description of genmsg
+Version: 0.5.6
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

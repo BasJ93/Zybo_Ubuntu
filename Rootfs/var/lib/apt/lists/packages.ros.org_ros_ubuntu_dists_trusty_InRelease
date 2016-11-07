@@ -1,0 +1,75 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: ROS
+Label: ROS trusty
+Suite: trusty
+Codename: trusty
+Date: Wed, 10 Feb 2016 01:07:58 UTC
+Architectures: amd64 i386 arm64 armel armhf
+Components: main
+Description: ROS trusty Debian Repository
+MD5Sum:
+ 585b6b5359dd91a4b20f30db720c7819 2660831 main/binary-amd64/Packages
+ 84e707d52a312710a89214ccad314293 669583 main/binary-amd64/Packages.gz
+ 48236417c71293359b17a33e03545637 124 main/binary-amd64/Release
+ 5f3ae1a8965f784f24a50c7ce41a7de5 2653053 main/binary-i386/Packages
+ 838562f3806cb080311a5f0c26ab9def 669314 main/binary-i386/Packages.gz
+ 7c5751c986a1ab00ca8392ac0a4a8fdc 123 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 04e157d7b88d0e9f36922b4a47caaa1b 124 main/binary-arm64/Release
+ aa6dec85d4becd16d491ffe9ed123250 23269 main/binary-armel/Packages
+ 0959c63bc3edd9e7962bf49b8de5c216 5925 main/binary-armel/Packages.gz
+ a4e68f2474f3e7991d5ca89846c947eb 124 main/binary-armel/Release
+ 9013ab388ecf0cd982104901a1c25738 2430882 main/binary-armhf/Packages
+ 830a1252596d12d6dbe436151e5b1525 611273 main/binary-armhf/Packages.gz
+ 07cd24f5f6d5306143eb5c0c72e1d463 124 main/binary-armhf/Release
+ 6ccb9f2b7b518340f50db5b6b337edb9 4500797 main/source/Sources
+ d661a2d702d2388c4b92cf7210b34eee 1109248 main/source/Sources.gz
+ 43bb0d18e1515280ccb63297d56bad71 125 main/source/Release
+SHA1:
+ cf2c89bb2047b88cfbc3010355958ab89feb275a 2660831 main/binary-amd64/Packages
+ 1468dc62906480653c3634e6546fc4cc923fad59 669583 main/binary-amd64/Packages.gz
+ 9038c6fa2d3e03261c8d256c08e5a7adf074d7a8 124 main/binary-amd64/Release
+ 3685dec46f3cbd686601ff17774adc5a0f85a089 2653053 main/binary-i386/Packages
+ 1cf1a557614d2de1473875932a92bd849029d760 669314 main/binary-i386/Packages.gz
+ 5f552e7923badf3090ee2ac70209e401115f2547 123 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 7c03d2c7fb10c476c683878d80f4e0ef04e67b63 124 main/binary-arm64/Release
+ 51e8f457dccb37dc821d06e87373f460eea32b71 23269 main/binary-armel/Packages
+ 8f4644a8b3a21cb0459c95cf5eaafe58170e1703 5925 main/binary-armel/Packages.gz
+ 240d7d802cd6bc66b47d94993c0825f9a9e6d300 124 main/binary-armel/Release
+ d66809a146d2729d8508cff32d20f8700106cb17 2430882 main/binary-armhf/Packages
+ d4710c4f51d3effd16ad267631bc5508a311c7e4 611273 main/binary-armhf/Packages.gz
+ 3a728aa7b4ffd8cc50514c11950e7eba660c4823 124 main/binary-armhf/Release
+ 458d4bf689714efb37ff8c7afcf662f6e439e82f 4500797 main/source/Sources
+ ed4615eca0561fde67aa8530ffa5fd954ce20ad7 1109248 main/source/Sources.gz
+ 6bf67fb2a2328d399a0e380beceed5ed54425c8b 125 main/source/Release
+SHA256:
+ eba6f602e3416fa14d905a513f372377974f9b82a3e8e0526753c8f5c12ca6c0 2660831 main/binary-amd64/Packages
+ 5116bf0ab125b09c4318a863f27027df9d44876ea498df78303d0f10627abd04 669583 main/binary-amd64/Packages.gz
+ 9ede7f202e38f83e29f86af73344a8c522a0c5ce32580a7b15f6ab1d206c7b47 124 main/binary-amd64/Release
+ f9dfe9198516fbb6c9384dcd570f82cfb727bd21c6a0ae74560bebafcf778bb0 2653053 main/binary-i386/Packages
+ ec5b4558b8184d7ec7aa9283baff40275a97647d9c5cb2abe5e5ba2a0e9f26d2 669314 main/binary-i386/Packages.gz
+ f072c5454582877ea4a847bdbfd227cb65d0241c7b76c8c058d6d7ac6b4ef066 123 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 1ac0f777db612a6e533d2b80c3bb5a1dbae2a0097e546a22a0871ec79d6d0309 124 main/binary-arm64/Release
+ c74796f0857db5582f99025fb7a31143d3d452379bbd275b1cd6505a1fa7347b 23269 main/binary-armel/Packages
+ 828e609e5f5b854d661754e66796117975ebf9a3066927991d6304c75380d550 5925 main/binary-armel/Packages.gz
+ 431d9b0a69c34aba5246117e32f61e84234100c935028b2cdc2688df97065e9e 124 main/binary-armel/Release
+ ff767990cfc71fef76129e705874c17284f74617790c4940a6cd5498cb75a021 2430882 main/binary-armhf/Packages
+ afa0f63bb4299b8b83f5bb5fd164519271399e9d0545eb89efdce722c12602a5 611273 main/binary-armhf/Packages.gz
+ b648a7da8153e41c0d299075030c926de42ee3d55103bf2b7f5c798765b9849b 124 main/binary-armhf/Release
+ 77ed479a498fdc7821c94f789cd98c17b5092469b1e2d94bb4df735b84f2a8c1 4500797 main/source/Sources
+ 81e008a853ec01be9d71eb7085f66bc50e15532026adce12f10d247e1c1fff3a 1109248 main/source/Sources.gz
+ d8c823f7d0467bd22983fc640cc4d131651cdf8d95d09bcccd04d0f6dde6a660 125 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAla6jW8ACgkQVSO67rAfoRbshACgtnfvPOzv2tF9VLrZZCKqZcaj
+X0oAn2cIGNJZccvDefccgtDKbjOmvQYJ
+=s8R0
+-----END PGP SIGNATURE-----

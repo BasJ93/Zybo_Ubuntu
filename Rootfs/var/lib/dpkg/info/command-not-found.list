@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/command-not-found
+/usr/share
+/usr/share/doc
+/usr/share/doc/command-not-found
+/usr/share/doc/command-not-found/README
+/usr/share/doc/command-not-found/copyright
+/usr/share/command-not-found
+/usr/share/command-not-found/data
+/etc
+/etc/zsh_command_not_found
+/usr/share/doc/command-not-found/changelog.gz

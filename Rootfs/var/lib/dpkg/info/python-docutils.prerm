@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = remove ] || [ "$1" = deconfigure ]
+then
+	for exe in /usr/share/docutils/scripts/python2/*
+	do
+		update-alternatives --remove ${exe##*/} $exe
+	done
+fi
+
+
+# Automatically added by dh_python2:
+if which pyclean >/dev/null 2>&1; then
+	pyclean -p python-docutils 
+else
+	dpkg -L python-docutils | grep \.py$ | while read file
+	do
+		rm -f "${file}"[co] >/dev/null
+  	done
+fi
+
+# End automatically added section
+

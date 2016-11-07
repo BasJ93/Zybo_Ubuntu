@@ -1,0 +1,9 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpocomysql9
+/usr/share/doc/libpocomysql9/copyright
+/usr/lib
+/usr/lib/libPocoMySQL.so.9
+/usr/share/doc/libpocomysql9/changelog.Debian.gz

@@ -1,0 +1,12 @@
+/.
+/etc
+/etc/init
+/etc/init/gator-daemon.conf
+/usr
+/usr/sbin
+/usr/sbin/gatord
+/usr/share
+/usr/share/doc
+/usr/share/doc/gator-daemon
+/usr/share/doc/gator-daemon/copyright
+/usr/share/doc/gator-daemon/changelog.Debian.gz

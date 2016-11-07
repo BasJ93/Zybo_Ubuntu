@@ -1,0 +1,6 @@
+ffe7966d323f50615c09e62681e393af  usr/bin/uuidgen
+ce5bf3be0c7451af40ebc20c5a165527  usr/sbin/uuidd
+e83ea606c16ac2e3ac057f245065933d  usr/share/doc/uuid-runtime/copyright
+66edb14822d3ff593003272ed1fb0263  usr/share/lintian/overrides/uuid-runtime
+00af486b0034157ddd8c880f549c694b  usr/share/man/man1/uuidgen.1.gz
+d9eb74d1a06076642f5ad811078d0982  usr/share/man/man8/uuidd.8.gz

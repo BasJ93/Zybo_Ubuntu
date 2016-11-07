@@ -1,0 +1,218 @@
+[Thu Jan 01 00:00:15.588230 1970] [mpm_prefork:notice] [pid 1467] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:15.589001 1970] [core:notice] [pid 1467] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:21:19.836789 1970] [mpm_prefork:notice] [pid 1467] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:13.320981 1970] [mpm_prefork:notice] [pid 1448] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.322551 1970] [core:notice] [pid 1448] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 01:07:51.579732 1970] [mpm_prefork:notice] [pid 1448] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:13.362710 1970] [mpm_prefork:notice] [pid 1450] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.364385 1970] [core:notice] [pid 1450] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 01:18:23.270246 1970] [mpm_prefork:notice] [pid 1450] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:13.268445 1970] [mpm_prefork:notice] [pid 1451] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.270599 1970] [core:notice] [pid 1451] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.936654 1970] [mpm_prefork:notice] [pid 1457] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.938655 1970] [core:notice] [pid 1457] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.123500 1970] [mpm_prefork:notice] [pid 1429] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.125012 1970] [core:notice] [pid 1429] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:14.050590 1970] [mpm_prefork:notice] [pid 1433] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:14.052693 1970] [core:notice] [pid 1433] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.988078 1970] [mpm_prefork:notice] [pid 1434] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.990170 1970] [core:notice] [pid 1434] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:14.044769 1970] [mpm_prefork:notice] [pid 1412] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:14.046338 1970] [core:notice] [pid 1412] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:14.488238 1970] [mpm_prefork:notice] [pid 1411] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:14.490284 1970] [core:notice] [pid 1411] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:14.462307 1970] [mpm_prefork:notice] [pid 1436] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:14.464327 1970] [core:notice] [pid 1436] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:01:06.538095 1970] [mpm_prefork:notice] [pid 1436] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:13.400206 1970] [mpm_prefork:notice] [pid 1437] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.402224 1970] [core:notice] [pid 1437] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:14.271863 1970] [mpm_prefork:notice] [pid 1435] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:14.273473 1970] [core:notice] [pid 1435] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.694307 1970] [mpm_prefork:notice] [pid 1429] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.695911 1970] [core:notice] [pid 1429] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:14.040822 1970] [mpm_prefork:notice] [pid 1437] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:14.042623 1970] [core:notice] [pid 1437] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.927484 1970] [mpm_prefork:notice] [pid 1438] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.930088 1970] [core:notice] [pid 1438] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.753544 1970] [mpm_prefork:notice] [pid 1429] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.755179 1970] [core:notice] [pid 1429] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.781778 1970] [mpm_prefork:notice] [pid 1429] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.783792 1970] [core:notice] [pid 1429] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.766067 1970] [mpm_prefork:notice] [pid 1344] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.770293 1970] [core:notice] [pid 1344] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.415520 1970] [mpm_prefork:notice] [pid 1334] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.418043 1970] [core:notice] [pid 1334] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.872026 1970] [mpm_prefork:notice] [pid 1351] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.875363 1970] [core:notice] [pid 1351] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:44:18.060207 1970] [mpm_prefork:notice] [pid 1351] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:13.633920 1970] [mpm_prefork:notice] [pid 1340] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.636872 1970] [core:notice] [pid 1340] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.353072 1970] [mpm_prefork:notice] [pid 1327] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.355983 1970] [core:notice] [pid 1327] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.735880 1970] [mpm_prefork:notice] [pid 1329] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.738478 1970] [core:notice] [pid 1329] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.489275 1970] [mpm_prefork:notice] [pid 1320] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.492770 1970] [core:notice] [pid 1320] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.911914 1970] [mpm_prefork:notice] [pid 1329] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.916724 1970] [core:notice] [pid 1329] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.231479 1970] [mpm_prefork:notice] [pid 1301] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.234057 1970] [core:notice] [pid 1301] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.026584 1970] [mpm_prefork:notice] [pid 1294] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.029448 1970] [core:notice] [pid 1294] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:12.838075 1970] [mpm_prefork:notice] [pid 1294] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:12.840639 1970] [core:notice] [pid 1294] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.411635 1970] [mpm_prefork:notice] [pid 1320] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.414669 1970] [core:notice] [pid 1320] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.211709 1970] [mpm_prefork:notice] [pid 1324] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.214701 1970] [core:notice] [pid 1324] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.668994 1970] [mpm_prefork:notice] [pid 1332] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.672456 1970] [core:notice] [pid 1332] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.834348 1970] [mpm_prefork:notice] [pid 1332] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.839274 1970] [core:notice] [pid 1332] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.595136 1970] [mpm_prefork:notice] [pid 1331] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.598546 1970] [core:notice] [pid 1331] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.255478 1970] [mpm_prefork:notice] [pid 1325] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.257629 1970] [core:notice] [pid 1325] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.335333 1970] [mpm_prefork:notice] [pid 1324] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.338744 1970] [core:notice] [pid 1324] AH00094: Command line: '/usr/sbin/apache2'
+                                                                                                                                                                                                                                                                   [Thu Jan 01 00:00:13.687754 1970] [mpm_prefork:notice] [pid 1327] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.690254 1970] [core:notice] [pid 1327] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.702375 1970] [mpm_prefork:notice] [pid 1332] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.704246 1970] [core:notice] [pid 1332] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:14.115612 1970] [mpm_prefork:notice] [pid 1335] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:14.119057 1970] [core:notice] [pid 1335] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.914145 1970] [mpm_prefork:notice] [pid 1333] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.917604 1970] [core:notice] [pid 1333] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.805512 1970] [mpm_prefork:notice] [pid 1326] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.808967 1970] [core:notice] [pid 1326] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.696057 1970] [mpm_prefork:notice] [pid 1325] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.698296 1970] [core:notice] [pid 1325] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.527237 1970] [mpm_prefork:notice] [pid 1325] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.530218 1970] [core:notice] [pid 1325] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.836332 1970] [mpm_prefork:notice] [pid 1331] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.839753 1970] [core:notice] [pid 1331] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.119257 1970] [mpm_prefork:notice] [pid 1324] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.123039 1970] [core:notice] [pid 1324] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.335713 1970] [mpm_prefork:notice] [pid 1326] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.338351 1970] [core:notice] [pid 1326] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.414693 1970] [mpm_prefork:notice] [pid 1322] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.417668 1970] [core:notice] [pid 1322] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.716256 1970] [mpm_prefork:notice] [pid 1330] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.719726 1970] [core:notice] [pid 1330] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.704540 1970] [mpm_prefork:notice] [pid 1330] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.707938 1970] [core:notice] [pid 1330] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.419314 1970] [mpm_prefork:notice] [pid 1323] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.422249 1970] [core:notice] [pid 1323] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.150058 1970] [mpm_prefork:notice] [pid 1322] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.152566 1970] [core:notice] [pid 1322] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.569053 1970] [mpm_prefork:notice] [pid 1323] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.572037 1970] [core:notice] [pid 1323] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.389438 1970] [mpm_prefork:notice] [pid 1322] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.392015 1970] [core:notice] [pid 1322] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.188049 1970] [mpm_prefork:notice] [pid 1319] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.189782 1970] [core:notice] [pid 1319] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.680551 1970] [mpm_prefork:notice] [pid 1329] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.684094 1970] [core:notice] [pid 1329] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.054478 1970] [mpm_prefork:notice] [pid 1323] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.058164 1970] [core:notice] [pid 1323] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.551084 1970] [mpm_prefork:notice] [pid 1323] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.554510 1970] [core:notice] [pid 1323] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.596014 1970] [mpm_prefork:notice] [pid 1331] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.598268 1970] [core:notice] [pid 1331] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:13.025139 1970] [mpm_prefork:notice] [pid 1322] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.028067 1970] [core:notice] [pid 1322] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:24:51.301217 1970] [mpm_prefork:notice] [pid 1322] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:13.474036 1970] [mpm_prefork:notice] [pid 1330] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:13.476649 1970] [core:notice] [pid 1330] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.674949 1970] [mpm_prefork:notice] [pid 1408] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.676519 1970] [core:notice] [pid 1408] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.495531 1970] [mpm_prefork:notice] [pid 1406] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.497070 1970] [core:notice] [pid 1406] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.799664 1970] [mpm_prefork:notice] [pid 1407] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.801324 1970] [core:notice] [pid 1407] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.637472 1970] [mpm_prefork:notice] [pid 1436] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.638986 1970] [core:notice] [pid 1436] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.612277 1970] [mpm_prefork:notice] [pid 1425] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.613808 1970] [core:notice] [pid 1425] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.681661 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.683218 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.632690 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.634236 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.815080 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.816662 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.894728 1970] [mpm_prefork:notice] [pid 1417] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.896279 1970] [core:notice] [pid 1417] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.851802 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.853372 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.795790 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.797376 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.822182 1970] [mpm_prefork:notice] [pid 1430] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.823726 1970] [core:notice] [pid 1430] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:04:57.555055 1970] [mpm_prefork:notice] [pid 1430] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:07.842398 1970] [mpm_prefork:notice] [pid 1430] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.843983 1970] [core:notice] [pid 1430] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.881201 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.882771 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:22:25.427036 1970] [mpm_prefork:notice] [pid 1427] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:22:52.219179 1970] [mpm_prefork:notice] [pid 2138] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:22:52.219522 1970] [core:notice] [pid 2138] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.667062 1970] [mpm_prefork:notice] [pid 1403] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.668596 1970] [core:notice] [pid 1403] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.876591 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.878147 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.772891 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.774445 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.788761 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.790365 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.900173 1970] [mpm_prefork:notice] [pid 1429] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.901258 1970] [core:notice] [pid 1429] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.867221 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.868791 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.775890 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.777476 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:01:00.632578 1970] [mpm_prefork:notice] [pid 1426] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:07.886103 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.887672 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.948351 1970] [mpm_prefork:notice] [pid 1415] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.949463 1970] [core:notice] [pid 1415] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.905879 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.907420 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.867737 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.869331 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.878399 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.879970 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.995326 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.996415 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.952598 1970] [mpm_prefork:notice] [pid 1425] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.954159 1970] [core:notice] [pid 1425] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.868260 1970] [mpm_prefork:notice] [pid 1425] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.869812 1970] [core:notice] [pid 1425] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.882630 1970] [mpm_prefork:notice] [pid 1428] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.884243 1970] [core:notice] [pid 1428] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.933181 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.934340 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.860498 1970] [mpm_prefork:notice] [pid 1430] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.862064 1970] [core:notice] [pid 1430] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.960640 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.962374 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.923297 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.924830 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.892922 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.894025 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.965676 1970] [mpm_prefork:notice] [pid 1425] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.967236 1970] [core:notice] [pid 1425] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.906445 1970] [mpm_prefork:notice] [pid 1427] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.908000 1970] [core:notice] [pid 1427] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.965444 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.967036 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.898873 1970] [mpm_prefork:notice] [pid 1425] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.900111 1970] [core:notice] [pid 1425] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:08.008930 1970] [mpm_prefork:notice] [pid 1425] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:08.010585 1970] [core:notice] [pid 1425] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.833086 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.834645 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 00:00:07.925643 1970] [mpm_prefork:notice] [pid 1439] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:07.927218 1970] [core:notice] [pid 1439] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Jan 01 04:18:26.147107 1970] [mpm_prefork:notice] [pid 1439] AH00169: caught SIGTERM, shutting down
+[Thu Jan 01 00:00:08.152259 1970] [mpm_prefork:notice] [pid 1426] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4 configured -- resuming normal operations
+[Thu Jan 01 00:00:08.153808 1970] [core:notice] [pid 1426] AH00094: Command line: '/usr/sbin/apache2'

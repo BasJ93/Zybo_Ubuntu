@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libhwloc-plugins
+/usr/share/doc/libhwloc-plugins/copyright
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/hwloc
+/usr/lib/arm-linux-gnueabihf/hwloc/hwloc_xml_libxml.so
+/usr/lib/arm-linux-gnueabihf/hwloc/hwloc_opencl.so
+/usr/lib/arm-linux-gnueabihf/hwloc/hwloc_pci.so
+/usr/share/doc/libhwloc-plugins/changelog.Debian.gz

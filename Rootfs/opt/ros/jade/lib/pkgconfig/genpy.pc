@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: genpy
+Description: Description of genpy
+Version: 0.5.7
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: genmsg

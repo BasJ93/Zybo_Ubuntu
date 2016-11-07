@@ -1,0 +1,4 @@
+b8e75e5742bf7bab338ad12ca41de95b  usr/lib/arm-linux-gnueabihf/libboost_log.so.1.54.0
+27bf12fb7e8cb7dfe5f89f84bd6fff26  usr/lib/arm-linux-gnueabihf/libboost_log_setup.so.1.54.0
+e66425771863c34de39265516529d049  usr/share/doc/libboost-log1.54.0/copyright
+09b9a59c039c1112379695a4dd25d3de  usr/share/lintian/overrides/libboost-log1.54.0

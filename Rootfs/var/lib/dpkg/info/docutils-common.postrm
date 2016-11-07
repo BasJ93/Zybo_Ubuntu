@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installxmlcatalogs
+if [ "$1" = "purge" ]; then
+	rm -f /etc/xml/docutils-common.xml /etc/xml/docutils-common.xml.old
+fi
+# End automatically added section
+# Automatically added by dh_installcatalogs
+if [ "$1" = "purge" ]; then
+	rm -f /etc/sgml/docutils-common.cat.old
+fi
+# End automatically added section

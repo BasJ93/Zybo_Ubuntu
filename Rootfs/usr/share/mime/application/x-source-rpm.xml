@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-source-rpm">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Source RPM package</comment>
+  <comment xml:lang="ast">Source RPM package</comment>
+  <comment xml:lang="bs">Izvorni RPM paket</comment>
+  <comment xml:lang="de">Quelltext-RPM-Paket</comment>
+  <comment xml:lang="en_AU">Source RPM package</comment>
+  <comment xml:lang="en_GB">Source RPM package</comment>
+  <comment xml:lang="es">Paquete de código fuente RPM</comment>
+  <comment xml:lang="eu">RPM iturburu-paketea</comment>
+  <comment xml:lang="gl">Orixe paquete RPM</comment>
+  <comment xml:lang="id">Paket RPM sumber</comment>
+  <comment xml:lang="it">Pacchetto sorgente RPM</comment>
+  <comment xml:lang="lv">Pirmkoda RPM pakotne</comment>
+  <comment xml:lang="pt_BR">Pacote fonte RPM</comment>
+  <comment xml:lang="sl">Izvirni paket RPM</comment>
+  <comment xml:lang="uk">пакунок з кодами RPM</comment>
+  <comment xml:lang="zh_TW">源碼 RPM 套件</comment>
+  <generic-icon name="package-x-generic"/>
+  <sub-class-of type="application/x-rpm"/>
+  <glob pattern="*.src.rpm"/>
+  <glob pattern="*.spm"/>
+</mime-type>

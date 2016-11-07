@@ -1,0 +1,7 @@
+db5caa2ac491d01204153ca1393fa5c9  opt/ros/jade/include/rosconsole_bridge/bridge.h
+270c12ea302d13d6225a0b570ce9f39b  opt/ros/jade/lib/librosconsole_bridge.so
+1ef78948cd0ba8246c936522cbbb5153  opt/ros/jade/lib/pkgconfig/rosconsole_bridge.pc
+7f1df263339716c3a957f241445a071b  opt/ros/jade/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig-version.cmake
+03c1f738ecdbaaf80582ab22dae1702b  opt/ros/jade/share/rosconsole_bridge/cmake/rosconsole_bridgeConfig.cmake
+c8ba5431d0a50ca6bf2196c578bf8c45  opt/ros/jade/share/rosconsole_bridge/package.xml
+bd189f4a14d7f8689ca217022dae5356  usr/share/doc/ros-jade-rosconsole-bridge/changelog.Debian.gz

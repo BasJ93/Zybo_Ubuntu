@@ -1,0 +1,11 @@
+4ae0a34e9c23ef56a5fcff4ac37ae60b  opt/ros/jade/include/smclib/statemap.h
+5c53360d69c21327626646614cfa70d5  opt/ros/jade/lib/pkgconfig/smclib.pc
+560b11575485c95588c0445a69d8fba1  opt/ros/jade/lib/python2.7/dist-packages/smclib-1.7.16.egg-info
+d41d8cd98f00b204e9800998ecf8427e  opt/ros/jade/lib/python2.7/dist-packages/smclib/__init__.py
+427fb031c10539fcdfba82cd3c16ed53  opt/ros/jade/lib/python2.7/dist-packages/smclib/__init__.pyc
+06cfe3bb754d83f21d14ec10097ec9b5  opt/ros/jade/lib/python2.7/dist-packages/smclib/statemap.py
+93ca5cdfb8acb2484538a0bd5c6c175f  opt/ros/jade/lib/python2.7/dist-packages/smclib/statemap.pyc
+52992eeab45add4d232e2a440a671ca0  opt/ros/jade/share/smclib/cmake/smclibConfig-version.cmake
+c2123da9b2c5e0d554e61fb62c76e2fa  opt/ros/jade/share/smclib/cmake/smclibConfig.cmake
+07d3f5ff26781afedd2ac2a48c162a05  opt/ros/jade/share/smclib/package.xml
+5f957e34293e0e48c26e6531f693c719  usr/share/doc/ros-jade-smclib/changelog.Debian.gz

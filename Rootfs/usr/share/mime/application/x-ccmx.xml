@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-ccmx">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>CCMX color correction file</comment>
+  <comment xml:lang="ast">CCMX color correction file</comment>
+  <comment xml:lang="bs">CCMX datoteka za korekciju boja</comment>
+  <comment xml:lang="de">CCMX-Farbverbesserungsdatei</comment>
+  <comment xml:lang="en_AU">CCMX colour correction file</comment>
+  <comment xml:lang="en_GB">CCMX colour correction file</comment>
+  <comment xml:lang="es">Archivo de corrección de color CCMX</comment>
+  <comment xml:lang="gl">Ficheiro de corrección da cor CCMX</comment>
+  <comment xml:lang="id">Berkas koreksi warna CCMX</comment>
+  <comment xml:lang="it">File correzione colore CCMX</comment>
+  <comment xml:lang="lv">CCMX krāsu korekcijas datne</comment>
+  <comment xml:lang="pt_BR">arquivo de correção de cores CCMX</comment>
+  <comment xml:lang="sl">Datoteka barvnega popravka CCMX</comment>
+  <comment xml:lang="uk">файл даних виправлення кольорів CCMX</comment>
+  <comment xml:lang="zh_TW">CCMX 色彩修正檔</comment>
+  <sub-class-of type="text/plain"/>
+  <generic-icon name="text-x-generic"/>
+  <glob pattern="*.ccmx"/>
+</mime-type>

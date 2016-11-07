@@ -1,0 +1,22 @@
+Steel Bank Common Lisp for Debian
+---------------------------------
+
+To execute an SBCL executables like "normal" programs on Debian
+GNU/Linux, install the package binfmt-support and use a kernel that
+has support for "miscellaneous binary formats". This is the default
+for Debian Linux kernels.
+
+Compile your program using:
+	(compile-file "file1.lisp")
+	(compile-file "file2.lisp")
+
+"Link" it using cat, in the same order as you would load them:
+	cat file1.fasl file2.fasl > program
+
+Make it executable:
+	chmod a+x program
+
+And have fun:
+	./program [arguments ...]
+
+ -- René van Bevern <rvb@pro-linux.de>, Sun Aug 28 18:35:15 2005

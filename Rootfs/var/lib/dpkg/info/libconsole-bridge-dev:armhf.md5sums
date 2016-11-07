@@ -1,0 +1,5 @@
+d6b0f1d4495e90d2d209df8a1e725be9  usr/include/console_bridge/console.h
+fc47e1da64fbd612cbdd4d7229b4e9a3  usr/include/console_bridge/exportdecl.h
+7253879fd22a20fd8f76343eab0193c7  usr/lib/arm-linux-gnueabihf/pkgconfig/console_bridge.pc
+3a098b8cb1bf8b8de4f6f1072a5fde04  usr/share/console_bridge/cmake/console_bridge-config.cmake
+d66766cbd3c9f87b19ee55151aa48691  usr/share/doc/libconsole-bridge-dev/copyright

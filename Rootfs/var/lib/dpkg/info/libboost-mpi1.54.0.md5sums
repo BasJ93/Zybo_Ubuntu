@@ -1,0 +1,4 @@
+50693d2e3e8b579e7d2670a400414d63  usr/lib/arm-linux-gnueabihf/libboost_mpi.so.1.54.0
+041bd02b73cda86f6b6930898a700158  usr/share/doc/libboost-mpi1.54.0/changelog.Debian.gz
+e66425771863c34de39265516529d049  usr/share/doc/libboost-mpi1.54.0/copyright
+f91d0ca0211c0bf83c66a01c88d40cd4  usr/share/lintian/overrides/libboost-mpi1.54.0

@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rosclean
+Description: Description of rosclean
+Version: 1.12.5
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

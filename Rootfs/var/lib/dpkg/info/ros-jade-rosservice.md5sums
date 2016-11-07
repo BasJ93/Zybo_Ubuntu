@@ -1,0 +1,10 @@
+feadfa05d2b5cf9ac5fb832d375c9f99  opt/ros/jade/bin/rosservice
+2dbbba308f145dbacdf0929ada3b4f20  opt/ros/jade/lib/pkgconfig/rosservice.pc
+51dc39ea129409619904ddc95ba7aa29  opt/ros/jade/lib/python2.7/dist-packages/rosservice-1.11.16.egg-info
+ff2a1687f109de6419fad807fb345690  opt/ros/jade/lib/python2.7/dist-packages/rosservice/__init__.py
+a37e209f0ff890255defcc2ac6a643bc  opt/ros/jade/lib/python2.7/dist-packages/rosservice/__init__.pyc
+f88a261653f1f55ab130e99c4a664a88  opt/ros/jade/lib/rosservice/rosservice
+8f4d7e11c4db639c09281522ffca67a4  opt/ros/jade/share/rosservice/cmake/rosserviceConfig-version.cmake
+a715f0eecbb2ad2661feb956223cda1e  opt/ros/jade/share/rosservice/cmake/rosserviceConfig.cmake
+1f0774e6446ff1d865b1adcd60993ba7  opt/ros/jade/share/rosservice/package.xml
+9a58088d8e352486e2aa9046777d8d88  usr/share/doc/ros-jade-rosservice/changelog.Debian.gz

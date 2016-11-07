@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rostopic
+Description: Description of rostopic
+Version: 1.11.16
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rosservice
+Description: Description of rosservice
+Version: 1.11.16
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

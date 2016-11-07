@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libboost_test_exec_monitor.a
+/usr/lib/arm-linux-gnueabihf/libboost_unit_test_framework.a
+/usr/lib/arm-linux-gnueabihf/libboost_prg_exec_monitor.a
+/usr/share
+/usr/share/doc
+/usr/share/doc/libboost-test1.54-dev
+/usr/share/doc/libboost-test1.54-dev/copyright
+/usr/lib/arm-linux-gnueabihf/libboost_unit_test_framework.so
+/usr/lib/arm-linux-gnueabihf/libboost_prg_exec_monitor.so
+/usr/share/doc/libboost-test1.54-dev/changelog.Debian.gz

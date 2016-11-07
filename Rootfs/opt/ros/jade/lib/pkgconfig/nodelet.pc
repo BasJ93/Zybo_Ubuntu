@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: nodelet
+Description: Description of nodelet
+Version: 1.9.3
+Cflags: -I/opt/ros/jade/include -I/usr/include
+Libs: -L/opt/ros/jade/lib -lnodeletlib -l:/usr/lib/arm-linux-gnueabihf/libuuid.so
+Requires: bondcpp message_runtime pluginlib rosconsole roscpp std_msgs

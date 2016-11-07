@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-raw-disk-image">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Raw disk image</comment>
+  <comment xml:lang="de">Rohes Disk-Abbild</comment>
+  <comment xml:lang="en_AU">Raw disk image</comment>
+  <comment xml:lang="en_GB">Raw disk image</comment>
+  <comment xml:lang="es">Imagen de disco en bruto</comment>
+  <comment xml:lang="gl">Imaxe de disco en bruto</comment>
+  <comment xml:lang="id">Image disk mentah</comment>
+  <comment xml:lang="lv">Jēls diska attēls</comment>
+  <comment xml:lang="pt_BR">Imagem bruta de disco</comment>
+  <comment xml:lang="sl">Neposredni odtis diska</comment>
+  <comment xml:lang="uk">бітова копія диска</comment>
+  <comment xml:lang="zh_TW">原始碟片映像</comment>
+  <glob pattern="*.raw-disk-image"/>
+  <glob pattern="*.img"/>
+</mime-type>

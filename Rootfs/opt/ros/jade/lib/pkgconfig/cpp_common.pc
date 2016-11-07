@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: cpp_common
+Description: Description of cpp_common
+Version: 0.5.6
+Cflags: -I/opt/ros/jade/include -I/usr/include
+Libs: -L/opt/ros/jade/lib -lcpp_common -l:/usr/lib/arm-linux-gnueabihf/libboost_system.so -l:/usr/lib/arm-linux-gnueabihf/libboost_thread.so -l:/usr/lib/arm-linux-gnueabihf/libpthread.so -l:/usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
+Requires: 

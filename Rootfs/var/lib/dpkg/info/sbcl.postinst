@@ -1,0 +1,42 @@
+#! /bin/sh
+# postinst script for sbcl
+set -e
+
+# Source debconf library.
+. /usr/share/debconf/confmodule
+
+# summary of how this script can be called:
+#        * <postinst> `configure' <most-recently-configured-version>
+#        * <old-postinst> `abort-upgrade' <new version>
+#        * <conflictor's-postinst> `abort-remove' `in-favour' <package>
+#          <new-version>
+#        * <deconfigured's-postinst> `abort-deconfigure' `in-favour'
+#          <failed-install-package> <version> `removing'
+#          <conflicting-package> <version>
+# for details, see /usr/share/doc/packaging-manual/
+#
+
+case "$1" in
+    configure)
+        if [ -x /usr/sbin/update-binfmts ]; then
+	    update-binfmts --import sbcl \
+	     || true
+	fi
+	;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+	rm /usr/lib/sbcl/sbcl-new.core /usr/lib/sbcl/sbcl.core \
+	    > /dev/null 2>&1 || true
+	;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 0
+    ;;
+esac
+
+
+
+exit 0
+
+

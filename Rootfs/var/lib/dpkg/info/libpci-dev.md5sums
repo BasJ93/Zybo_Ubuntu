@@ -1,0 +1,7 @@
+e60cdf46a6ea013a1c8e756bfc41b12b  usr/include/pci/config.h
+742bcb505b8e4a2e0abfacc99cec7065  usr/include/pci/header.h
+7e8915c6e568f538b027288a61872278  usr/include/pci/pci.h
+ccf2fc7d68c9218c02bc75514ec4f8c3  usr/include/pci/types.h
+b5dc40b8d98104e2760f4d8b083fb99a  usr/lib/arm-linux-gnueabihf/libpci.a
+075249468723998df7e5b00765cbf008  usr/lib/arm-linux-gnueabihf/pkgconfig/libpci.pc
+5454957f5e60536a67a4d2913e81f2fa  usr/share/doc/libpci-dev/copyright

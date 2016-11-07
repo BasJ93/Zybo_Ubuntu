@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libboost_regex.so.1.54.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libboost-regex1.54.0
+/usr/share/doc/libboost-regex1.54.0/changelog.Debian.gz
+/usr/share/doc/libboost-regex1.54.0/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libboost-regex1.54.0

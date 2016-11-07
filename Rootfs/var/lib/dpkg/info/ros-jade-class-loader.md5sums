@@ -1,0 +1,13 @@
+79659241d70feb94c3605b16f3e2a564  opt/ros/jade/include/class_loader/class_loader.h
+7f45e3dcea4d047cd2f52dd3b0ac328a  opt/ros/jade/include/class_loader/class_loader_core.h
+c72ceb3c1aaf4570192ba59609b9cc93  opt/ros/jade/include/class_loader/class_loader_exceptions.h
+04fe8e3cac5c85fffda44ac87d2e4b60  opt/ros/jade/include/class_loader/class_loader_register_macro.h
+273692315d53c36f8cfa58947d3a3e6e  opt/ros/jade/include/class_loader/meta_object.h
+362c8e2fadeee55b8f60b2ec6adea293  opt/ros/jade/include/class_loader/multi_library_class_loader.h
+87bdebf01e6d1e6b9ff3070d06e2df35  opt/ros/jade/lib/libclass_loader.so
+bbee9274e867da094df03dc6fd607a1a  opt/ros/jade/lib/pkgconfig/class_loader.pc
+47df5b4f615e16e93d75b0067e11a6b6  opt/ros/jade/share/class_loader/cmake/class_loader-extras.cmake
+30398e8ccf2653a71cecf630b3cd16fe  opt/ros/jade/share/class_loader/cmake/class_loaderConfig-version.cmake
+da7fc6546b9911318944c278b00e6b31  opt/ros/jade/share/class_loader/cmake/class_loaderConfig.cmake
+eda77c8b66c7cc8e3ee0ace470e05d64  opt/ros/jade/share/class_loader/package.xml
+21550763041918f45ada726acc0cfb25  usr/share/doc/ros-jade-class-loader/changelog.Debian.gz

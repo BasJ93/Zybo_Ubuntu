@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: xmlrpcpp
+Description: Description of xmlrpcpp
+Version: 1.11.16
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib -lxmlrpcpp
+Requires: cpp_common

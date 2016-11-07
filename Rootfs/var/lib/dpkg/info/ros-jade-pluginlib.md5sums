@@ -1,0 +1,15 @@
+233d289da73dd84f2628d2c6df8b0039  opt/ros/jade/include/pluginlib/class_desc.h
+ffc8a871b249335c19fd8f3b88235ca9  opt/ros/jade/include/pluginlib/class_list_macros.h
+d76b9079c6e479bede39486693a1f97d  opt/ros/jade/include/pluginlib/class_loader.h
+d52d20faf12b1e912dfe76477d9be9d1  opt/ros/jade/include/pluginlib/class_loader_base.h
+917f70f7a7c2a06dee18d5bfb1c2fac8  opt/ros/jade/include/pluginlib/class_loader_imp.h
+bdb23f2aa3ee343a4e48bd8e3c9689d7  opt/ros/jade/include/pluginlib/pluginlib_exceptions.h
+92dcad62bf7a471654e57b7614f0411c  opt/ros/jade/lib/pkgconfig/pluginlib.pc
+b3ac10385c7ee6bc6ba83dd2d7c9c4a7  opt/ros/jade/lib/pluginlib/plugin_macro_update
+3e6ff8be650de83f4b9f5427259c80dc  opt/ros/jade/lib/pluginlib/plugin_tool
+f8de7ba2a14407cc186f998e6bcb1ccf  opt/ros/jade/lib/python2.7/dist-packages/pluginlib-1.10.1.egg-info
+4022adad5ba0f51fc5f44642eedbff47  opt/ros/jade/share/pluginlib/cmake/pluginlibConfig-version.cmake
+e465ac4c7eff6ab57367296a42d899e5  opt/ros/jade/share/pluginlib/cmake/pluginlibConfig.cmake
+5ad663359d2475136e23853d79fea88b  opt/ros/jade/share/pluginlib/package.xml
+2ed2624f3b29e4f32dd13da8c6d77005  opt/ros/jade/share/pluginlib/typed_class_loader_template.cpp
+d624569ce6c05f4469b586ea95ef1ddc  usr/share/doc/ros-jade-pluginlib/changelog.Debian.gz

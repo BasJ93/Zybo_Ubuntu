@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: message_generation
+Description: Description of message_generation
+Version: 0.3.0
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: gencpp geneus genlisp genmsg genpy

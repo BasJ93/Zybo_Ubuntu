@@ -1,0 +1,17 @@
+6e1209594c205a9396a3412c69b25257  opt/ros/jade/bin/rosmake
+8b02adcd9abede52866d8c915225572e  opt/ros/jade/lib/pkgconfig/rosmake.pc
+c28702b5d3f7884e584c94110420e65e  opt/ros/jade/lib/python2.7/dist-packages/rosmake-1.12.5.egg-info
+86a714bb5ff27da939ad732b1a361aa6  opt/ros/jade/lib/python2.7/dist-packages/rosmake/__init__.py
+2080a425eaba7445eae367a6a76cbe58  opt/ros/jade/lib/python2.7/dist-packages/rosmake/__init__.pyc
+a8fc09f8210844e52c85bcea3ff08fe6  opt/ros/jade/lib/python2.7/dist-packages/rosmake/engine.py
+0beb187123bd3d2fc816321d42511b66  opt/ros/jade/lib/python2.7/dist-packages/rosmake/engine.pyc
+e29434bb78f76ae9cb9fec1f4b841519  opt/ros/jade/lib/python2.7/dist-packages/rosmake/gcc_output_parse.py
+e84a8ac5559f683450cfd0e7ae29959d  opt/ros/jade/lib/python2.7/dist-packages/rosmake/gcc_output_parse.pyc
+de41a00428a37f2bf887bacbd49fff97  opt/ros/jade/lib/python2.7/dist-packages/rosmake/package_stats.py
+67c7a5759e44b5d2dc1a56f09545195f  opt/ros/jade/lib/python2.7/dist-packages/rosmake/package_stats.pyc
+d28fbda32269afc745f702b0490f6b7b  opt/ros/jade/lib/python2.7/dist-packages/rosmake/parallel_build.py
+7f96b9e4888541a8ef1ec9ee5ee4ea99  opt/ros/jade/lib/python2.7/dist-packages/rosmake/parallel_build.pyc
+ae842d4c51f5924949013f7afc769bdc  opt/ros/jade/share/rosmake/cmake/rosmakeConfig-version.cmake
+4a3840583f70311a2808f60e9fa9f67d  opt/ros/jade/share/rosmake/cmake/rosmakeConfig.cmake
+f9a08e70bbb113bed6557276fa4af97c  opt/ros/jade/share/rosmake/package.xml
+b2f6a0e667b812e46547b9ff6c8ba9b4  usr/share/doc/ros-jade-rosmake/changelog.Debian.gz

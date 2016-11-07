@@ -1,0 +1,5 @@
+d89116520fa415bc40b05c67b5230625  opt/ros/jade/lib/pkgconfig/rosbag_migration_rule.pc
+f90af7ea98ad6bd094525fc5117d8364  opt/ros/jade/share/rosbag_migration_rule/cmake/rosbag_migration_ruleConfig-version.cmake
+f892b5a8b279a2d27e7902630c193a6b  opt/ros/jade/share/rosbag_migration_rule/cmake/rosbag_migration_ruleConfig.cmake
+82384ff39a48f823160c4932889a69db  opt/ros/jade/share/rosbag_migration_rule/package.xml
+c441384ffa629f5d92313307c2a2be4b  usr/share/doc/ros-jade-rosbag-migration-rule/changelog.Debian.gz

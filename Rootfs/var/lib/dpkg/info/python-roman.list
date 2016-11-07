@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/python-roman
+/usr/share/doc/python-roman/copyright
+/usr/share/doc/python-roman/changelog.Debian.gz
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/roman.py
+/usr/lib/python2.7/dist-packages/roman-2.0.0.egg-info

@@ -1,0 +1,11 @@
+/.
+/lib
+/lib/arm-linux-gnueabihf
+/lib/arm-linux-gnueabihf/libpci.so.3.2.1
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpci3
+/usr/share/doc/libpci3/copyright
+/usr/share/doc/libpci3/changelog.Debian.gz
+/lib/arm-linux-gnueabihf/libpci.so.3

@@ -1,0 +1,93 @@
+[roslaunch][INFO] 1970-01-01 00:02:06,253: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 1970-01-01 00:02:06,297: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 1970-01-01 00:02:06,299: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 1970-01-01 00:02:06,300: roslaunch env is {'ROS_DISTRO': 'jade', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HUSHLOGIN': 'FALSE', 'CPATH': '/opt/ros/jade/include', 'LOGNAME': 'root', 'USER': 'root', 'PATH': '/opt/ros/jade/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'HOME': '/root', 'CMAKE_PREFIX_PATH': '/opt/ros/jade', 'LD_LIBRARY_PATH': '/opt/ros/jade/lib:/opt/ros/jade/lib/arm-linux-gnueabihf', 'LANG': 'C.UTF-8', 'TERM': 'linux', 'SHELL': '/bin/bash', 'SHLVL': '1', 'ROS_LOG_FILENAME': '/root/.ros/log/5e71d728-1dd2-11b2-be8d-8d8170c74485/roslaunch-snickerdoodle-1679.log', 'ROS_ETC_DIR': '/opt/ros/jade/etc/ros', 'XDG_RUNTIME_DIR': '/run/user/0', 'PYTHONPATH': '/opt/ros/jade/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/jade/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/jade/lib/pkgconfig:/opt/ros/jade/lib/arm-linux-gnueabihf/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/jade/share:/opt/ros/jade/stacks', 'XDG_SESSION_ID': 'c1', '_': '/opt/ros/jade/bin/roscore', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'OLDPWD': '/root', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'PWD': '/root/workspace', 'ROS_MASTER_URI': 'http://localhost:11311', 'MAIL': '/var/mail/root', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'}
+[roslaunch][INFO] 1970-01-01 00:02:06,301: starting in server mode
+[roslaunch.parent][INFO] 1970-01-01 00:02:06,303: starting roslaunch parent run
+[roslaunch][INFO] 1970-01-01 00:02:06,310: loading roscore config file /opt/ros/jade/etc/ros/roscore.xml
+[roslaunch][INFO] 1970-01-01 00:02:07,053: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 1970-01-01 00:02:07,054: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 1970-01-01 00:02:07,056: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 1970-01-01 00:02:07,057: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 1970-01-01 00:02:07,059: starting parent XML-RPC server
+[roslaunch.server][INFO] 1970-01-01 00:02:07,060: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 1970-01-01 00:02:07,061: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 1970-01-01 00:02:07,062: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 1970-01-01 00:02:07,065: Started XML-RPC server [http://snickerdoodle:41217/]
+[xmlrpc][INFO] 1970-01-01 00:02:07,066: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 1970-01-01 00:02:07,085: started roslaunch server http://snickerdoodle:41217/
+[roslaunch.parent][INFO] 1970-01-01 00:02:07,087: ... parent XML-RPC server started
+[roslaunch][INFO] 1970-01-01 00:02:07,089: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,111: auto-starting new master
+[roslaunch][INFO] 1970-01-01 00:02:07,112: create_master_process: rosmaster, /opt/ros/jade/share/ros, 11311, 3, None
+[roslaunch][INFO] 1970-01-01 00:02:07,113: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 1970-01-01 00:02:07,124: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 1970-01-01 00:02:07,125: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 1970-01-01 00:02:07,126: process[master]: starting os process
+[roslaunch][INFO] 1970-01-01 00:02:07,127: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/root/.ros/log/5e71d728-1dd2-11b2-be8d-8d8170c74485/master.log']]
+[roslaunch][INFO] 1970-01-01 00:02:07,128: process[master]: cwd will be [/root/.ros]
+[roslaunch][INFO] 1970-01-01 00:02:07,157: process[master]: started with pid [1691]
+[roslaunch][INFO] 1970-01-01 00:02:07,160: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,264: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,368: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,471: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,575: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,678: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,781: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,884: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:07,988: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:08,091: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:08,194: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:08,297: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:08,400: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:08,411: master.is_running[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:08,420: ROS_MASTER_URI=http://snickerdoodle:11311/
+[roslaunch][INFO] 1970-01-01 00:02:08,431: setting /run_id to 5e71d728-1dd2-11b2-be8d-8d8170c74485
+[roslaunch][INFO] 1970-01-01 00:02:08,442: setting /roslaunch/uris/host_snickerdoodle__41217' to http://snickerdoodle:41217/
+[roslaunch][INFO] 1970-01-01 00:02:08,458: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 1970-01-01 00:02:08,459: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://snickerdoodle:11311/]
+[roslaunch][INFO] 1970-01-01 00:02:08,461: process[rosout-1]: env[{'ROS_DISTRO': 'jade', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'HUSHLOGIN': 'FALSE', 'CPATH': '/opt/ros/jade/include', 'LOGNAME': 'root', 'USER': 'root', 'PATH': '/opt/ros/jade/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'HOME': '/root', 'CMAKE_PREFIX_PATH': '/opt/ros/jade', 'ROS_LOG_FILENAME': '/root/.ros/log/5e71d728-1dd2-11b2-be8d-8d8170c74485/roslaunch-snickerdoodle-1679.log', 'LANG': 'C.UTF-8', 'TERM': 'linux', 'SHELL': '/bin/bash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jade/lib:/opt/ros/jade/lib/arm-linux-gnueabihf', 'ROS_MASTER_URI': 'http://snickerdoodle:11311/', 'XDG_RUNTIME_DIR': '/run/user/0', 'PYTHONPATH': '/opt/ros/jade/lib/python2.7/dist-packages', 'ROS_ROOT': '/opt/ros/jade/share/ros', 'PKG_CONFIG_PATH': '/opt/ros/jade/lib/pkgconfig:/opt/ros/jade/lib/arm-linux-gnueabihf/pkgconfig', 'ROS_PACKAGE_PATH': '/opt/ros/jade/share:/opt/ros/jade/stacks', 'XDG_SESSION_ID': 'c1', '_': '/opt/ros/jade/bin/roscore', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'OLDPWD': '/root', 'ROSLISP_PACKAGE_DIRECTORIES': '', 'PWD': '/root/workspace', 'ROS_ETC_DIR': '/opt/ros/jade/etc/ros', 'MAIL': '/var/mail/root', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:'}]
+[roslaunch][INFO] 1970-01-01 00:02:08,585: process[rosout-1]: args[[u'/opt/ros/jade/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 1970-01-01 00:02:08,586: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 1970-01-01 00:02:08,587: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 1970-01-01 00:02:08,588: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 1970-01-01 00:02:08,588: ... registered process [rosout-1]
+[roslaunch][INFO] 1970-01-01 00:02:08,589: process[rosout-1]: starting os process
+[roslaunch][INFO] 1970-01-01 00:02:08,591: process[rosout-1]: start w/ args [[u'/opt/ros/jade/lib/rosout/rosout', u'__name:=rosout', u'__log:=/root/.ros/log/5e71d728-1dd2-11b2-be8d-8d8170c74485/rosout-1.log']]
+[roslaunch][INFO] 1970-01-01 00:02:08,592: process[rosout-1]: cwd will be [/root/.ros]
+[roslaunch][INFO] 1970-01-01 00:02:08,624: process[rosout-1]: started with pid [1706]
+[roslaunch][INFO] 1970-01-01 00:02:08,627: ... successfully launched [rosout-1]
+[roslaunch][INFO] 1970-01-01 00:02:08,629: load_parameters starting ...
+[roslaunch][INFO] 1970-01-01 00:02:08,653: ... load_parameters complete
+[roslaunch][INFO] 1970-01-01 00:02:08,654: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 1970-01-01 00:02:08,655: ... launch_nodes complete
+[roslaunch.pmon][INFO] 1970-01-01 00:02:08,656: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon -1236056992)>
+[roslaunch.parent][INFO] 1970-01-01 00:02:08,657: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 1970-01-01 00:02:08,658: spin
+[roslaunch.pmon][INFO] 1970-01-01 00:02:44,835: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon -1236056992)>
+[roslaunch.pmon][INFO] 1970-01-01 00:02:44,858: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon -1236056992)>
+[roslaunch.pmon][INFO] 1970-01-01 00:02:44,860: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon -1236056992)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0xb6544730>, <roslaunch.nodeprocess.LocalProcess object at 0xb65acc90>]
+[roslaunch.pmon][INFO] 1970-01-01 00:02:44,871: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 1970-01-01 00:02:44,872: [rosout-1] killing on exit
+[roslaunch][INFO] 1970-01-01 00:02:44,874: process[rosout-1]: killing os process with pid[1706] pgid[1706]
+[roslaunch][INFO] 1970-01-01 00:02:44,874: [rosout-1] sending SIGINT to pgid [1706]
+[roslaunch][INFO] 1970-01-01 00:02:44,875: [rosout-1] sent SIGINT to pgid [1706]
+[roslaunch][INFO] 1970-01-01 00:02:45,277: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 1970-01-01 00:02:45,278: ProcessMonitor exit: killing master
+[roslaunch][INFO] 1970-01-01 00:02:45,279: [master] killing on exit
+[roslaunch][INFO] 1970-01-01 00:02:45,280: process[master]: killing os process with pid[1691] pgid[1691]
+[roslaunch][INFO] 1970-01-01 00:02:45,281: [master] sending SIGINT to pgid [1691]
+[roslaunch][INFO] 1970-01-01 00:02:45,281: [master] sent SIGINT to pgid [1691]
+[roslaunch][INFO] 1970-01-01 00:02:45,483: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 1970-01-01 00:02:45,483: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 1970-01-01 00:02:45,484: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 1970-01-01 00:02:45,503: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 1970-01-01 00:02:45,503: runner.stop()
+[roslaunch][INFO] 1970-01-01 00:02:45,504: shutting down processing monitor...
+[roslaunch][INFO] 1970-01-01 00:02:45,505: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon -1236056992)>
+[roslaunch.pmon][INFO] 1970-01-01 00:02:45,506: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon -1236056992)>
+[roslaunch][INFO] 1970-01-01 00:02:45,506: ... shutting down processing monitor complete
+[roslaunch][INFO] 1970-01-01 00:02:45,507: done
+[roslaunch.pmon][INFO] 1970-01-01 00:02:45,508: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon -1236056992)>
+[rospy.core][INFO] 1970-01-01 00:02:45,509: signal_shutdown [atexit]

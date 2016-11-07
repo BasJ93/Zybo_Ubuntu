@@ -1,0 +1,15 @@
+08c7b9c2af2bf85b2286c6bd00c42cd2  opt/ros/jade/lib/pkgconfig/mk.pc
+4c181cd5be85282bf647446a51f64309  opt/ros/jade/share/mk/buildtest.mk
+ce29482749a5bc1aed21b35e29083cf2  opt/ros/jade/share/mk/bzr_checkout.mk
+0a9d86e4042042439708c015dde75d0c  opt/ros/jade/share/mk/cmake.mk
+ae842d4c51f5924949013f7afc769bdc  opt/ros/jade/share/mk/cmake/mkConfig-version.cmake
+6a77734729542dfce287676ceca485f0  opt/ros/jade/share/mk/cmake/mkConfig.cmake
+134ce14be27050fde9310970a9864cf9  opt/ros/jade/share/mk/cmake_stack.mk
+d4a3a9ee8543892758f8541405cc85a3  opt/ros/jade/share/mk/download_unpack_build.mk
+e524ec1d8bc91cd01c0f4ea36721fa77  opt/ros/jade/share/mk/eclipse.awk
+d646b70441c6537d0e859666a26897f4  opt/ros/jade/share/mk/git_checkout.mk
+7a4748e6c62ad025d847058506eff37f  opt/ros/jade/share/mk/hg_checkout.mk
+ee9f214ad653fa26028b9f760f8ea96a  opt/ros/jade/share/mk/make_pydev_project.py
+69f450a99ede6177a67934977a64c6af  opt/ros/jade/share/mk/package.xml
+49857d2ecf89f779afffd5054cbd31b5  opt/ros/jade/share/mk/svn_checkout.mk
+34518dbec092109007141a7195dd05c5  usr/share/doc/ros-jade-mk/changelog.Debian.gz

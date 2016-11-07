@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="text/x-uuencode">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>uuencoded file</comment>
+  <comment xml:lang="ast">uuencoded file</comment>
+  <comment xml:lang="bs">uu kodirana datoteka</comment>
+  <comment xml:lang="de">uuencoded-Datei</comment>
+  <comment xml:lang="en_AU">uuencoded file</comment>
+  <comment xml:lang="en_GB">uuencoded file</comment>
+  <comment xml:lang="es">Archivo codificado con uuencode</comment>
+  <comment xml:lang="eu">uuencoded fitxategia</comment>
+  <comment xml:lang="gl">Ficheiro uuencoded</comment>
+  <comment xml:lang="id">Berkas ter-uuencode</comment>
+  <comment xml:lang="it">File codificato uuencode</comment>
+  <comment xml:lang="lv">uuencoded datne</comment>
+  <comment xml:lang="pt_BR">arquivo com codificação uuenconde</comment>
+  <comment xml:lang="sl">uu kodirana datoteka</comment>
+  <comment xml:lang="uk">файл даних у форматі UUE</comment>
+  <comment xml:lang="zh_TW">uuencoded 檔案</comment>
+  <sub-class-of type="text/plain"/>
+  <glob pattern="*.uue"/>
+  <alias type="zz-application/zz-winassoc-uu"/>
+</mime-type>

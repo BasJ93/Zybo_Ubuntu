@@ -1,0 +1,8 @@
+sbcl
+magic
+0
+# FASL\x0a
+
+/usr/lib/sbcl/sbcl-run
+
+

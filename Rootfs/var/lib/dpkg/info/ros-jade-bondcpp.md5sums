@@ -1,0 +1,9 @@
+6122ab1cd986ea6ec8c229934c86adae  opt/ros/jade/include/bondcpp/BondSM_sm.h
+deab75f0c4f7e7234059d38b30db0826  opt/ros/jade/include/bondcpp/bond.h
+56eeb34f64385a9fbdb1790cda9e0987  opt/ros/jade/include/bondcpp/timeout.h
+5caf7625a32fad125ad74967f122810e  opt/ros/jade/lib/libbondcpp.so
+4e64c25767a54a2fc4f805682221316b  opt/ros/jade/lib/pkgconfig/bondcpp.pc
+52992eeab45add4d232e2a440a671ca0  opt/ros/jade/share/bondcpp/cmake/bondcppConfig-version.cmake
+4fe2523463d2cecaaa77442813ca1fc8  opt/ros/jade/share/bondcpp/cmake/bondcppConfig.cmake
+3860f428781e3941dfb045ddbc0d480c  opt/ros/jade/share/bondcpp/package.xml
+d80f7fac21e061d7d809e348d08e519a  usr/share/doc/ros-jade-bondcpp/changelog.Debian.gz

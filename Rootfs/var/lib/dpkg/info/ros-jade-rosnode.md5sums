@@ -1,0 +1,9 @@
+8957c5a111a503e30cd536c2433bb78d  opt/ros/jade/bin/rosnode
+f2df3069e3f0b82c11305e652f9045ec  opt/ros/jade/lib/pkgconfig/rosnode.pc
+0c94b5a3fb6bb010e09720105f6c81d4  opt/ros/jade/lib/python2.7/dist-packages/rosnode-1.11.16.egg-info
+74989eb8911d4cf46d626f76bb13e6fd  opt/ros/jade/lib/python2.7/dist-packages/rosnode/__init__.py
+41df3006d55a0b62d92a1860060b1b01  opt/ros/jade/lib/python2.7/dist-packages/rosnode/__init__.pyc
+8f4d7e11c4db639c09281522ffca67a4  opt/ros/jade/share/rosnode/cmake/rosnodeConfig-version.cmake
+08425b3e6f09a408b91210187cbe907a  opt/ros/jade/share/rosnode/cmake/rosnodeConfig.cmake
+aec60cb3e23f4ea63c9c8a2ac40bbd55  opt/ros/jade/share/rosnode/package.xml
+22a2063d034ed0fda7b64f982b561363  usr/share/doc/ros-jade-rosnode/changelog.Debian.gz

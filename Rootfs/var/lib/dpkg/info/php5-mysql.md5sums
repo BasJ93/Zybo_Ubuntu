@@ -1,0 +1,8 @@
+a00bf5344eeea611dc7e6c107d7f7036  usr/lib/php5/20121212+lfs/mysql.so
+589f80648d555d3e99743bcd09e001f2  usr/lib/php5/20121212+lfs/mysqli.so
+abeb8444ffb76cced9346413e4b8e505  usr/lib/php5/20121212+lfs/pdo_mysql.so
+3ec131911c95e8b0d20bcc7e085dad70  usr/share/bug/php5-mysql/control
+8041d2adb543edd8f7f35d2f88ad3886  usr/share/bug/php5-mysql/script
+4ec7c759a1bbf616bd5fc64e46852ed0  usr/share/php5/mysql/mysql.ini
+f236e54661cdcf871dd7e4baf9abbea4  usr/share/php5/mysql/mysqli.ini
+abfa801b4820233d1fcf18d3e15db635  usr/share/php5/mysql/pdo_mysql.ini

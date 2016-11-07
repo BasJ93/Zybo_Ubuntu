@@ -1,0 +1,17 @@
+3480cc243d324a4191ed1bb76db1e52a  usr/bin/g++-4.8
+69e15aee0f05e17ef8ce1527220db15d  usr/lib/gcc/arm-linux-gnueabihf/4.8/cc1plus
+d34e924e0b649f39a4c876c1a4ec4e1f  usr/share/doc/gcc-4.8-base/C++/README.C++
+4cd46d7b50090a419357eed4b5ed5b97  usr/share/doc/gcc-4.8-base/C++/changelog.gz
+fbf4acd2e2ac32b15a2beda2177f9b01  usr/share/doc/gcc-4.8-base/test-summaries/boehm-gc.sum
+1467d69ad8f886c35e771c700f416dcf  usr/share/doc/gcc-4.8-base/test-summaries/g++.sum.gz
+3fc0433993f1edd99483e1da3a825b4a  usr/share/doc/gcc-4.8-base/test-summaries/gcc.sum.gz
+7f1a693e878d2cefb0e6f5c1158d12c3  usr/share/doc/gcc-4.8-base/test-summaries/gfortran.sum.gz
+5f2ab25c85d89af62936202f8e418446  usr/share/doc/gcc-4.8-base/test-summaries/go.sum.gz
+50641a372501599bcd8ba4941b916134  usr/share/doc/gcc-4.8-base/test-summaries/libatomic.sum
+fac7129513248928b4314bfa31daf060  usr/share/doc/gcc-4.8-base/test-summaries/libffi.sum.gz
+7b00cfb4645e5cad514fc7e4ed1e1250  usr/share/doc/gcc-4.8-base/test-summaries/libgo.sum.gz
+03399663e742dc28cc4297be86eb4653  usr/share/doc/gcc-4.8-base/test-summaries/libgomp.sum.gz
+df1b3f069b87dc68929b5dd37db59e12  usr/share/doc/gcc-4.8-base/test-summaries/libjava.sum.gz
+64763128ad1cff2503f8c9302fca66dc  usr/share/doc/gcc-4.8-base/test-summaries/libstdc++.sum.gz
+30f24aef70dc44c9b206967b77cf20f2  usr/share/doc/gcc-4.8-base/test-summaries/obj-c++.sum.gz
+b97854863f736e9d396ab4698682409c  usr/share/doc/gcc-4.8-base/test-summaries/objc.sum.gz

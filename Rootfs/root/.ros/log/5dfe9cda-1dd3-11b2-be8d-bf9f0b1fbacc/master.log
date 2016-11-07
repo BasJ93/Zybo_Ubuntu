@@ -1,0 +1,21 @@
+[rosmaster.main][INFO] 1970-01-01 00:09:16,358: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 1970-01-01 00:09:16,359: Starting ROS Master Node
+[xmlrpc][INFO] 1970-01-01 00:09:16,363: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 1970-01-01 00:09:16,365: Started XML-RPC server [http://snickerdoodle:11311/]
+[rosmaster.master][INFO] 1970-01-01 00:09:16,367: Master initialized: port[11311], uri[http://snickerdoodle:11311/]
+[xmlrpc][INFO] 1970-01-01 00:09:16,367: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 1970-01-01 00:09:16,483: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 1970-01-01 00:09:16,492: +PARAM [/roslaunch/uris/host_snickerdoodle__40626] by /roslaunch
+[rosmaster.master][INFO] 1970-01-01 00:09:16,628: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 1970-01-01 00:09:16,629: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 1970-01-01 00:09:16,918: +SERVICE [/rosout/get_loggers] /rosout http://snickerdoodle:39216/
+[rosmaster.master][INFO] 1970-01-01 00:09:16,924: +SERVICE [/rosout/set_logger_level] /rosout http://snickerdoodle:39216/
+[rosmaster.master][INFO] 1970-01-01 00:09:16,935: +PUB [/rosout_agg] /rosout http://snickerdoodle:39216/
+[rosmaster.master][INFO] 1970-01-01 00:09:16,961: +SUB [/rosout] /rosout http://snickerdoodle:39216/
+[rosmaster.master][INFO] 1970-01-01 00:09:25,832: -PUB [/rosout_agg] /rosout http://snickerdoodle:39216/
+[rosmaster.master][INFO] 1970-01-01 00:09:25,841: -SUB [/rosout] /rosout http://snickerdoodle:39216/
+[rosmaster.master][INFO] 1970-01-01 00:09:25,847: -SERVICE [/rosout/get_loggers] /rosout rosrpc://snickerdoodle:40515
+[rosmaster.master][INFO] 1970-01-01 00:09:25,853: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://snickerdoodle:40515
+[rosmaster.main][INFO] 1970-01-01 00:09:26,000: keyboard interrupt, will exit
+[rosmaster.main][INFO] 1970-01-01 00:09:26,001: stopping master...
+[rospy.core][INFO] 1970-01-01 00:09:26,002: signal_shutdown [atexit]

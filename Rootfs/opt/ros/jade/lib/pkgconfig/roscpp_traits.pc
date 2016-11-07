@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: roscpp_traits
+Description: Description of roscpp_traits
+Version: 0.5.6
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: cpp_common rostime

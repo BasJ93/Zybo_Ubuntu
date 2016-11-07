@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: std_msgs
+Description: Description of std_msgs
+Version: 0.5.9
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: message_runtime

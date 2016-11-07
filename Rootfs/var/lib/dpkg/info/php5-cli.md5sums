@@ -1,0 +1,6 @@
+770b9a80c192698141ea2d4fc4f12bd5  usr/bin/php5
+6ca595a320107e1109c4aee99cc18a0e  usr/share/bug/php5-cli/control
+1c0f2d9adb5daa00134611d8eed90cf6  usr/share/bug/php5-cli/script
+24f5ec0ac09ef8f970dd45ae27c7ec3b  usr/share/lintian/overrides/php5-cli
+bc5a99f250faecf1450467e3566c7564  usr/share/man/man1/php5.1.gz
+d41d8cd98f00b204e9800998ecf8427e  usr/share/php5/sapi/cli

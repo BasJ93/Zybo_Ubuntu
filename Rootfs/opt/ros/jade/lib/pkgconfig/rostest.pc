@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rostest
+Description: Description of rostest
+Version: 1.11.16
+Cflags: -I/opt/ros/jade/include -I/usr/include
+Libs: -L/opt/ros/jade/lib -l:/usr/lib/arm-linux-gnueabihf/libboost_system.so -l:/usr/lib/arm-linux-gnueabihf/libboost_thread.so -l:/usr/lib/arm-linux-gnueabihf/libpthread.so
+Requires: 

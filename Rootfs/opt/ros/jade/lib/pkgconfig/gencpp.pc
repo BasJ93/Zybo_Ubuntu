@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: gencpp
+Description: Description of gencpp
+Version: 0.5.3
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: genmsg

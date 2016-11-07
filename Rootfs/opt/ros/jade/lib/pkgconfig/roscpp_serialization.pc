@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: roscpp_serialization
+Description: Description of roscpp_serialization
+Version: 0.5.6
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib -lroscpp_serialization
+Requires: cpp_common roscpp_traits rostime

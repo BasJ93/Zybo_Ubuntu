@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>The Docutils Subversion Repository</title>
+<meta name="author" content="Lea Wiemann" />
+<meta name="date" content="2013-05-06" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../../css/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="the-docutils-subversion-repository">
+<h1 class="title">The <a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> Subversion Repository</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>Lea Wiemann</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>7659</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2013-05-06</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<div class="admonition-quick-instructions admonition">
+<p class="first admonition-title">Quick Instructions</p>
+<p>To get a checkout of the Docutils source tree (without the
+sandboxes), type</p>
+<pre class="literal-block">
+svn checkout http://svn.code.sf.net/p/docutils/code/trunk docutils-code
+</pre>
+<p class="last">If you are going to commit changes to the repository, please read
+the <strong>whole document</strong>, especially the section &quot;<a class="reference internal" href="#information-for-developers">Information for
+Developers</a>&quot;!</p>
+</div>
+<div class="important">
+<p class="first admonition-title">Important</p>
+<p>As of 2013-03-13 the subversion urls have changed.</p>
+<p class="last">The Git clone at <a class="reference external" href="http://repo.or.cz/w/docutils.git">http://repo.or.cz/w/docutils.git</a> is currently not
+updated and should not be used.</p>
+</div>
+<p>Docutils uses a <a class="reference external" href="http://subversion.tigris.org/">Subversion</a> repository located at
+<tt class="docutils literal">docutils.svn.sourceforge.net</tt>.
+Subversion is exhaustively documented in the <a class="reference external" href="http://svnbook.red-bean.com/">Subversion Book</a> (svnbook).</p>
+<p>While Unix and Mac OS X users will probably prefer the standard
+Subversion command line interface, Windows user may want to try
+<a class="reference external" href="http://tortoisesvn.tigris.org/">TortoiseSVN</a>, a convenient explorer extension.  The instructions apply
+analogously.</p>
+<!-- There is a git_ mirror at http://repo.or.cz/w/docutils.git providing
+`web access`_ and the base for `creating a local git clone`_. -->
+<p>For the project policy on repository use (check-in requirements,
+branching, etc.), please see the <a class="reference external" href="policies.html#subversion-repository">Docutils Project Policies</a>.</p>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#accessing-the-repository" id="id3">Accessing the Repository</a><ul>
+<li><a class="reference internal" href="#general-information" id="id4">General Information</a><ul>
+<li><a class="reference internal" href="#web-access" id="id5">Web Access</a></li>
+<li><a class="reference internal" href="#repository-access-methods" id="id6">Repository Access Methods</a></li>
+<li><a class="reference internal" href="#checking-out-the-repository" id="id7">Checking Out the Repository</a></li>
+<li><a class="reference internal" href="#switching-the-repository-root" id="id8">Switching the Repository Root</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#information-for-developers" id="id9">Information for Developers</a><ul>
+<li><a class="reference internal" href="#setting-up-your-subversion-client-for-development" id="id10">Setting Up Your Subversion Client For Development</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#repository-layout" id="id11">Repository Layout</a></li>
+</ul>
+</div>
+<div class="section" id="accessing-the-repository">
+<h1><a class="toc-backref" href="#id3">Accessing the Repository</a></h1>
+<div class="section" id="general-information">
+<h2><a class="toc-backref" href="#id4">General Information</a></h2>
+<div class="section" id="web-access">
+<h3><a class="toc-backref" href="#id5">Web Access</a></h3>
+<p>The repository can be browsed and examined via the web at
+<a class="reference external" href="http://sourceforge.net/p/docutils/code">http://sourceforge.net/p/docutils/code</a></p>
+<!-- currently not updated (last update 2012)
+Alternatively, use the web interface of the git mirror at
+http://repo.or.cz/w/docutils.git. -->
+</div>
+<div class="section" id="repository-access-methods">
+<h3><a class="toc-backref" href="#id6">Repository Access Methods</a></h3>
+<p>To get a checkout of the Docutils repository, first determine the root
+of the repository depending on your preferred protocol:</p>
+<dl class="docutils">
+<dt>anonymous access: (read only)</dt>
+<dd><tt class="docutils literal"><span class="pre">http://svn.code.sf.net/p/docutils/code</span></tt></dd>
+<dt><a class="reference internal" href="#developer-access">developer access</a>: (read and write)</dt>
+<dd><tt class="docutils literal"><span class="pre">svn+ssh://&lt;USERNAME&gt;&#64;svn.code.sf.net/p/docutils/code</span></tt></dd>
+</dl>
+<!-- git clone: (read only)
+``git clone git://repo.or.cz/docutils.git`` -->
+</div>
+<div class="section" id="checking-out-the-repository">
+<h3><a class="toc-backref" href="#id7">Checking Out the Repository</a></h3>
+<p>To check out only the current main source tree of Docutils, type</p>
+<pre class="literal-block">
+svn checkout ROOT/trunk/docutils
+</pre>
+<p>(Substitute your preferred repository root for ROOT.)  To check out
+everything (main tree, sandboxes, web site, and parallel projects),
+type</p>
+<pre class="literal-block">
+svn checkout ROOT/trunk docutils
+</pre>
+<p>This will create a working copy of the whole trunk in a new directory
+called <tt class="docutils literal">docutils</tt>.</p>
+<p>Note that you probably do <em>not</em> want to check out the ROOT itself
+(without &quot;/trunk&quot;), because then you'd end up fetching the whole
+Docutils tree for every branch and tag over and over again.</p>
+<p>To update your working copy later on, <tt class="docutils literal">cd</tt> into the working copy and
+type</p>
+<pre class="literal-block">
+svn update
+</pre>
+<!-- Creating a local git clone
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Users of git_ can clone a mirror of the docutils repository with ::
+
+  git clone git://repo.or.cz/docutils.git
+
+and proceed according to the `git documentation`_.
+
+.. _git documentation: http://git-scm.com/documentation -->
+</div>
+<div class="section" id="switching-the-repository-root">
+<h3><a class="toc-backref" href="#id8">Switching the Repository Root</a></h3>
+<p>If you changed your mind and want to use a different repository root,
+<tt class="docutils literal">cd</tt> into your working copy and type:</p>
+<pre class="literal-block">
+svn switch --relocate OLDROOT NEWROOT
+</pre>
+</div>
+</div>
+<div class="section" id="information-for-developers">
+<span id="developer-access"></span><h2><a class="toc-backref" href="#id9">Information for Developers</a></h2>
+<p>If you would like to have write access to the repository, register
+with <a class="reference external" href="http://sourceforge.net/">SourceForge.net</a> and send your SourceForge.net
+user names to <a class="reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a>.
+(Note that there may be a delay of several hours until you can commit
+changes to the repository.)</p>
+<p>Sourceforge subversion access is documented <a class="reference external" href="http://sourceforge.net/p/forge/documentation/svn/">here</a></p>
+<div class="section" id="setting-up-your-subversion-client-for-development">
+<h3><a class="toc-backref" href="#id10">Setting Up Your Subversion Client For Development</a></h3>
+<p>Before commiting changes to the repository, please ensure that the
+following lines are contained (and uncommented) in your local
+~/.subversion/config file, so that new files are added with the
+correct properties set:</p>
+<pre class="literal-block">
+[miscellany]
+# For your convenience:
+global-ignores = ... *.pyc ...
+# For correct properties:
+enable-auto-props = yes
+
+[auto-props]
+*.py = svn:eol-style=native;svn:keywords=Author Date Id Revision
+*.txt = svn:eol-style=native;svn:keywords=Author Date Id Revision
+*.html = svn:eol-style=native;svn:keywords=Author Date Id Revision
+*.xml = svn:eol-style=native;svn:keywords=Author Date Id Revision
+*.tex = svn:eol-style=native;svn:keywords=Author Date Id Revision
+*.css = svn:eol-style=native;svn:keywords=Author Date Id Revision
+*.patch = svn:eol-style=native
+*.sh = svn:eol-style=native;svn:executable;svn:keywords=Author Date Id Revision
+*.png = svn:mime-type=image/png
+*.jpg = svn:mime-type=image/jpeg
+*.gif = svn:mime-type=image/gif
+</pre>
+</div>
+</div>
+</div>
+<div class="section" id="repository-layout">
+<h1><a class="toc-backref" href="#id11">Repository Layout</a></h1>
+<p>The following tree shows the repository layout:</p>
+<pre class="literal-block">
+docutils/
+|-- branches/
+|   |-- branch1/
+|   |   |-- docutils/
+|   |   |-- sandbox/
+|   |   `-- web/
+|   `-- branch2/
+|       |-- docutils/
+|       |-- sandbox/
+|       `-- web/
+|-- tags/
+|   |-- tag1/
+|   |   |-- docutils/
+|   |   |-- sandbox/
+|   |   `-- web/
+|   `-- tag2/
+|       |-- docutils/
+|       |-- sandbox/
+|       `-- web/
+`-- trunk/
+    |-- docutils/
+    |-- sandbox/
+    `-- web/
+</pre>
+<p>The main source tree lives at <tt class="docutils literal">docutils/trunk/docutils/</tt>, next to
+the sandboxes (<tt class="docutils literal">docutils/trunk/sandbox/</tt>) and the web site files
+(<tt class="docutils literal">docutils/trunk/web/</tt>).</p>
+<p><tt class="docutils literal">docutils/branches/</tt> and <tt class="docutils literal">docutils/tags/</tt> contain (shallow) copies
+of either the whole trunk or only the main source tree
+(<tt class="docutils literal">docutils/trunk/docutils</tt>).</p>
+</div>
+</div>
+</body>
+</html>

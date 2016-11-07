@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>Docstring Semantics</title>
+<meta name="author" content="David Goodger" />
+<meta name="date" content="2012-01-03" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../../css/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="docstring-semantics">
+<h1 class="title">Docstring Semantics</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>David Goodger</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>7302</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2012-01-03</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<p>These are notes for a possible future PEP providing the final piece of
+the Python docstring puzzle: docstring semantics or documentation
+methodology.  <a class="reference external" href="http://www.python.org/peps/pep-0257.html">PEP 257</a>, Docstring Conventions, sketches out some
+guidelines, but does not get into methodology details.</p>
+<p>I haven't explored documentation methodology more because, in my
+opinion, it is a completely separate issue from syntax, and it's even
+more controversial than syntax.  Nobody wants to be told how to lay
+out their documentation, a la <a class="reference external" href="http://java.sun.com/j2se/javadoc/">JavaDoc</a>.  I think the JavaDoc way is
+butt-ugly, but it <em>is</em> an established standard for the Java world.
+Any standard documentation methodology has to be formal enough to be
+useful but remain light enough to be usable.  If the methodology is
+too strict, too heavy, or too ugly, many/most will not want to use it.</p>
+<p>I think a standard methodology could benefit the Python community, but
+it would be a hard sell.  A PEP would be the place to start.  For most
+human-readable documentation needs, the free-form text approach is
+adequate.  We'd only need a formal methodology if we want to extract
+the parameters into a data dictionary, index, or summary of some kind.</p>
+<div class="section" id="pythondoc">
+<h1>PythonDoc</h1>
+<p>(Not to be confused with Daniel Larsson's <a class="reference external" href="http://starship.python.net/crew/danilo/pythondoc/">pythondoc</a> project.)</p>
+<p>A Python version of the <a class="reference external" href="http://java.sun.com/j2se/javadoc/">JavaDoc</a> semantics (not syntax).  A set of
+conventions which are understood by the Docutils.  What JavaDoc has
+done is to establish a syntax that enables a certain documentation
+methodology, or standard <em>semantics</em>.  JavaDoc is not just syntax; it
+prescribes a methodology.</p>
+<ul>
+<li><p class="first">Use field lists or definition lists for &quot;tagged blocks&quot;.  By this I
+mean that field lists can be used similarly to JavaDoc's <tt class="docutils literal">&#64;tag</tt>
+syntax.  That's actually one of the motivators behind field lists.
+For example, we could have:</p>
+<pre class="literal-block">
+&quot;&quot;&quot;
+:Parameters:
+    - `lines`: a list of one-line strings without newlines.
+    - `until_blank`: Stop collecting at the first blank line if
+      true (1).
+    - `strip_indent`: Strip common leading indent if true (1,
+      default).
+
+:Return:
+    - a list of indented lines with mininum indent removed;
+    - the amount of the indent;
+    - whether or not the block finished with a blank line or at
+      the end of `lines`.
+&quot;&quot;&quot;
+</pre>
+<p>This is taken straight out of docutils/statemachine.py, in which I
+experimented with a simple documentation methodology.  Another
+variation I've thought of exploits the <a class="reference external" href="http://www.mems-exchange.org/software/grouch/">Grouch</a>-compatible
+&quot;classifier&quot; element of definition lists.  For example:</p>
+<pre class="literal-block">
+:Parameters:
+    `lines` : [string]
+        List of one-line strings without newlines.
+    `until_blank` : boolean
+        Stop collecting at the first blank line if true (1).
+    `strip_indent` : boolean
+        Strip common leading indent if true (1, default).
+</pre>
+</li>
+<li><p class="first">Field lists could even be used in a one-to-one correspondence with
+JavaDoc <tt class="docutils literal">&#64;tags</tt>, although I doubt if I'd recommend it.  Several
+ports of JavaDoc's <tt class="docutils literal">&#64;tag</tt> methodology exist in Python, most
+recently Ed Loper's &quot;<a class="reference external" href="http://epydoc.sf.net/">epydoc</a>&quot;.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="other-ideas">
+<h1>Other Ideas</h1>
+<ul>
+<li><p class="first">Can we extract comments from parsed modules?  Could be handy for
+documenting function/method parameters:</p>
+<pre class="literal-block">
+def method(self,
+           source,        # path of input file
+           dest           # path of output file
+          ):
+</pre>
+<p>This would save having to repeat parameter names in the docstring.</p>
+<p>Idea from Mark Hammond's 1998-06-23 Doc-SIG post, &quot;Re: [Doc-SIG]
+Documentation tool&quot;:</p>
+<blockquote>
+<p>it would be quite hard to add a new param to this method without
+realising you should document it</p>
+</blockquote>
+</li>
+<li><p class="first">Frederic Giacometti's <a class="reference external" href="http://mail.python.org/pipermail/doc-sig/2001-May/001840.html">iPhrase Python documentation conventions</a> is
+an attachment to his Doc-SIG post of 2001-05-30.</p>
+</li>
+</ul>
+<!-- Local Variables:
+mode: indented-text
+indent-tabs-mode: nil
+sentence-end-double-space: t
+fill-column: 70
+End: -->
+</div>
+</div>
+</body>
+</html>

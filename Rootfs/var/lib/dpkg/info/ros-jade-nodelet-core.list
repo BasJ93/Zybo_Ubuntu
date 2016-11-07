@@ -1,0 +1,12 @@
+/.
+/opt
+/opt/ros
+/opt/ros/jade
+/opt/ros/jade/share
+/opt/ros/jade/share/nodelet_core
+/opt/ros/jade/share/nodelet_core/package.xml
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/ros-jade-nodelet-core
+/usr/share/doc/ros-jade-nodelet-core/changelog.Debian.gz

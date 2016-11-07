@@ -1,0 +1,15 @@
+49a13fe7fefa79a204397177f0a07a48  lib/recovery-mode/l10n.sh
+fe728491bedaf2b43775a2482fa65ea2  lib/recovery-mode/options/apt-snapshots
+5bd9dddcd4fe82ea964226ae79f3aea0  lib/recovery-mode/options/clean
+16fa51ebc5ea1ea094e9a118644caaa7  lib/recovery-mode/options/dpkg
+dfec504aa4b483966b9fd6c965c7ba17  lib/recovery-mode/options/failsafeX
+d8a7c2449a733d928f3398c61580a442  lib/recovery-mode/options/fsck
+5384219ca2ecc4f9490dbe99b26c2ccc  lib/recovery-mode/options/grub
+fc6558e073c9f18b067b9e48810444bc  lib/recovery-mode/options/network
+d89ab1b20db658d5faaf141e04dc2527  lib/recovery-mode/options/root
+6d89a2aa9bdb5332728ee1b3b6bf4b88  lib/recovery-mode/options/system-summary
+fce236440b4101a16a683b429f32c49a  lib/recovery-mode/recovery-menu
+f10299284ffec3c242e60b5aeada832f  usr/share/doc/friendly-recovery/README
+d65eecd860ddf77b50725c00655c7787  usr/share/doc/friendly-recovery/TODO
+0e0ba71f31560962e3666aa0c37d67f6  usr/share/doc/friendly-recovery/changelog.gz
+9e25796fc73378d4a16c5f87e49a5c79  usr/share/doc/friendly-recovery/copyright

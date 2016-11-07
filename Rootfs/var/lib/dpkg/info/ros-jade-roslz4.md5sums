@@ -1,0 +1,11 @@
+dcb4d29ab78f519bdbc2937ad2d402bd  opt/ros/jade/include/roslz4/lz4s.h
+85c8a41d17f9776bd833c006d6f61474  opt/ros/jade/lib/libroslz4.so
+abe963c5f675525f2ce786a824bfa75f  opt/ros/jade/lib/pkgconfig/roslz4.pc
+eddca3f7cc623bf729aa8bf7cb0e4284  opt/ros/jade/lib/python2.7/dist-packages/roslz4-1.11.16.egg-info
+cb0c50821fb4a99f87dc5a6ad06c0e6e  opt/ros/jade/lib/python2.7/dist-packages/roslz4/__init__.py
+f6e7be44d81bf5b5afb90e7e7200f2c3  opt/ros/jade/lib/python2.7/dist-packages/roslz4/__init__.pyc
+0ffbcd0e16591fde63b270e5307edb4f  opt/ros/jade/lib/python2.7/dist-packages/roslz4/_roslz4.so
+8f4d7e11c4db639c09281522ffca67a4  opt/ros/jade/share/roslz4/cmake/roslz4Config-version.cmake
+9711a24c08c072c9a519f5448a0f6ffe  opt/ros/jade/share/roslz4/cmake/roslz4Config.cmake
+31a8ff7491b23fbe33f2082d1e7f2f51  opt/ros/jade/share/roslz4/package.xml
+eee7f39d3f34eb546802e2a310f716bc  usr/share/doc/ros-jade-roslz4/changelog.Debian.gz

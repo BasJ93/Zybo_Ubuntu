@@ -1,0 +1,8 @@
+libmca_common_sm 3 libopenmpi1.6
+libopen-pal 4 libopenmpi1.6
+libmpi_f90 1 libopenmpi1.6
+libmpi_cxx 1 libopenmpi1.6
+libmpi_f77 1 libopenmpi1.6
+libopen-rte 4 libopenmpi1.6
+libompitrace 0 libopenmpi1.6
+libmpi 1 libopenmpi1.6

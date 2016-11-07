@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: stereo_msgs
+Description: Description of stereo_msgs
+Version: 1.12.3
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: message_runtime sensor_msgs std_msgs

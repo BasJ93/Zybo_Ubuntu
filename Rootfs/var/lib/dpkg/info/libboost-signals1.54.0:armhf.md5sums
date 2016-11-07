@@ -1,0 +1,4 @@
+ce1ea8362e028e6cff1670667daeac70  usr/lib/arm-linux-gnueabihf/libboost_signals.so.1.54.0
+b5d043c77b6c2c37e794c91631c0747d  usr/share/doc/libboost-signals1.54.0/changelog.Debian.gz
+e66425771863c34de39265516529d049  usr/share/doc/libboost-signals1.54.0/copyright
+a1e63a134cd3b21c60595f7a96e260cc  usr/share/lintian/overrides/libboost-signals1.54.0

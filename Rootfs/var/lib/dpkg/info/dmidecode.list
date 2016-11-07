@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/dmidecode
+/usr/share/doc/dmidecode/copyright
+/usr/share/doc/dmidecode/AUTHORS
+/usr/share/doc/dmidecode/changelog.Debian.gz
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/dmidecode.8.gz
+/usr/sbin
+/usr/sbin/dmidecode

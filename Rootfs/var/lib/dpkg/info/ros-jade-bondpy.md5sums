@@ -1,0 +1,12 @@
+cceb3cd47fd0b7d7c731450fa27188fb  opt/ros/jade/lib/pkgconfig/bondpy.pc
+753e7b3ae9f21af30e49404bd0b6662f  opt/ros/jade/lib/python2.7/dist-packages/bondpy-1.7.16.egg-info
+dc72d066da1f63f0e4f4f384a8599c61  opt/ros/jade/lib/python2.7/dist-packages/bondpy/BondSM_sm.py
+6f95f2c87461a4e873949acd8bed2748  opt/ros/jade/lib/python2.7/dist-packages/bondpy/BondSM_sm.pyc
+d41d8cd98f00b204e9800998ecf8427e  opt/ros/jade/lib/python2.7/dist-packages/bondpy/__init__.py
+3a695f662ed5b1de1c0c461e87326faf  opt/ros/jade/lib/python2.7/dist-packages/bondpy/__init__.pyc
+6e0546d4512cd21c08d68d7aae9e3356  opt/ros/jade/lib/python2.7/dist-packages/bondpy/bondpy.py
+480e2782e6d2635d409a64b5352af038  opt/ros/jade/lib/python2.7/dist-packages/bondpy/bondpy.pyc
+52992eeab45add4d232e2a440a671ca0  opt/ros/jade/share/bondpy/cmake/bondpyConfig-version.cmake
+eb415528b64d9d4586bc1783bbdaed53  opt/ros/jade/share/bondpy/cmake/bondpyConfig.cmake
+c32f507d53375467ce5e7c107a7217db  opt/ros/jade/share/bondpy/package.xml
+51de68143c224fe3ec4696ad7f664ea9  usr/share/doc/ros-jade-bondpy/changelog.Debian.gz

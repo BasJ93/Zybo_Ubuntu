@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-gtk-builder">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>GTK+ Builder</comment>
+  <comment xml:lang="ast">GTK+ Builder</comment>
+  <comment xml:lang="bs">GTK+ Builder</comment>
+  <comment xml:lang="de">GTK+ Builder</comment>
+  <comment xml:lang="en_AU">GTK+ Builder</comment>
+  <comment xml:lang="en_GB">GTK+ Builder</comment>
+  <comment xml:lang="es">GTK+ Builder</comment>
+  <comment xml:lang="gl">GTK+ Builder</comment>
+  <comment xml:lang="id">GTK+ Builder</comment>
+  <comment xml:lang="it">GTK+ Builder</comment>
+  <comment xml:lang="lv">GTK+ būvētājs</comment>
+  <comment xml:lang="pt_BR">Compilador GTK+</comment>
+  <comment xml:lang="ru">GTK+ Builder</comment>
+  <comment xml:lang="sl">Izgrajevalnik GTK+</comment>
+  <comment xml:lang="uk">GTK+ Builder</comment>
+  <sub-class-of type="application/xml"/>
+  <generic-icon name="x-office-document"/>
+  <glob pattern="*.ui"/>
+</mime-type>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>Docutils Release Procedure</title>
+<meta name="authors" content="David Goodger  Lea Wiemann  open to all Docutils developers" />
+<meta name="date" content="2013-07-13" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../../css/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="docutils-release-procedure">
+<h1 class="title"><a class="reference external" href="http://docutils.sourceforge.net/">Docutils</a> Release Procedure</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Authors:</th>
+<td>David Goodger
+<br />Lea Wiemann
+<br />open to all Docutils developers</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2013-07-13</td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>7686</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<div class="section" id="assumptions-and-their-failure">
+<h1>Assumptions and their failure</h1>
+<p>On the test machine python2.4, 2.5 2.6 2.7 and 3.2 are installed.
+Some in /usr/ some under /usr/local.</p>
+<dl class="docutils">
+<dt>Assumption: If python2.6 is in /usr/bin/ than site-packages is under</dt>
+<dd>/usr/local/lib/python2.6.</dd>
+</dl>
+<p>On new ubuntu 12.10</p>
+<ul>
+<li><p class="first">python2.7 is here /usr/bin/python2.7.</p>
+</li>
+<li><p class="first">in /usr/lib are python2.7, pymodules and pyshared.</p>
+<p>in /usr/lib/python2.7 no site-packages directory even after installation
+of docutils</p>
+<p>in /usr/local/lib/python2.7 are dist-packages  site-packages.</p>
+<p>site-packages is empty.</p>
+<p>docutils is installed under dist-packages.</p>
+<p>pymodules has a python2.7 directory.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="releasing">
+<h1>Releasing</h1>
+<p>REWORK FOR SOURCEFORGE REPO</p>
+<p>Steps in boldface text are <em>not</em> covered by the release script at
+sandbox/infrastructure/release.sh.  &quot;Not covered&quot; means that you aren't even
+reminded of them.</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">This document does not cover branching and tagging, but the
+release script does.</p>
+</div>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last">You may want to use <a class="reference external" href="http://releaseforge.sourceforge.net/">ReleaseForge</a> instead of using
+SourceForge's file release system.</p>
+</div>
+<ul>
+<li><p class="first"><strong>On the Docutils-develop mailing list, announce that the release is
+going to be made, update the release notes and ask for additions.</strong></p>
+<p>Consult HISTORY.TXT for changes.</p>
+</li>
+<li><p class="first"><strong>Announce a check-in freeze on Docutils-develop.</strong></p>
+</li>
+</ul>
+<p>Call <tt class="docutils literal">sandbox/infrastructure/release.sh new_version svn_version</tt>.
+For details see the script.</p>
+<p><tt class="docutils literal">new_version</tt> is the current version, status will change from <tt class="docutils literal">repository</tt> to
+<tt class="docutils literal">release</tt>. <tt class="docutils literal">svn_version</tt> is the version after release.</p>
+<div class="note">
+<p class="first admonition-title">Note</p>
+<p class="last"><em>BUG</em> test tarball requires root password, but it is possible to skip
+this stage interactively, and testing should be done before release.</p>
+</div>
+<ul>
+<li><p class="first">Change <tt class="docutils literal">__version_details__</tt> in docutils/docutils/__init__.py to
+&quot;release&quot; (from &quot;repository&quot;).</p>
+</li>
+<li><p class="first">Check the <span class="target" id="version-number">version number</span> in the following files, should be already
+correct:</p>
+<ul class="simple">
+<li>docutils/setup.py</li>
+<li>docutils/docutils/__init__.py</li>
+<li>docutils/test/functional/expected/* (&quot;Generator: Docutils X.Y.Z&quot;)</li>
+<li>docutils/README.txt</li>
+<li>web/index.txt</li>
+</ul>
+</li>
+<li><p class="first">Close the &quot;Changes Since ...&quot; section in docutils/HISTORY.txt.</p>
+</li>
+<li><p class="first">Clear/unset the PYTHONPATH environment variable.</p>
+</li>
+<li><p class="first">Create the release tarball:</p>
+<ol class="loweralpha">
+<li><p class="first">Create a new empty directory and <tt class="docutils literal">cd</tt> into it.</p>
+</li>
+<li><p class="first">Get a clean snapshot of the main tree:</p>
+<pre class="literal-block">
+svn export svn://svn.berlios.de/docutils/trunk/docutils
+</pre>
+</li>
+<li><p class="first">Use Distutils to create the release tarball:</p>
+<pre class="literal-block">
+cd docutils
+python setup.py sdist
+</pre>
+</li>
+</ol>
+</li>
+<li><p class="first">Expand and <span class="target" id="install">install</span> the release tarball in isolation:</p>
+<ol class="loweralpha">
+<li><p class="first">Expand the tarball in a new location, not over any existing
+files.</p>
+</li>
+<li><p class="first">Remove the old installation from site-packages (including
+roman.py, and optparse.py, textwrap.py).</p>
+<p>&quot;remove&quot; might fail, see <span class="target" id="id1">Assumptions and their failure</span></p>
+<p>Install from expanded directory:</p>
+<pre class="literal-block">
+cd docutils-X.Y.Z
+python setup.py install
+</pre>
+<p>The &quot;install&quot; command may require root permissions.</p>
+</li>
+<li><p class="first">Repeat step b) for all supported Python versions.</p>
+</li>
+</ol>
+</li>
+<li><p class="first">Run the <span class="target" id="test-suite">test suite</span> from the expanded archive directory with all
+supported Python versions on all available platforms (GNU/Linux, Mac
+OS X, Windows):</p>
+<pre class="literal-block">
+cd test ; python -u alltests.py
+</pre>
+</li>
+<li><p class="first">Add a directory X.Y.Z (where X.Y.Z is the current version number
+of Docutils) in the webroot (i.e. the <tt class="docutils literal">htdocs/</tt> directory).
+Put all documentation files into it:</p>
+<pre class="literal-block">
+cd docutils-X.Y.Z
+rm -rf build
+cd tools/
+./buildhtml.py ..
+cd ..
+find -name test -type d -prune -o -name \*.css -print0 \
+    -o -name \*.html -print0 -o -name \*.txt -print0 \
+    | tar -cjvf docutils-docs.tar.bz2 -T - --null
+scp docutils-docs.tar.bz2 &lt;username&gt;&#64;shell.sourceforge.net:
+</pre>
+<p>Now log in to shell.sourceforge.net and:</p>
+<pre class="literal-block">
+cd /home/groups/d/do/docutils/htdocs/
+mkdir -m g+rwxs X.Y.Z
+cd X.Y.Z
+tar -xjvf ~/docutils-docs.tar.bz2
+rm ~/docutils-docs.tar.bz2
+</pre>
+</li>
+<li><p class="first">Upload the release tarball, release.sh tries with scp.</p>
+</li>
+<li><p class="first">Access the <span class="target" id="file-release-system">file release system</span> on SourceForge (Admin
+interface).</p>
+<p><tt class="docutils literal"><span class="pre">https://sourceforge.net/projects/docutils/files/docutils/</span></tt></p>
+<ul class="simple">
+<li>change into the released version's directory</li>
+<li>click <tt class="docutils literal">(i)</tt> button of the tar.gz-file</li>
+<li>select as default download for all operating systems.</li>
+</ul>
+</li>
+<li><p class="first">Submit a notification on project news.</p>
+</li>
+<li><p class="first">For verifying the integrity of the release, download the release
+tarball (you may need to wait up to 30 minutes), <a class="reference internal" href="#install">install</a> it, and
+re-run the <a class="reference internal" href="#test-suite">test suite</a>.</p>
+</li>
+<li><p class="first">Register with PyPI (<tt class="docutils literal">python setup.py register</tt>).</p>
+<p>Set the download-url so eggs can access older releases.</p>
+</li>
+<li><p class="first">Restore <tt class="docutils literal">__version_details__</tt> in docutils/docutils/__init__.py to
+&quot;repository&quot; (from &quot;release&quot;).</p>
+</li>
+<li><p class="first">Bump the <a class="reference internal" href="#version-number">version number</a> again.</p>
+</li>
+<li><p class="first">Add a new empty section &quot;Changes Since ...&quot; in HISTORY.txt.</p>
+</li>
+<li><p class="first">Update the web page (web/index.txt).</p>
+</li>
+<li><p class="first">Run docutils-update on the server.</p>
+</li>
+<li><p class="first"><strong>Run alltests.py with svn version</strong></p>
+</li>
+<li><p class="first"><strong>Send announcement email to:</strong></p>
+<ul class="simple">
+<li><a class="reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a> (also announcing the end of
+the check-in freeze)</li>
+<li><a class="reference external" href="mailto:docutils-users&#64;lists.sourceforge.net">docutils-users&#64;lists.sourceforge.net</a></li>
+<li><a class="reference external" href="mailto:doc-sig&#64;python.org">doc-sig&#64;python.org</a></li>
+<li><a class="reference external" href="mailto:python-announce&#64;python.org">python-announce&#64;python.org</a></li>
+</ul>
+</li>
+<li><p class="first"><strong>Add a SourceForge News item, with title &quot;Docutils X.Y.Z released&quot;
+and containing the release tarball's download URL.</strong></p>
+<p><strong>Mark as default download for all platforms.</strong></p>
+</li>
+<li><p class="first"><strong>Register with freecode.</strong> Add a new release for the
+<a class="reference external" href="http://freecode.com/projects/docutils/">Docutils project</a>. (freecode is freshmeat.net's new name)</p>
+</li>
+</ul>
+<!-- Local Variables:
+mode: indented-text
+indent-tabs-mode: nil
+sentence-end-double-space: t
+fill-column: 70
+End: -->
+</div>
+</div>
+</body>
+</html>

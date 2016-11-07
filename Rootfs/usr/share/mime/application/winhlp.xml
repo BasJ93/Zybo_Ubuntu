@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/winhlp">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>WinHelp help file</comment>
+  <comment xml:lang="ast">WinHelp help file</comment>
+  <comment xml:lang="bs">WinHelp datoteka pomoći</comment>
+  <comment xml:lang="de">WinHelp-Hilfedatei</comment>
+  <comment xml:lang="en_AU">WinHelp help file</comment>
+  <comment xml:lang="en_GB">WinHelp help file</comment>
+  <comment xml:lang="es">Archivo de ayuda de WinHelp</comment>
+  <comment xml:lang="gl">Ficheiro de axuda WinHelp</comment>
+  <comment xml:lang="id">Berkas bantuan WinHelp</comment>
+  <comment xml:lang="it">File aiuto WinHelp</comment>
+  <comment xml:lang="lv">WinHelp palīdzības datne</comment>
+  <comment xml:lang="pt_BR">arquivo de ajuda WinHelp</comment>
+  <comment xml:lang="ru">Файл справки WinHelp</comment>
+  <comment xml:lang="sl">Datoteka pomoči WinHelp</comment>
+  <comment xml:lang="uk">файл довідки WinHelp</comment>
+  <comment xml:lang="zh_TW">WinHelp 求助檔案</comment>
+  <glob pattern="*.hlp"/>
+  <alias type="zz-application/zz-winassoc-hlp"/>
+</mime-type>

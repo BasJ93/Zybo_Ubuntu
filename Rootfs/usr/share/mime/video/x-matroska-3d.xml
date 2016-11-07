@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="video/x-matroska-3d">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Matroska 3D video</comment>
+  <comment xml:lang="de">Matroska 3D Video</comment>
+  <comment xml:lang="en_AU">Matroska 3D video</comment>
+  <comment xml:lang="en_GB">Matroska 3D video</comment>
+  <comment xml:lang="es">Vídeo Matroska 3D</comment>
+  <comment xml:lang="eu">Matroska 3D bideoa</comment>
+  <comment xml:lang="gl">Vídeo Matroska 3D</comment>
+  <comment xml:lang="id">Video 3D Matroska</comment>
+  <comment xml:lang="lv">Matroska 3D video</comment>
+  <comment xml:lang="sl">3D video Matroska</comment>
+  <comment xml:lang="uk">3D-відео Matroska</comment>
+  <comment xml:lang="zh_TW">Matroska 3D 視訊</comment>
+  <glob pattern="*.mk3d"/>
+  <sub-class-of type="application/x-matroska"/>
+</mime-type>

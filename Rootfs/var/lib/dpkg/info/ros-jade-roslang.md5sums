@@ -1,0 +1,6 @@
+8260010617b2d3676b2086ce2e3bb738  opt/ros/jade/lib/pkgconfig/roslang.pc
+3d379004bbd729cb062e17d24e3457b2  opt/ros/jade/share/roslang/cmake/roslang.cmake
+ae842d4c51f5924949013f7afc769bdc  opt/ros/jade/share/roslang/cmake/roslangConfig-version.cmake
+fe09bc11f3424f93cedee5cda1714925  opt/ros/jade/share/roslang/cmake/roslangConfig.cmake
+0d8c59fb051aae7ff719eada0c33ff1f  opt/ros/jade/share/roslang/package.xml
+1763e0681032dca647349c36d2239142  usr/share/doc/ros-jade-roslang/changelog.Debian.gz

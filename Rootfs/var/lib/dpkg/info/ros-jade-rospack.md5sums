@@ -1,0 +1,11 @@
+5f7cf2d233a27332b4c295a042af6739  opt/ros/jade/bin/rospack
+64d2bbd46aeca472560f0b544586c08f  opt/ros/jade/bin/rosstack
+3e21c62700fb1427de6c7a213bd132a0  opt/ros/jade/include/rospack/macros.h
+e64de7691e08ec869a87bb1bd3e878d8  opt/ros/jade/include/rospack/rospack.h
+934bb6eadaa13624e71126ce0f0604a4  opt/ros/jade/include/rospack/rospack_backcompat.h
+d08d971b9aac6bc75e2c0c0b2315a490  opt/ros/jade/lib/librospack.so
+5ad2e5ddf8efc1d7ebb8bb245936aa02  opt/ros/jade/lib/pkgconfig/rospack.pc
+9181e80b2593e85fca1b1b7ad6c11759  opt/ros/jade/share/rospack/cmake/rospackConfig-version.cmake
+751f9403603f6049899f6b23faf61f74  opt/ros/jade/share/rospack/cmake/rospackConfig.cmake
+25714b268285e65859bde8357421285d  opt/ros/jade/share/rospack/package.xml
+66a8bcf13851e7e098ef1c8b8d5316ac  usr/share/doc/ros-jade-rospack/changelog.Debian.gz

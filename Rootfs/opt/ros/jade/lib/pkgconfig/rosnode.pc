@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: rosnode
+Description: Description of rosnode
+Version: 1.11.16
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: 

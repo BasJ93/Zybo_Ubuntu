@@ -1,0 +1,5 @@
+sbcl: copyright-should-refer-to-common-license-file-for-gpl
+sbcl: script-not-executable
+sbcl: package-contains-empty-directory usr/lib/sbcl/site-systems/
+sbcl: package-contains-empty-directory usr/share/common-lisp/systems/
+sbcl: unusual-interpreter

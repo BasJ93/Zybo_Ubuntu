@@ -1,0 +1,15 @@
+b5565a7f695c52534b3b15487be87829  opt/ros/jade/include/ros/assert.h
+f4e42c43a0706dc7f6e9c4d41d36a961  opt/ros/jade/include/ros/console.h
+9e0fdfde12bb409b020227a0fa719ea7  opt/ros/jade/include/ros/console_backend.h
+2a11bcb3a5a1de6422119ae60dbc5101  opt/ros/jade/include/ros/static_assert.h
+5da30c3060e891ea25d95919d8b7d378  opt/ros/jade/include/rosconsole/macros_generated.h
+29230954f0a750a9eca5e33187891c4a  opt/ros/jade/lib/librosconsole.so
+526d864c79548177723fcadb0769ab2c  opt/ros/jade/lib/librosconsole_backend_interface.so
+34ae6d0e2dcb6a84c0849402af5c7d9c  opt/ros/jade/lib/librosconsole_log4cxx.so
+399e85ad92ee80c30478f6b1c6d5df76  opt/ros/jade/lib/pkgconfig/rosconsole.pc
+ae5bec661a6df691f5df4470268feb3e  opt/ros/jade/share/ros/config/rosconsole.config
+f82188424e4ea68020bb6f4911029138  opt/ros/jade/share/rosconsole/cmake/rosconsole-extras.cmake
+8f4d7e11c4db639c09281522ffca67a4  opt/ros/jade/share/rosconsole/cmake/rosconsoleConfig-version.cmake
+c655caefab447f4367f31747b333b79f  opt/ros/jade/share/rosconsole/cmake/rosconsoleConfig.cmake
+0effd09266d5a5ba880e2e2e9846c8d6  opt/ros/jade/share/rosconsole/package.xml
+0bf0654782cb7529bc86c6560a76fdfa  usr/share/doc/ros-jade-rosconsole/changelog.Debian.gz

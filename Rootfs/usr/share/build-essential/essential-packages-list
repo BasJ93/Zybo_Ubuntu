@@ -1,0 +1,26 @@
+This list was generated on Tue Jan  8 15:45:49 UTC 2013 for armhf
+It contains a list of essential packages (which are also build-essential).
+
+base-files
+base-passwd
+bash
+bsdutils
+coreutils
+dash
+debianutils
+diffutils
+dpkg
+e2fsprogs
+findutils
+grep
+gzip
+hostname
+libc-bin
+login
+mount
+ncurses-base
+ncurses-bin
+perl-base
+sed
+tar
+util-linux

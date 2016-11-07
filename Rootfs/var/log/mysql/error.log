@@ -1,0 +1,1840 @@
+700101  0:00:13 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:13 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:13 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:13 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:13 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:13 InnoDB: Using Linux native AIO
+700101  0:00:13 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:13 InnoDB: Completed initialization of buffer pool
+700101  0:00:13 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+700101  0:00:13  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Starting in background the rollback of uncommitted transactions
+700101  0:00:13  InnoDB: Rollback of non-prepared transactions completed
+InnoDB: Foreign key constraint system tables created
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 48941
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:15 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:15 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:21:16 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  0:21:16 [Note] Event Scheduler: Purging the queue. 0 events
+700101  0:21:16  InnoDB: Starting shutdown...
+700101  0:21:17  InnoDB: Shutdown completed; log sequence number 55829
+700101  0:21:17 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+InnoDB: 127 rollback segment(s) active.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 55829
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  1:07:48 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  1:07:48 [Note] Event Scheduler: Purging the queue. 0 events
+700101  1:07:48  InnoDB: Starting shutdown...
+700101  1:07:49  InnoDB: Shutdown completed; log sequence number 1600919
+700101  1:07:49 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  1:18:20 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  1:18:20 [Note] Event Scheduler: Purging the queue. 0 events
+700101  1:18:20  InnoDB: Starting shutdown...
+700101  1:18:21  InnoDB: Shutdown completed; log sequence number 1600919
+700101  1:18:21 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:01:03 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  0:01:03 [Note] Event Scheduler: Purging the queue. 0 events
+700101  0:01:03  InnoDB: Starting shutdown...
+700101  0:01:04  InnoDB: Shutdown completed; log sequence number 1600919
+700101  0:01:04 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:11 InnoDB: Completed initialization of buffer pool
+700101  0:00:11 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:44:14 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  0:44:14 [Note] Event Scheduler: Purging the queue. 0 events
+700101  0:44:14  InnoDB: Starting shutdown...
+700101  0:44:15  InnoDB: Shutdown completed; log sequence number 1600919
+700101  0:44:15 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:11 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+                                                                                                                                                                                                                                                                                                                                               700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:11 InnoDB: Completed initialization of buffer pool
+700101  0:00:11 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:13  InnoDB: Waiting for the background threads to start
+700101  0:00:14 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:14 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:14 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:14 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:12 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:12 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:12 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:12 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:12 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:12 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:14 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:14 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:12 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:12 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:24:48 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  0:24:48 [Note] Event Scheduler: Purging the queue. 0 events
+700101  0:24:48  InnoDB: Starting shutdown...
+700101  0:24:49  InnoDB: Shutdown completed; log sequence number 1600919
+700101  0:24:49 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:11 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:11 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:11 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:11 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:11 InnoDB: Using Linux native AIO
+700101  0:00:11 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:11 InnoDB: Completed initialization of buffer pool
+700101  0:00:12 InnoDB: highest supported file format is Barracuda.
+700101  0:00:12  InnoDB: Waiting for the background threads to start
+700101  0:00:13 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:13 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:13 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:13 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:13 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:13 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:06 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:06 InnoDB: Completed initialization of buffer pool
+700101  0:00:06 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:06 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:06 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:06 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:04:55 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  0:04:55 [Note] Event Scheduler: Purging the queue. 0 events
+700101  0:04:55  InnoDB: Starting shutdown...
+700101  0:04:56  InnoDB: Shutdown completed; log sequence number 1600919
+700101  0:04:56 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:22:23 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  0:22:23 [Note] Event Scheduler: Purging the queue. 0 events
+700101  0:22:23  InnoDB: Starting shutdown...
+700101  0:22:24  InnoDB: Shutdown completed; log sequence number 1600919
+700101  0:22:24 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:22:51 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:22:51 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:22:51 InnoDB: The InnoDB memory heap is disabled
+700101  0:22:51 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:22:51 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:22:51 InnoDB: Using Linux native AIO
+700101  0:22:51 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:22:51 InnoDB: Completed initialization of buffer pool
+700101  0:22:51 InnoDB: highest supported file format is Barracuda.
+700101  0:22:51  InnoDB: Waiting for the background threads to start
+700101  0:22:52 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:22:52 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:22:52 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:22:52 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:22:52 [Note] Event Scheduler: Loaded 0 events
+700101  0:22:52 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:58 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  0:00:58 [Note] Event Scheduler: Purging the queue. 0 events
+700101  0:00:58  InnoDB: Starting shutdown...
+700101  0:00:59  InnoDB: Shutdown completed; log sequence number 1600919
+700101  0:00:59 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:06 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:06 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:06 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:06 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:06 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:06 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:08 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+700101  4:18:24 [Note] /usr/sbin/mysqld: Normal shutdown
+
+700101  4:18:24 [Note] Event Scheduler: Purging the queue. 0 events
+700101  4:18:24  InnoDB: Starting shutdown...
+700101  4:18:25  InnoDB: Shutdown completed; log sequence number 1600919
+700101  4:18:25 [Note] /usr/sbin/mysqld: Shutdown complete
+
+700101  0:00:07 [Warning] Using unique option prefix myisam-recover instead of myisam-recover-options is deprecated and will be removed in a future release. Please use the full name instead.
+700101  0:00:07 [Note] Plugin 'FEDERATED' is disabled.
+700101  0:00:07 InnoDB: The InnoDB memory heap is disabled
+700101  0:00:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+700101  0:00:07 InnoDB: Compressed tables use zlib 1.2.8
+700101  0:00:07 InnoDB: Using Linux native AIO
+700101  0:00:07 InnoDB: Initializing buffer pool, size = 128.0M
+700101  0:00:07 InnoDB: Completed initialization of buffer pool
+700101  0:00:07 InnoDB: highest supported file format is Barracuda.
+700101  0:00:07  InnoDB: Waiting for the background threads to start
+700101  0:00:08 InnoDB: 5.5.35 started; log sequence number 1600919
+700101  0:00:08 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+700101  0:00:08 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+700101  0:00:08 [Note] Server socket created on IP: '127.0.0.1'.
+700101  0:00:09 [Note] Event Scheduler: Loaded 0 events
+700101  0:00:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.35-1ubuntu1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)

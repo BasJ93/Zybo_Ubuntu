@@ -1,0 +1,1128 @@
+700101  0:00:13 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+                                                                                                                                                                                                                                                                                                                                                                                                                                            700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: 700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+                                                                                                                                                                                                           700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:12 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:11 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+                                                                                                                                                                                                                                                       700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:06 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.
+700101  0:00:07 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)'
+Check that mysqld is running and that the socket: '/var/run/mysqld/mysqld.sock' exists!
+/usr/bin/mysqladmin: connect to server at 'localhost' failed
+error: 'Access denied for user 'debian-sys-maint'@'localhost' (using password: YES)'
+Checking for tables which need an upgrade, are corrupt or were 
+not closed cleanly.

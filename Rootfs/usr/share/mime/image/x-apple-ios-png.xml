@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="image/x-apple-ios-png">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Apple optimised PNG image</comment>
+  <comment xml:lang="ast">Apple optimised PNG image</comment>
+  <comment xml:lang="bs">Apple optimzovana PNG slika</comment>
+  <comment xml:lang="de">Apple-optimierte PNG-Grafik</comment>
+  <comment xml:lang="en_AU">Apple optimised PNG image</comment>
+  <comment xml:lang="en_GB">Apple optimised PNG image</comment>
+  <comment xml:lang="es">Imagen PNG optimizada de Apple</comment>
+  <comment xml:lang="eu">Appleren optimizatutako PNG irudia</comment>
+  <comment xml:lang="gl">Imaxe PNG optimizada de Apple</comment>
+  <comment xml:lang="id">Citra PNG teroptimasi Apple</comment>
+  <comment xml:lang="it">Immagine PNG ottimizzata Apple</comment>
+  <comment xml:lang="lv">Apple optimizēts PNG attēls</comment>
+  <comment xml:lang="pt_BR">Imagem otimizada PNG da Apple</comment>
+  <comment xml:lang="sl">Apple optimizirana slika PNG</comment>
+  <comment xml:lang="uk">зображення PNG, оптимізоване за схемою Apple</comment>
+  <comment xml:lang="zh_TW">Apple 優化版 PNG 影像</comment>
+  <glob weight="10" pattern="*.png"/>
+</mime-type>

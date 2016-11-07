@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-iff">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>IFF file</comment>
+  <comment xml:lang="ast">Ficheru IFF</comment>
+  <comment xml:lang="bs">IFF datoteka</comment>
+  <comment xml:lang="de">IFF-Datei</comment>
+  <comment xml:lang="en_AU">IFF file</comment>
+  <comment xml:lang="en_GB">IFF file</comment>
+  <comment xml:lang="es">Archivo IFF</comment>
+  <comment xml:lang="eu">IFF fitxategia</comment>
+  <comment xml:lang="gl">Ficheiro IFF</comment>
+  <comment xml:lang="id">Berkas IFF</comment>
+  <comment xml:lang="it">File IFF</comment>
+  <comment xml:lang="lv">IFF datne</comment>
+  <comment xml:lang="pt_BR">Arquivo IFF</comment>
+  <comment xml:lang="ru">Файл IFF</comment>
+  <comment xml:lang="sl">Datoteka IFF</comment>
+  <comment xml:lang="uk">файл IFF</comment>
+  <comment xml:lang="zh_TW">IFF 檔</comment>
+  <acronym>IFF</acronym>
+  <expanded-acronym>Interchange File Format</expanded-acronym>
+</mime-type>

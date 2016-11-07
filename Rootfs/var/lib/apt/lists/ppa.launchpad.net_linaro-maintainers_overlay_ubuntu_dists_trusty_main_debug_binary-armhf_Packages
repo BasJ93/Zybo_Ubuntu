@@ -1,0 +1,619 @@
+Package: libasound2-dbgsym
+Source: alsa-lib
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.0.27.2-3ubuntu7+linaro1
+Depends: libasound2-dbg (= 1.0.27.2-3ubuntu7+linaro1)
+Filename: pool/main/a/alsa-lib/libasound2-dbgsym_1.0.27.2-3ubuntu7+linaro1_armhf.ddeb
+Size: 870
+MD5sum: 79f53b38492253d5c2ee1467123df5b8
+SHA1: 7484a1eea35a0f0ad131cfe6a1755cf2c61c5795
+SHA256: 875fae889974b52214fe61e86aa90b4e734ab44f1af9289363f46219841d1867
+Description: debug symbols for package libasound2
+Description-md5: b926fc91d69a7d0b97cc023556deb592
+Multi-Arch: same
+Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+
+Package: libasound2-udeb-dbgsym
+Source: alsa-lib
+Priority: optional
+Section: debian-installer
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.0.27.2-3ubuntu7+linaro1
+Depends: libasound2-dbg (= 1.0.27.2-3ubuntu7+linaro1)
+Filename: pool/main/a/alsa-lib/libasound2-udeb-dbgsym_1.0.27.2-3ubuntu7+linaro1_armhf.ddeb
+Size: 810
+MD5sum: c3fb139728c9e696b87c3893094798d7
+SHA1: 7cb8c0584e4bb70132a5017e8eccd8457cf0062f
+SHA256: bf631f8742f36466ed0f8e0f2bcb1a4c9ba9f2c26bac3ecb7ecf52306c433c41
+Description: debug symbols for package libasound2-udeb
+Description-md5: c51411fc261e9425f8761ebcf16f9759
+Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+
+Package: powerdebug-dbgsym
+Source: powerdebug
+Priority: optional
+Section: utils
+Installed-Size: 117
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 0.7.3-2014.06-0ubuntu1~linaro1
+Depends: powerdebug (= 0.7.3-2014.06-0ubuntu1~linaro1)
+Filename: pool/main/p/powerdebug/powerdebug-dbgsym_0.7.3-2014.06-0ubuntu1~linaro1_armhf.ddeb
+Size: 31626
+MD5sum: 0a1649a5d3f4665d396d406de8a2e571
+SHA1: cca5380e0613383961c9a1c4e3cdef0d020ebd07
+SHA256: f007c87257e843d6509964b9271068b59603d1ac1c285328d37c388326f4dba9
+Description: debug symbols for package powerdebug
+Description-md5: 915ecca48085e2deb965578daf0acf04
+
+Package: libgl1-mesa-glx-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgl1-mesa-glx-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1194
+MD5sum: 5d3fcc8df0e32737aef1fdf2d61265a6
+SHA1: 13a41925a62675b891f9a5ef59d7d0306ab27446
+SHA256: 178cf2e799379a52f05b395aad9fb04e724b9b74d883fa4e59f7b00b622e9b6e
+Description: debug symbols for package libgl1-mesa-glx
+Description-md5: d947260268d5a18c94051b9e83d11707
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgl1-mesa-dri-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgl1-mesa-dri-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1068
+MD5sum: c89e07ca271cbdec288be5ea891d777d
+SHA1: e623484ff969b50c9cfe8b2f8a6a27103816a943
+SHA256: 4b7d9e07ce43e9b3684beec3d994b946b44c7f419f24ede5aba957eeedd96f45
+Description: debug symbols for package libgl1-mesa-dri
+Description-md5: f424a60afba654472f874e1f656fb24c
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libosmesa6-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libosmesa6-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1036
+MD5sum: ac4fb12c76de28970d5415a735e27855
+SHA1: 62d30a5b0b36fb891eeea845c5edd567cf9ad60b
+SHA256: 84ed332130a2ccb03c3342848ded2ec070c5cd8b3329b573d14650d6af2066d1
+Description: debug symbols for package libosmesa6
+Description-md5: b5cea34c6ef866276ee696bcd441b288
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: powertop-dbgsym
+Source: linaro-powertop
+Priority: extra
+Section: utils
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 2.6.1-2014.06-0linaro1
+Depends: powertop-dbg (= 2.6.1-2014.06-0linaro1)
+Filename: pool/main/l/linaro-powertop/powertop-dbgsym_2.6.1-2014.06-0linaro1_armhf.ddeb
+Size: 1062
+MD5sum: 2e109bbd6bba4f3b9ae87d685fbdb094
+SHA1: 34ef1cf22a49ee6b3942751f20ca12c477b4dfae
+SHA256: a2f993f26388d5abd2e2309b450846e440fc6f66470bc58af54f0a1fb79f2381
+Description: debug symbols for package powertop
+Description-md5: e12f601e77436a491d7dd8988cb22d1a
+Original-Maintainer: Jose Luis Rivas <ghostbar@debian.org>
+
+Package: libgbm1-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgbm1-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 972
+MD5sum: 87a909f0ac8beb041ad826986ad58d95
+SHA1: 93f2c0c18f0309fdcbe9c8a517676aba4efb8b78
+SHA256: 8e55ec0aab0654e3b9e2d93846fa458e35cab0fff806d4a748d8c73f1f65c4fc
+Description: debug symbols for package libgbm1
+Description-md5: 92753575366d971471c771342531ba50
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libglapi-mesa-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libglapi-mesa-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 940
+MD5sum: 8161707db58356e3e7c05148e370d4b5
+SHA1: 8dffd3aeb9e91af650afb874ac71c336a62a8d08
+SHA256: c0eb1e88ad13e260b6059c36d1e778cbdfc5ff3d3c862400be449b586ac5b661
+Description: debug symbols for package libglapi-mesa
+Description-md5: 1a80369d601bd6842747f9153d1f4fc2
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: openssl-dbgsym
+Source: openssl
+Priority: optional
+Section: utils
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.0.1h-0linaro1
+Depends: libssl1.0.0-dbg (= 1.0.1h-0linaro1)
+Filename: pool/main/o/openssl/openssl-dbgsym_1.0.1h-0linaro1_armhf.ddeb
+Size: 1020
+MD5sum: fc88758c0f8f600805bcd1e4a77f5d6f
+SHA1: 72303863e1fed0d68ace87d36862c0aaa5ae5dcb
+SHA256: 6309d96cd265db3338900fe6af8139bb47a36ebe9a01c29a3e93497c6fde8a59
+Description: debug symbols for package openssl
+Description-md5: b6cbd027c046344a42fe55acaeaa010f
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+
+Package: libssl1.0.0-dbgsym
+Source: openssl
+Priority: important
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.0.1h-0linaro1
+Depends: libssl1.0.0-dbg (= 1.0.1h-0linaro1)
+Filename: pool/main/o/openssl/libssl1.0.0-dbgsym_1.0.1h-0linaro1_armhf.ddeb
+Size: 862
+MD5sum: 85ea4805cfcbf7085d8567579930f65a
+SHA1: 8351bfebb0242d2de6de387f69c91e758881d4bc
+SHA256: e342bbea7dcafda0094e8dc365e3a0a66048e772bbcadbcc11357c7c619fa7dd
+Description: debug symbols for package libssl1.0.0
+Description-md5: 43670155857d7e828d3fcbc8ea6b905e
+Multi-Arch: same
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+
+Package: libcrypto1.0.0-udeb-dbgsym
+Source: openssl
+Priority: optional
+Section: debian-installer
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.0.1h-0linaro1
+Depends: libssl1.0.0-dbg (= 1.0.1h-0linaro1)
+Filename: pool/main/o/openssl/libcrypto1.0.0-udeb-dbgsym_1.0.1h-0linaro1_armhf.ddeb
+Size: 898
+MD5sum: 1a6dc4a3e9121cc721b630303dba40b4
+SHA1: 2f8cbc8413f3095445db6e994f04d331400cfef5
+SHA256: 6522075a728c1d740be85cec894773c9bf68da0514c69c29207f5c6c91e4a00a
+Description: debug symbols for package libcrypto1.0.0-udeb
+Description-md5: d40dcdc536538e720a4d95e4193eb861
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+
+Package: libssl1.0.0-udeb-dbgsym
+Source: openssl
+Priority: optional
+Section: debian-installer
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.0.1h-0linaro1
+Depends: libssl1.0.0-dbg (= 1.0.1h-0linaro1)
+Filename: pool/main/o/openssl/libssl1.0.0-udeb-dbgsym_1.0.1h-0linaro1_armhf.ddeb
+Size: 782
+MD5sum: 675aaa5e73073ba486f26deda66b562e
+SHA1: a64887d56fd07cf94bbbe9719ea6c6cd66a5c574
+SHA256: ddc1c9f2c6b9bb1b628f14246a9c7a31bd5b81964446480858b681aa7ce2f247
+Description: debug symbols for package libssl1.0.0-udeb
+Description-md5: 2be6ea790fee42c38ea510957c2c0847
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+
+Package: libosmesa6-dev-dbgsym
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libosmesa6-dev-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 940
+MD5sum: 6c29d06087026ac7f2b273afe35a4645
+SHA1: 17ab0f788c4b8b6498cdbf81697841ba16d92c30
+SHA256: 41fb573c9056d34e6efb1add22358f6c93ec0456fcea5f5ff39c36d848f84086
+Description: debug symbols for package libosmesa6-dev
+Description-md5: 25faadd019ba2f6cd48d6ee6b71458d1
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: mesa-common-dev-dbgsym
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/mesa-common-dev-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 938
+MD5sum: 238319dc0df3992c3ede9666bd3ea55a
+SHA1: f1a99e54288ef487732f03d12a81c4e15ff86de1
+SHA256: 224890cd764c5d21540644fb685f63d1ac7b1cebfcdd958ac5d41c0a9aad62a0
+Description: debug symbols for package mesa-common-dev
+Description-md5: 7577489ff7e7ef308b6dcbb205677c3c
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgl1-mesa-dev-dbgsym
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgl1-mesa-dev-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1026
+MD5sum: 98bd001e5034beecd3aa8da499f6e29d
+SHA1: 2a710feb44581bc5a3a3b723a30d008add5c34c7
+SHA256: f35718678a8749ef343906c9ed095049d34c7383f4898b60445b9c93f6b9c494
+Description: debug symbols for package libgl1-mesa-dev
+Description-md5: 60a549d39fd0f95b07db12b3bb8c9591
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgbm-dev-dbgsym
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgbm-dev-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1006
+MD5sum: 2baf64e5c52b5c7eb7799cfaf732e79b
+SHA1: 9867a8d4927fe33cf36b55fd52239aab6c7eba50
+SHA256: bf1447333958d79c8a2c01260ef8bb1a59f892948469ed2b9da809d70b31381e
+Description: debug symbols for package libgbm-dev
+Description-md5: c5c0a78f51ebe8f15d1c468973f5a292
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libxatracker-dev-dbgsym
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libxatracker-dev-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 998
+MD5sum: 7472ca806ecc83a45ca878305001c58a
+SHA1: dd4464576bbb915c453ccf4df2e28bcfe04f3eb9
+SHA256: b11d7caac209d48aa29db4d0b34d26892fa4c0c75db9e75bf4fa2fd267d07069
+Description: debug symbols for package libxatracker-dev
+Description-md5: c3ba80a387ef9aed3bd75c8d256be017
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libssl-dev-dbgsym
+Source: openssl
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.0.1h-0linaro1
+Depends: libssl1.0.0-dbg (= 1.0.1h-0linaro1)
+Filename: pool/main/o/openssl/libssl-dev-dbgsym_1.0.1h-0linaro1_armhf.ddeb
+Size: 888
+MD5sum: f3542639da17259cd80ec7d580eb0804
+SHA1: 84d738e3f334e254c5d36e9d64da7583dc47cd12
+SHA256: 3f568b67ccce2cf7138964f408a9aa85809ed9a0220e0a9df360b7517d505e47
+Description: debug symbols for package libssl-dev
+Description-md5: 299113bdbf46708fe605044b987c591b
+Multi-Arch: same
+Original-Maintainer: Debian OpenSSL Team <pkg-openssl-devel@lists.alioth.debian.org>
+
+Package: libxatracker2-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libxatracker2-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 958
+MD5sum: 819f69dbb9fec8c5df5f446396a08a74
+SHA1: 889c8aa4523f966d856908d5f8d5457b5ec80ca4
+SHA256: 3b792736fb4bdb70a4a3156417dcba87b5269468616c79471a6a821864d41a68
+Description: debug symbols for package libxatracker2
+Description-md5: 6b91b3d577ba2b09d8658999ac3f5af7
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: idlestat-dbgsym
+Source: idlestat
+Priority: optional
+Section: utils
+Installed-Size: 63
+Maintainer: Linaro Packagers <linaro-pkg@lists.launchpad.net>
+Architecture: armhf
+Version: 0.2+git4+6de5e87-0linaro1
+Depends: idlestat (= 0.2+git4+6de5e87-0linaro1)
+Filename: pool/main/i/idlestat/idlestat-dbgsym_0.2+git4+6de5e87-0linaro1_armhf.ddeb
+Size: 13850
+MD5sum: 2c7e3aa217490df79fb2c7064fb77953
+SHA1: dec2a701312d0a6fc5dbd031bdccf80f5fd142f2
+SHA256: a867bfe1a430582f8ba03395413c26b6584a338ddaba227c126a485c53be68b2
+Description: debug symbols for package idlestat
+Description-md5: ed9392537a2075c0c5957a33be454e39
+
+Package: xserver-xorg-video-freedreno-dbgsym
+Source: xf86-video-freedreno
+Priority: optional
+Section: x11
+Installed-Size: 8
+Maintainer: Fathi Boudra <fabo@debian.org>
+Architecture: armhf
+Version: 1.3.0-0ubuntu0~linaro1~trusty2
+Depends: xserver-xorg-video-freedreno-dbg (= 1.3.0-0ubuntu0~linaro1~trusty2)
+Filename: pool/main/x/xf86-video-freedreno/xserver-xorg-video-freedreno-dbgsym_1.3.0-0ubuntu0~linaro1~trusty2_armhf.ddeb
+Size: 1004
+MD5sum: 18498ad26f8c33da488b3db1fbca4f96
+SHA1: 342db2d2ee1ccd38286a88171ea852e12ee2fbf5
+SHA256: 937c6fa6704271fe4c2ad9d1eb00c352277b66fc26fada75d936140b1a73474c
+Description: debug symbols for package xserver-xorg-video-freedreno
+Description-md5: 75e6d6c759a5905b3180e8ead87ff80c
+
+Package: trace-cmd-dbgsym
+Source: trace-cmd
+Priority: optional
+Section: devel
+Installed-Size: 1987
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 2.3.2-0linaro1
+Depends: trace-cmd (= 2.3.2-0linaro1)
+Filename: pool/main/t/trace-cmd/trace-cmd-dbgsym_2.3.2-0linaro1_armhf.ddeb
+Size: 475664
+MD5sum: 3cd71c8c5ee8ca83c87bd706a7680311
+SHA1: 2ac083aeea86482aaa80fa4f8a81bd0ca86722a2
+SHA256: f8cab36d372db761993e6836d2932d61bb73053835d658f1f71550b1c7cb1ef5
+Description: debug symbols for package trace-cmd
+Description-md5: f3a77505f48178e22336413ec4af6e48
+
+Package: kernelshark-dbgsym
+Source: trace-cmd
+Priority: optional
+Section: devel
+Installed-Size: 2313
+Maintainer: Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>
+Architecture: armhf
+Version: 2.3.2-0linaro1
+Depends: kernelshark (= 2.3.2-0linaro1)
+Filename: pool/main/t/trace-cmd/kernelshark-dbgsym_2.3.2-0linaro1_armhf.ddeb
+Size: 454356
+MD5sum: 39def1e494c4f4093b890accec3ddf8d
+SHA1: 60aeb37afcc802104b2c280a63e49d72c54050d6
+SHA256: 1b67af68cf935a3c1b03ca5a9ef24608fcc45a9e444975a6e97f03598b932213
+Description: debug symbols for package kernelshark
+Description-md5: 1378675f17102f2621fd7840fc05f95c
+
+Package: libegl1-mesa-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libegl1-mesa-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1056
+MD5sum: 6efb3b467432039a0848ed705c36d576
+SHA1: 29d6decc97537f2c6d0d580eaa0194f35eff85c6
+SHA256: f71778353be5d2738ccdccbf29630092002b06454e2c73e5d71b37f2849fa8d3
+Description: debug symbols for package libegl1-mesa
+Description-md5: 4aac0af1063333b0125fcd7dc88bf024
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libwayland-egl1-mesa-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libwayland-egl1-mesa-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 890
+MD5sum: af4368c8ec851ab75a85e542efc11875
+SHA1: 0161271bf1410863a9ba1fb97509764cd88f24a1
+SHA256: 5f6dfbc8281cc311594402371f60cbc0003d769b653f91d118fe61595dfea2c8
+Description: debug symbols for package libwayland-egl1-mesa
+Description-md5: c9c27ba7f6f755fd846098ace94ff2b0
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgles1-mesa-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgles1-mesa-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1020
+MD5sum: 23a16e76d005a08d6d701de5e4cdbadc
+SHA1: 10ad8c8e3c33421bf439bc094d1c52f6e27eaaab
+SHA256: 9ade75a84ece2b3ed05a2cc38d71f58189bf728e21854ea7dadd846a3cbddc1c
+Description: debug symbols for package libgles1-mesa
+Description-md5: 762987657bd9577997a81c42eff920a1
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgles2-mesa-dbgsym
+Source: mesa
+Priority: optional
+Section: libs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgles2-mesa-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1042
+MD5sum: 9f028d6d9c3fafc16f8df0580cb154a0
+SHA1: ffe8c79cb4d0c5c537dbc169218fe02aa263fb08
+SHA256: 182599639421ef0a713fb2fcddd68cfd88d7b357a2c02ffddfe6dafe5299fc4a
+Description: debug symbols for package libgles2-mesa
+Description-md5: 53241c9f26969210d1a3fde70ddf6270
+Multi-Arch: same
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgles2-mesa-dev-dbgsym
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgles2-mesa-dev-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1080
+MD5sum: f4e44f4ec97087cbc0178aef45662026
+SHA1: 1fe9c9b40e4bad98826f8899b282a5a1c5669d58
+SHA256: a0347ba2a8fca07251af521a012d14ebb4b9cfb1325f0ba4e369cf6f2e332095
+Description: debug symbols for package libgles2-mesa-dev
+Description-md5: ef6e85bff7d1596865b9a4c7cd141652
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libgles1-mesa-dev-dbgsym
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libgles1-mesa-dev-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1062
+MD5sum: a095861d2d10d65051ad07b50ab22569
+SHA1: 508a0e06eb784cae6e17e1e0edbf81ec8e9545c5
+SHA256: 9979eb7f38c8a16e6aedb26329487835f46e3155a5e803bb7c3eeda2925e109c
+Description: debug symbols for package libgles1-mesa-dev
+Description-md5: 8c286d4af0c8cdafba83287171fb06e3
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libegl1-mesa-dev-dbgsym
+Source: mesa
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: armhf
+Version: 10.2.6-1ubuntu3~linaro1
+Depends: libxatracker2-dbg (= 10.2.6-1ubuntu3~linaro1), libgbm1-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libegl1-mesa-drivers-dbg (= 10.2.6-1ubuntu3~linaro1), libwayland-egl1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libopenvg1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles1-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgles2-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libglapi-mesa-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-glx-dbg (= 10.2.6-1ubuntu3~linaro1), libgl1-mesa-dri-dbg (= 10.2.6-1ubuntu3~linaro1), mesa-vdpau-drivers-dbg (= 10.2.6-1ubuntu3~linaro1)
+Filename: pool/main/m/mesa/libegl1-mesa-dev-dbgsym_10.2.6-1ubuntu3~linaro1_armhf.ddeb
+Size: 1022
+MD5sum: b549ef5e6598a437251f0ad9c55a2131
+SHA1: 22f22f28b4d254d7a0e0ad2934cbcebea0903822
+SHA256: 3d31a71ac11ed26e38b8a9fbd08edce495b8386943ab38bbd34f3d091a483da0
+Description: debug symbols for package libegl1-mesa-dev
+Description-md5: 218f670ee6a87ff1d44d1eef20819282
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: libasound2-dev-dbgsym
+Source: alsa-lib
+Priority: optional
+Section: libdevel
+Installed-Size: 8
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: armhf
+Version: 1.0.27.2-3ubuntu7+linaro1
+Depends: libasound2-dbg (= 1.0.27.2-3ubuntu7+linaro1)
+Filename: pool/main/a/alsa-lib/libasound2-dev-dbgsym_1.0.27.2-3ubuntu7+linaro1_armhf.ddeb
+Size: 872
+MD5sum: 21c361af0c7499578f58f8238df825f1
+SHA1: 2be5aedb8faba0d96449714ad0b11a6707bc45d1
+SHA256: 68dba954fb0734263105c73cd910f46f17d19f7a38f1bcfe4a1d1f389498a788
+Description: debug symbols for package libasound2-dev
+Description-md5: 599f736ced2695d9962738162f873a14
+Multi-Arch: same
+Original-Maintainer: Debian ALSA Maintainers <pkg-alsa-devel@lists.alioth.debian.org>
+
+Package: usbip-dbgsym
+Source: linux-tools
+Priority: optional
+Section: admin
+Installed-Size: 301
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: armhf
+Version: 3.16-2
+Depends: usbip (= 3.16-2)
+Filename: pool/main/l/linux-tools/usbip-dbgsym_3.16-2_armhf.ddeb
+Size: 73912
+MD5sum: 42c23d5a5731494566c51a170bedcd36
+SHA1: a0d67a4eb5969fb218c487826a571bd1b8823a67
+SHA256: 646b9bfd9bb53f629a631b77c881f205ef0d00c96152eb149cf10b6fea9f67d8
+Description: debug symbols for package usbip
+Description-md5: 1440ec08de2cb8cdc0a445e25e90a28a
+
+Package: linux-tools-3.16-dbgsym
+Source: linux-tools
+Priority: optional
+Section: devel
+Installed-Size: 5828
+Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
+Architecture: armhf
+Version: 3.16-2
+Depends: linux-tools-3.16 (= 3.16-2)
+Filename: pool/main/l/linux-tools/linux-tools-3.16-dbgsym_3.16-2_armhf.ddeb
+Size: 1562254
+MD5sum: bc2fa3b79c3ae7d77aab6cdc5a26f6df
+SHA1: cb89d7bf83ac4df36b1c75f917e19f1994488d9d
+SHA256: bbd012b0b2ce292c9af84b6a201d67a06b1af82b765db769787b477f8a079575
+Description: debug symbols for package linux-tools-3.16
+Description-md5: dec4368231a47a05546e3755813cbd93
+

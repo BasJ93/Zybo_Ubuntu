@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/bin
+/usr/bin/smemcap
+/usr/share
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/smemcap.8.gz
+/usr/share/doc
+/usr/share/doc/smemcap
+/usr/share/doc/smemcap/changelog.Debian.gz
+/usr/share/doc/smemcap/copyright

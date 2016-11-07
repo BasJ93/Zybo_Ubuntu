@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="audio/vnd.dts">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>DTS audio</comment>
+  <comment xml:lang="ast">DTS audio</comment>
+  <comment xml:lang="bs">DTS audio</comment>
+  <comment xml:lang="de">DTS-Audio</comment>
+  <comment xml:lang="en_AU">DTS audio</comment>
+  <comment xml:lang="en_GB">DTS audio</comment>
+  <comment xml:lang="es">Sonido DTS</comment>
+  <comment xml:lang="eu">DTS audioa</comment>
+  <comment xml:lang="gl">Son DTS</comment>
+  <comment xml:lang="id">Audio DTS</comment>
+  <comment xml:lang="it">Audio DTS</comment>
+  <comment xml:lang="lv">DTS audio</comment>
+  <comment xml:lang="pt_BR">Áudio DTS</comment>
+  <comment xml:lang="sl">Zvok DTS</comment>
+  <comment xml:lang="uk">звукові дані DTS</comment>
+  <comment xml:lang="zh_TW">DTS 音訊</comment>
+  <alias type="audio/x-dts"/>
+  <glob pattern="*.dts"/>
+</mime-type>

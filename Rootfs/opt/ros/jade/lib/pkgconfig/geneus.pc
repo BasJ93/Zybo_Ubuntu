@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: geneus
+Description: Description of geneus
+Version: 2.2.4
+Cflags: 
+Libs: -L/opt/ros/jade/lib 
+Requires: genmsg

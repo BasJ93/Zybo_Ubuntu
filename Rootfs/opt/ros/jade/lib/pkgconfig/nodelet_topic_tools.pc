@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: nodelet_topic_tools
+Description: Description of nodelet_topic_tools
+Version: 1.9.3
+Cflags: -I/opt/ros/jade/include -I/usr/include
+Libs: -L/opt/ros/jade/lib -l:/usr/lib/arm-linux-gnueabihf/libboost_thread.so -l:/usr/lib/arm-linux-gnueabihf/libpthread.so
+Requires: dynamic_reconfigure message_filters nodelet pluginlib roscpp

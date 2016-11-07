@@ -1,0 +1,5 @@
+e08be9c869a6c75b32efcdd8d042178d  usr/include/lz4.h
+6cc1702b7a5835a753c809208b8735f2  usr/include/lz4hc.h
+4834452b241b6690da6f18e88838caf6  usr/lib/arm-linux-gnueabihf/liblz4.a
+be6d8d09daf3df78d11a7cd963cc803e  usr/share/doc/liblz4-dev/copyright
+964e4642f5929d2c1997a3a8d3cd06bf  usr/share/doc/liblz4-dev/lz4_format_description.txt.gz

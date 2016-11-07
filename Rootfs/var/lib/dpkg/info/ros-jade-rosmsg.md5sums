@@ -1,0 +1,11 @@
+76497da6b6df20cc751b71f0cee6646e  opt/ros/jade/bin/rosmsg
+dba644c332d017723ec84a3b165e1eb2  opt/ros/jade/bin/rosmsg-proto
+4adae462397e0b3b3e5be88af32522dc  opt/ros/jade/bin/rossrv
+af3cf7bd069661dece040a5ff9b42643  opt/ros/jade/lib/pkgconfig/rosmsg.pc
+bdb04223fe67dce9e3d60c004b692d18  opt/ros/jade/lib/python2.7/dist-packages/rosmsg-1.11.16.egg-info
+eaad06847484ac48eb03734e1b4b9699  opt/ros/jade/lib/python2.7/dist-packages/rosmsg/__init__.py
+bfc793bdbaa11d87ae1b193ece044e99  opt/ros/jade/lib/python2.7/dist-packages/rosmsg/__init__.pyc
+8f4d7e11c4db639c09281522ffca67a4  opt/ros/jade/share/rosmsg/cmake/rosmsgConfig-version.cmake
+a94f49bf14715b7b468611402e2f6e0c  opt/ros/jade/share/rosmsg/cmake/rosmsgConfig.cmake
+c655263a7638915d6029ec067f44190f  opt/ros/jade/share/rosmsg/package.xml
+3544d5f4924bfe7c1ccb886bb63628d3  usr/share/doc/ros-jade-rosmsg/changelog.Debian.gz

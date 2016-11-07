@@ -1,0 +1,1172 @@
+Jan  1 00:00:07 linaro-server systemd-logind[998]: New seat seat0.
+Jan  1 00:00:11 linaro-server sshd[1312]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:30 linaro-server sshd[1312]: Received signal 15; terminating.
+Jan  1 00:00:30 linaro-server sshd[1610]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:32 linaro-server login[1622]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:00:32 linaro-server login[1647]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:00:33 linaro-server login[1622]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:33 linaro-server systemd-logind[998]: New session c1 of user root.
+Jan  1 00:00:33 linaro-server login[1676]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:33 linaro-server login[1647]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:33 linaro-server systemd-logind[998]: New session c2 of user root.
+Jan  1 00:00:33 linaro-server login[1686]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:01:51 linaro-server sudo:     root : TTY=ttyPS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Jan  1 00:01:51 linaro-server sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jan  1 00:01:51 linaro-server sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:02:07 linaro-server sudo:     root : TTY=ttyPS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Jan  1 00:02:07 linaro-server sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jan  1 00:02:08 linaro-server sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:02:19 linaro-server sudo:     root : TTY=ttyPS0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Jan  1 00:02:19 linaro-server sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jan  1 00:02:20 linaro-server sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:09:02 linaro-server CRON[1971]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:09:02 linaro-server CRON[1971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 linaro-server CRON[1971]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 linaro-server CRON[19372]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:17:01 linaro-server CRON[19372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 linaro-server CRON[19372]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 linaro-server sshd[1280]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:14 linaro-server login[1494]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:00:15 linaro-server login[1543]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:00:15 linaro-server login[1494]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 linaro-server login[1565]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:15 linaro-server login[1543]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 linaro-server login[1585]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 linaro-server CRON[1765]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:09:01 linaro-server CRON[1765]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 linaro-server CRON[1765]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 linaro-server CRON[1789]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:17:01 linaro-server CRON[1789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 linaro-server CRON[1789]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 linaro-server CRON[5473]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:39:01 linaro-server CRON[5473]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 linaro-server CRON[5473]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1283]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:14 snickerdoodle login[1487]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:00:15 snickerdoodle login[1541]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:00:15 snickerdoodle login[1487]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1561]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:15 snickerdoodle login[1541]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1594]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:03:23 snickerdoodle groupadd[1775]: group added to /etc/group: name=snickerdoodle, GID=1002
+Jan  1 00:03:23 snickerdoodle groupadd[1775]: group added to /etc/gshadow: name=snickerdoodle
+Jan  1 00:03:23 snickerdoodle groupadd[1775]: new group: name=snickerdoodle, GID=1002
+Jan  1 00:03:23 snickerdoodle useradd[1779]: new user: name=snickerdoodle, UID=1001, GID=1002, home=/home/snickerdoodle, shell=/bin/bash
+Jan  1 00:03:33 snickerdoodle passwd[1786]: pam_unix(passwd:chauthtok): password changed for snickerdoodle
+Jan  1 00:03:33 snickerdoodle chfn[1791]: pam_unix(chfn:account): account root has password changed in future
+Jan  1 00:03:35 snickerdoodle chfn[1791]: changed user 'snickerdoodle' information
+Jan  1 00:03:50 snickerdoodle login[1487]: pam_unix(login:session): session closed for user root
+Jan  1 00:03:50 snickerdoodle login[1806]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:03:51 snickerdoodle login[1806]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jan  1 00:03:51 snickerdoodle login[1829]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:05:31 snickerdoodle gpasswd[1886]: user snickerdoodle added by root to group sudo
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete user 'linaro'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from group 'adm'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from group 'dialout'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from group 'cdrom'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from group 'audio'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from group 'dip'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from group 'video'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from group 'plugdev'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from group 'admin'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: removed group 'linaro' owned by 'linaro'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: removed shadow group 'linaro' owned by 'linaro'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from shadow group 'adm'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from shadow group 'dialout'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from shadow group 'cdrom'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from shadow group 'audio'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from shadow group 'dip'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from shadow group 'video'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from shadow group 'plugdev'
+Jan  1 00:05:42 snickerdoodle userdel[1893]: delete 'linaro' from shadow group 'admin'
+Jan  1 00:09:01 snickerdoodle CRON[1926]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:09:01 snickerdoodle CRON[1926]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1926]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1962]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:17:01 snickerdoodle CRON[1962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1962]: pam_unix(cron:session): session closed for user root
+Jan  1 00:29:19 snickerdoodle login[1806]: pam_unix(login:session): session closed for user root
+Jan  1 00:29:19 snickerdoodle login[1983]: pam_unix(login:account): account root has password changed in future
+Jan  1 00:29:20 snickerdoodle login[1983]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jan  1 00:29:20 snickerdoodle login[2007]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:39:01 snickerdoodle CRON[2061]: pam_unix(cron:account): account root has password changed in future
+Jan  1 00:39:01 snickerdoodle CRON[2061]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[2061]: pam_unix(cron:session): session closed for user root
+Jan  1 00:49:08 snickerdoodle passwd[2106]: pam_unix(passwd:chauthtok): account root has password changed in future
+Jan  1 00:49:10 snickerdoodle passwd[2106]: pam_unix(passwd:chauthtok): account root has password changed in future
+Jan  1 00:49:10 snickerdoodle passwd[2106]: pam_unix(passwd:chauthtok): password changed for root
+Jan  1 00:49:11 snickerdoodle login[1983]: pam_unix(login:session): session closed for user root
+Jan  1 00:49:12 snickerdoodle login[2115]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jan  1 00:49:12 snickerdoodle login[2138]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:54:54 snickerdoodle passwd[2185]: password for 'root' changed by 'root'
+Jan  1 00:54:55 snickerdoodle login[2115]: pam_unix(login:session): session closed for user root
+Jan  1 00:54:56 snickerdoodle login[2194]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jan  1 00:54:56 snickerdoodle login[2217]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 01:07:26 snickerdoodle login[2194]: pam_unix(login:session): session closed for user root
+Jan  1 01:07:26 snickerdoodle login[2275]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jan  1 01:07:26 snickerdoodle login[2299]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 01:07:33 snickerdoodle login[2275]: pam_unix(login:session): session closed for user root
+Jan  1 01:07:34 snickerdoodle login[2343]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jan  1 01:07:34 snickerdoodle login[2366]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 01:09:01 snickerdoodle CRON[2407]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:02 snickerdoodle CRON[2407]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:45 snickerdoodle login[2343]: pam_unix(login:session): session closed for user root
+Jan  1 01:09:45 snickerdoodle login[2452]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jan  1 01:09:46 snickerdoodle login[2475]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 01:17:01 snickerdoodle CRON[2533]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 snickerdoodle CRON[2533]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1286]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:15 snickerdoodle login[1488]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1568]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:15 snickerdoodle login[1541]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1591]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1755]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1284]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:15 snickerdoodle login[1494]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1555]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1541]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1601]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1285]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1285]: Server listening on :: port 22.
+Jan  1 00:00:14 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1541]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:15 snickerdoodle login[1514]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1570]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:11 snickerdoodle sshd[1296]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:11 snickerdoodle sshd[1296]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1476]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1540]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1518]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1559]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:11 snickerdoodle sshd[1298]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:11 snickerdoodle sshd[1298]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1482]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1537]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1519]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1568]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1625]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:01 snickerdoodle CRON[1625]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:02 snickerdoodle CRON[1649]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:02 snickerdoodle CRON[1649]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:11 snickerdoodle sshd[1276]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:11 snickerdoodle sshd[1276]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1460]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1519]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1541]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:01 snickerdoodle CRON[1603]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1627]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1642]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1642]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:02 snickerdoodle CRON[1666]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[1690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 snickerdoodle CRON[1690]: pam_unix(cron:session): session closed for user root
+Jan  1 01:39:01 snickerdoodle CRON[1705]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:39:01 snickerdoodle CRON[1705]: pam_unix(cron:session): session closed for user root
+Jan  1 02:09:01 snickerdoodle CRON[1730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:09:01 snickerdoodle CRON[1730]: pam_unix(cron:session): session closed for user root
+Jan  1 02:17:01 snickerdoodle CRON[1754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:17:01 snickerdoodle CRON[1754]: pam_unix(cron:session): session closed for user root
+Jan  1 02:39:01 snickerdoodle CRON[1769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:39:02 snickerdoodle CRON[1769]: pam_unix(cron:session): session closed for user root
+Jan  1 03:09:01 snickerdoodle CRON[1793]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 03:09:01 snickerdoodle CRON[1793]: pam_unix(cron:session): session closed for user root
+Jan  1 03:17:01 snickerdoodle CRON[1817]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 03:17:01 snickerdoodle CRON[1817]: pam_unix(cron:session): session closed for user root
+Jan  1 03:39:01 snickerdoodle CRON[1832]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 03:39:01 snickerdoodle CRON[1832]: pam_unix(cron:session): session closed for user root
+Jan  1 04:09:01 snickerdoodle CRON[1856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 04:09:02 snickerdoodle CRON[1856]: pam_unix(cron:session): session closed for user root
+Jan  1 04:17:01 snickerdoodle CRON[1880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 04:17:01 snickerdoodle CRON[1880]: pam_unix(cron:session): session closed for user root
+Jan  1 04:39:01 snickerdoodle CRON[1895]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 04:39:02 snickerdoodle CRON[1895]: pam_unix(cron:session): session closed for user root
+Jan  1 05:09:01 snickerdoodle CRON[1920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 05:09:01 snickerdoodle CRON[1920]: pam_unix(cron:session): session closed for user root
+Jan  1 05:17:01 snickerdoodle CRON[1944]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 05:17:01 snickerdoodle CRON[1944]: pam_unix(cron:session): session closed for user root
+Jan  1 05:39:01 snickerdoodle CRON[1959]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 05:39:02 snickerdoodle CRON[1959]: pam_unix(cron:session): session closed for user root
+Jan  1 06:09:01 snickerdoodle CRON[1983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 06:09:02 snickerdoodle CRON[1983]: pam_unix(cron:session): session closed for user root
+Jan  1 06:17:01 snickerdoodle CRON[2007]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 06:17:01 snickerdoodle CRON[2007]: pam_unix(cron:session): session closed for user root
+Jan  1 06:25:01 snickerdoodle CRON[2022]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 06:25:31 snickerdoodle CRON[2022]: pam_unix(cron:session): session closed for user root
+Jan  1 06:39:01 snickerdoodle CRON[2433]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 06:39:01 snickerdoodle CRON[2433]: pam_unix(cron:session): session closed for user root
+Jan  1 06:52:01 snickerdoodle CRON[2457]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 06:52:01 snickerdoodle CRON[2457]: pam_unix(cron:session): session closed for user root
+Jan  1 07:09:01 snickerdoodle CRON[2472]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 07:09:02 snickerdoodle CRON[2472]: pam_unix(cron:session): session closed for user root
+Jan  1 07:17:01 snickerdoodle CRON[2496]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 07:17:01 snickerdoodle CRON[2496]: pam_unix(cron:session): session closed for user root
+Jan  1 07:39:01 snickerdoodle CRON[2511]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 07:39:02 snickerdoodle CRON[2511]: pam_unix(cron:session): session closed for user root
+Jan  1 08:09:01 snickerdoodle CRON[2535]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 08:09:01 snickerdoodle CRON[2535]: pam_unix(cron:session): session closed for user root
+Jan  1 08:17:01 snickerdoodle CRON[2559]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 08:17:01 snickerdoodle CRON[2559]: pam_unix(cron:session): session closed for user root
+Jan  1 08:39:02 snickerdoodle CRON[2574]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 08:39:02 snickerdoodle CRON[2574]: pam_unix(cron:session): session closed for user root
+Jan  1 09:09:01 snickerdoodle CRON[2598]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 09:09:02 snickerdoodle CRON[2598]: pam_unix(cron:session): session closed for user root
+Jan  1 09:17:01 snickerdoodle CRON[2622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 09:17:01 snickerdoodle CRON[2622]: pam_unix(cron:session): session closed for user root
+Jan  1 09:39:01 snickerdoodle CRON[2637]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 09:39:01 snickerdoodle CRON[2637]: pam_unix(cron:session): session closed for user root
+Jan  1 10:09:02 snickerdoodle CRON[2661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 10:09:02 snickerdoodle CRON[2661]: pam_unix(cron:session): session closed for user root
+Jan  1 10:17:01 snickerdoodle CRON[2685]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 10:17:01 snickerdoodle CRON[2685]: pam_unix(cron:session): session closed for user root
+Jan  1 10:39:01 snickerdoodle CRON[2700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 10:39:02 snickerdoodle CRON[2700]: pam_unix(cron:session): session closed for user root
+Jan  1 11:09:01 snickerdoodle CRON[2724]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 11:09:01 snickerdoodle CRON[2724]: pam_unix(cron:session): session closed for user root
+Jan  1 11:17:02 snickerdoodle CRON[2748]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 11:17:02 snickerdoodle CRON[2748]: pam_unix(cron:session): session closed for user root
+Jan  1 11:39:01 snickerdoodle CRON[2763]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 11:39:01 snickerdoodle CRON[2763]: pam_unix(cron:session): session closed for user root
+Jan  1 12:09:01 snickerdoodle CRON[2787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 12:09:02 snickerdoodle CRON[2787]: pam_unix(cron:session): session closed for user root
+Jan  1 12:17:01 snickerdoodle CRON[2811]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 12:17:01 snickerdoodle CRON[2811]: pam_unix(cron:session): session closed for user root
+Jan  1 12:39:01 snickerdoodle CRON[2826]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 12:39:02 snickerdoodle CRON[2826]: pam_unix(cron:session): session closed for user root
+Jan  1 13:09:01 snickerdoodle CRON[2850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 13:09:01 snickerdoodle CRON[2850]: pam_unix(cron:session): session closed for user root
+Jan  1 13:17:01 snickerdoodle CRON[2874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 13:17:01 snickerdoodle CRON[2874]: pam_unix(cron:session): session closed for user root
+Jan  1 13:39:01 snickerdoodle CRON[2889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 13:39:02 snickerdoodle CRON[2889]: pam_unix(cron:session): session closed for user root
+Jan  1 14:09:01 snickerdoodle CRON[2913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 14:09:02 snickerdoodle CRON[2913]: pam_unix(cron:session): session closed for user root
+Jan  1 14:17:01 snickerdoodle CRON[2937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 14:17:01 snickerdoodle CRON[2937]: pam_unix(cron:session): session closed for user root
+Jan  1 14:39:01 snickerdoodle CRON[2952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 14:39:01 snickerdoodle CRON[2952]: pam_unix(cron:session): session closed for user root
+Jan  1 15:09:01 snickerdoodle CRON[2976]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 15:09:02 snickerdoodle CRON[2976]: pam_unix(cron:session): session closed for user root
+Jan  1 15:17:01 snickerdoodle CRON[3000]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 15:17:01 snickerdoodle CRON[3000]: pam_unix(cron:session): session closed for user root
+Jan  1 15:39:01 snickerdoodle CRON[3015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 15:39:02 snickerdoodle CRON[3015]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:11 snickerdoodle sshd[1272]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:11 snickerdoodle sshd[1272]: Server listening on :: port 22.
+Jan  1 00:00:16 snickerdoodle login[1459]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:16 snickerdoodle login[1518]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1530]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:11 snickerdoodle sshd[1298]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:11 snickerdoodle sshd[1298]: Server listening on :: port 22.
+Jan  1 00:00:16 snickerdoodle login[1478]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:16 snickerdoodle login[1534]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1521]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1570]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1301]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1301]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1479]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1536]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:15 snickerdoodle login[1522]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1571]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:11 snickerdoodle sshd[1296]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:11 snickerdoodle sshd[1296]: Server listening on :: port 22.
+Jan  1 00:00:16 snickerdoodle login[1478]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:16 snickerdoodle login[1542]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1520]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1556]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1285]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1285]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1544]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1517]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1568]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:07 snickerdoodle systemd-logind[1000]: New seat seat0.
+Jan  1 00:00:11 snickerdoodle sshd[1299]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:11 snickerdoodle sshd[1299]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1480]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle systemd-logind[1000]: New session c1 of user root.
+Jan  1 00:00:15 snickerdoodle login[1541]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1522]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle systemd-logind[1000]: New session c2 of user root.
+Jan  1 00:00:16 snickerdoodle login[1570]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:02 snickerdoodle CRON[1731]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1731]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1755]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1300]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1300]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1484]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1536]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1523]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1572]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:02 snickerdoodle CRON[1734]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1734]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1758]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1773]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1773]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1288]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1288]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1537]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1522]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1571]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1289]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1289]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1467]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1544]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1522]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1556]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1733]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:01 snickerdoodle CRON[1733]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:02 snickerdoodle CRON[1757]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1184]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:15 snickerdoodle login[1395]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1444]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1431]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1480]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1640]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1640]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1672]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1672]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1687]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1687]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:01 snickerdoodle CRON[1711]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[1735]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:02 snickerdoodle CRON[1735]: pam_unix(cron:session): session closed for user root
+Jan  1 01:39:01 snickerdoodle CRON[1750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:39:01 snickerdoodle CRON[1750]: pam_unix(cron:session): session closed for user root
+Jan  1 02:09:01 snickerdoodle CRON[1774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:09:02 snickerdoodle CRON[1774]: pam_unix(cron:session): session closed for user root
+Jan  1 02:17:01 snickerdoodle CRON[1798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:17:01 snickerdoodle CRON[1798]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1185]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:15 snickerdoodle login[1374]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1451]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:15 snickerdoodle login[1429]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1470]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1679]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1679]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1712]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1712]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1727]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1727]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:01 snickerdoodle CRON[1751]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[1775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:02 snickerdoodle CRON[1775]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1191]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:15 snickerdoodle login[1397]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1455]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1438]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1487]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1543]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1543]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1567]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1567]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1582]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1582]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:07 snickerdoodle systemd-logind[920]: New seat seat0.
+Jan  1 00:00:10 snickerdoodle sshd[1189]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:15 snickerdoodle login[1380]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle systemd-logind[920]: New session c1 of user root.
+Jan  1 00:00:15 snickerdoodle login[1447]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1436]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle systemd-logind[920]: New session c2 of user root.
+Jan  1 00:00:16 snickerdoodle login[1484]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1659]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1659]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1189]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1189]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1366]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1434]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:15 snickerdoodle login[1412]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1460]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1653]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1653]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1677]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1732]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:01 snickerdoodle CRON[1761]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1368]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1436]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1414]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1460]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1519]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1190]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1190]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1355]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1435]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1413]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1459]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1622]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1191]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1191]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1375]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1436]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:16 snickerdoodle login[1414]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1455]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1519]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1519]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:13 snickerdoodle getty[1339]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:15 snickerdoodle login[1381]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1403]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:24 snickerdoodle getty[1441]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:34 snickerdoodle getty[1444]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:44 snickerdoodle getty[1447]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:54 snickerdoodle getty[1450]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:04 snickerdoodle getty[1453]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:14 snickerdoodle getty[1456]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:24 snickerdoodle getty[1459]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:34 snickerdoodle getty[1462]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:44 snickerdoodle getty[1465]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:54 snickerdoodle getty[1468]: /dev/ttyPS0: No such file or directory
+Jan  1 00:02:04 snickerdoodle getty[1471]: /dev/ttyPS0: No such file or directory
+Jan  1 00:02:14 snickerdoodle getty[1474]: /dev/ttyPS0: No such file or directory
+Jan  1 00:02:24 snickerdoodle getty[1477]: /dev/ttyPS0: No such file or directory
+Jan  1 00:02:34 snickerdoodle getty[1480]: /dev/ttyPS0: No such file or directory
+Jan  1 00:02:44 snickerdoodle getty[1483]: /dev/ttyPS0: No such file or directory
+Jan  1 00:02:54 snickerdoodle getty[1486]: /dev/ttyPS0: No such file or directory
+Jan  1 00:03:04 snickerdoodle getty[1489]: /dev/ttyPS0: No such file or directory
+Jan  1 00:03:15 snickerdoodle getty[1492]: /dev/ttyPS0: No such file or directory
+Jan  1 00:03:25 snickerdoodle getty[1495]: /dev/ttyPS0: No such file or directory
+Jan  1 00:03:35 snickerdoodle getty[1498]: /dev/ttyPS0: No such file or directory
+Jan  1 00:03:45 snickerdoodle getty[1501]: /dev/ttyPS0: No such file or directory
+Jan  1 00:03:55 snickerdoodle getty[1504]: /dev/ttyPS0: No such file or directory
+Jan  1 00:04:05 snickerdoodle getty[1507]: /dev/ttyPS0: No such file or directory
+Jan  1 00:04:15 snickerdoodle getty[1510]: /dev/ttyPS0: No such file or directory
+Jan  1 00:04:25 snickerdoodle getty[1513]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:10 snickerdoodle sshd[1195]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1195]: Server listening on :: port 22.
+Jan  1 00:00:13 snickerdoodle getty[1335]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:15 snickerdoodle login[1375]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1402]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:23 snickerdoodle getty[1440]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:33 snickerdoodle getty[1445]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:43 snickerdoodle getty[1448]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:54 snickerdoodle getty[1451]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:04 snickerdoodle getty[1454]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:14 snickerdoodle getty[1459]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:24 snickerdoodle getty[1462]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:34 snickerdoodle getty[1465]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:44 snickerdoodle getty[1468]: /dev/ttyPS0: No such file or directory
+Jan  1 00:01:54 snickerdoodle getty[1471]: /dev/ttyPS0: No such file or directory
+Jan  1 00:00:10 snickerdoodle sshd[1189]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1189]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle sshd[1180]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle sshd[1180]: Server listening on :: port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1192]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1192]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1358]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1435]: ROOT LOGIN  on '/dev/ttyPS0'
+Jan  1 00:00:15 snickerdoodle login[1413]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1459]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1622]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1622]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1191]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1191]: Server listening on :: port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1182]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1182]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1359]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1439]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1417]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1461]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1626]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1196]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1196]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1377]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1439]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1417]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1463]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1626]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1650]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1194]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1194]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1380]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1439]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1417]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1463]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1626]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1650]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1374]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1438]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1416]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1463]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1183]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1183]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1360]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1440]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1410]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1455]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1181]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1181]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1359]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1429]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1417]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1466]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1627]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1651]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1651]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1666]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1666]: pam_unix(cron:session): session closed for user root
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1369]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1439]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1417]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1451]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1195]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1195]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1371]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1439]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1417]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1454]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1197]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1197]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1381]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1434]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1420]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1469]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1195]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1195]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1373]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1440]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1418]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1452]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:02 snickerdoodle CRON[1523]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1523]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1547]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:02 snickerdoodle CRON[1547]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1562]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1562]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:07 snickerdoodle systemd-logind[900]: New seat seat0.
+Jan  1 00:00:10 snickerdoodle sshd[1197]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1197]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1368]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle systemd-logind[900]: New session c1 of user root.
+Jan  1 00:00:15 snickerdoodle login[1440]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1418]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle systemd-logind[900]: New session c2 of user root.
+Jan  1 00:00:16 snickerdoodle login[1462]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1197]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1197]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1364]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1435]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1419]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1468]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1194]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1194]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1364]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1440]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1418]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1466]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:07 snickerdoodle systemd-logind[917]: New seat seat0.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1373]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle systemd-logind[917]: New session c1 of user root.
+Jan  1 00:00:15 snickerdoodle login[1438]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1416]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle systemd-logind[917]: New session c2 of user root.
+Jan  1 00:00:16 snickerdoodle login[1462]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1521]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1181]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1181]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1360]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1440]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1418]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1467]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1183]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1183]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1361]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1441]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1411]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1460]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1357]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1433]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1415]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1464]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1526]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1550]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1550]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1565]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:01 snickerdoodle CRON[1589]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[1613]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 snickerdoodle CRON[1613]: pam_unix(cron:session): session closed for user root
+Jan  1 01:39:01 snickerdoodle CRON[1662]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:39:01 snickerdoodle CRON[1662]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1192]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1192]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1372]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1430]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1415]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1464]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1631]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1631]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1655]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1655]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1670]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1670]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1195]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1195]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1372]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1437]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1415]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1463]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1624]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1648]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1648]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1361]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1437]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1416]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1465]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1182]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1182]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1358]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1438]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1415]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1452]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1192]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1192]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1365]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1435]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1413]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1450]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1556]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1556]: pam_unix(cron:session): session closed for user root
+Jan  1 00:16:12 snickerdoodle sudo:     root : TTY=ttyPS1 ; PWD=/sys/devices/amba.1/e0000000.serial ; USER=root ; COMMAND=/bin/cat driver/bind
+Jan  1 00:16:12 snickerdoodle sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Jan  1 00:16:12 snickerdoodle sudo: pam_unix(sudo:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1620]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1620]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1675]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1675]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1358]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1431]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1415]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1464]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1181]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1181]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1359]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1439]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1412]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1461]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1191]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1191]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1371]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1431]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1414]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1463]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1178]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1178]: Server listening on :: port 22.
+Jan  1 00:00:14 snickerdoodle login[1358]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1425]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1418]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1465]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:01 snickerdoodle CRON[1627]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:02 snickerdoodle CRON[1652]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:02 snickerdoodle CRON[1652]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1359]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1438]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1416]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1462]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1193]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1372]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1438]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:16 snickerdoodle login[1416]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:16 snickerdoodle login[1465]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1521]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1548]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1563]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1563]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:01 snickerdoodle CRON[1587]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[1611]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 snickerdoodle CRON[1611]: pam_unix(cron:session): session closed for user root
+Jan  1 01:39:01 snickerdoodle CRON[1626]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:39:01 snickerdoodle CRON[1626]: pam_unix(cron:session): session closed for user root
+Jan  1 02:09:01 snickerdoodle CRON[1650]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:09:02 snickerdoodle CRON[1650]: pam_unix(cron:session): session closed for user root
+Jan  1 02:17:01 snickerdoodle CRON[1674]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:17:01 snickerdoodle CRON[1674]: pam_unix(cron:session): session closed for user root
+Jan  1 02:39:01 snickerdoodle CRON[1689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:39:02 snickerdoodle CRON[1689]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:09 snickerdoodle sshd[1181]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle sshd[1181]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1357]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1437]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1409]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1452]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1624]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1663]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1663]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:10 snickerdoodle sshd[1194]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:10 snickerdoodle sshd[1194]: Server listening on :: port 22.
+Jan  1 00:00:15 snickerdoodle login[1375]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:15 snickerdoodle login[1437]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:15 snickerdoodle login[1415]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:15 snickerdoodle login[1459]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1658]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1658]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1689]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1689]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1704]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:02 snickerdoodle CRON[1704]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1728]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:01 snickerdoodle CRON[1728]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[1752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 snickerdoodle CRON[1752]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1270]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1270]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1447]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1512]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1478]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1532]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1737]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1755]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1277]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1277]: Server listening on :: port 22.
+Jan  1 00:00:08 snickerdoodle login[1445]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1507]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1476]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1532]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1736]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1736]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1754]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1754]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:06 snickerdoodle sshd[1285]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1285]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1446]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1511]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1478]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1546]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:05 snickerdoodle sshd[1299]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1299]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1475]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1535]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1506]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1557]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:05 snickerdoodle sshd[1286]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1286]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1530]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1495]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1551]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:05 snickerdoodle sshd[1286]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1286]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1529]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1550]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1756]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1774]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1299]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1299]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1547]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:05 snickerdoodle sshd[1271]: Server listening on :: port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1271]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1550]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1292]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1292]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1519]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1540]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1762]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1780]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1789]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1282]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1282]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1548]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1756]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:06 snickerdoodle sshd[1291]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1291]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1553]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1847]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1847]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1868]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1868]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1291]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1291]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1469]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1500]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1559]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1317]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1317]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1469]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1538]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1500]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1554]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1768]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1282]: Server listening on :: port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1282]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1528]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1553]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1765]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1765]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1783]: pam_unix(cron:session): session closed for user root
+Jan  1 00:22:23 snickerdoodle sshd[1282]: Received signal 15; terminating.
+Jan  1 00:22:26 snickerdoodle systemd-logind[1926]: New seat seat0.
+Jan  1 00:22:51 snickerdoodle sshd[2027]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:22:51 snickerdoodle sshd[2027]: Server listening on :: port 22.
+Jan  1 00:22:53 snickerdoodle login[2173]: pam_unix(login:session): session opened for user root by root(uid=0)
+Jan  1 00:22:53 snickerdoodle login[2195]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:05 snickerdoodle sshd[1262]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1262]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1442]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1504]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1473]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1529]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:05 snickerdoodle sshd[1286]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1286]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1527]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1545]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1757]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1757]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1776]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1289]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1289]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1529]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1545]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1290]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1290]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1530]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1550]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1282]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1282]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1468]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1530]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1499]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1549]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1763]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1763]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1783]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1783]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1282]: Server listening on :: port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1282]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1520]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1541]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1759]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1777]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1275]: Server listening on :: port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1275]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1530]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1552]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1292]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1292]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1528]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1549]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1759]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1759]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:06 snickerdoodle sshd[1287]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1287]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1514]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1495]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1536]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1751]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1769]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1778]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:06 snickerdoodle sshd[1293]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1293]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1527]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1547]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1761]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1779]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1788]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1788]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1290]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1290]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1527]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1542]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1751]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1828]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1287]: Server listening on :: port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1287]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1551]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1305]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1305]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1527]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1552]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1286]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1286]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1526]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1495]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1551]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:05 snickerdoodle sshd[1275]: Server listening on :: port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1275]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1534]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1495]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1549]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1750]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1274]: Server listening on :: port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1274]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1468]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1535]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1500]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1569]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1285]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1285]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1530]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1550]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1276]: Server listening on :: port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1276]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1535]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1498]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1554]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1283]: Server listening on :: port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1283]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1530]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1552]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1289]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1289]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1546]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1302]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1302]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1536]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1550]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1300]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1300]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1529]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1495]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1548]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:01 snickerdoodle CRON[1750]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1768]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1285]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1285]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1466]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1497]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1553]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:00:06 snickerdoodle sshd[1290]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1290]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1530]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1559]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:02 snickerdoodle CRON[1751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1751]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1769]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1281]: Server listening on :: port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1281]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:09 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1529]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1495]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1551]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1750]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1768]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1777]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:06 snickerdoodle sshd[1286]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1286]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1464]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1517]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1495]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1540]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1750]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1768]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1768]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1777]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:06 snickerdoodle sshd[1296]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1296]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1531]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1552]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1751]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1751]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1769]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1769]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1778]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:02 snickerdoodle CRON[1796]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[1814]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 snickerdoodle CRON[1814]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:05 snickerdoodle sshd[1297]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:05 snickerdoodle sshd[1297]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1478]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1540]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1509]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1566]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1790]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1844]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1899]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1991]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:01 snickerdoodle CRON[1991]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[2030]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:02 snickerdoodle CRON[2030]: pam_unix(cron:session): session closed for user root
+Jan  1 01:39:01 snickerdoodle CRON[2092]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:39:01 snickerdoodle CRON[2092]: pam_unix(cron:session): session closed for user root
+Jan  1 02:09:01 snickerdoodle CRON[2182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:09:01 snickerdoodle CRON[2182]: pam_unix(cron:session): session closed for user root
+Jan  1 02:17:01 snickerdoodle CRON[2210]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:17:01 snickerdoodle CRON[2210]: pam_unix(cron:session): session closed for user root
+Jan  1 02:39:01 snickerdoodle CRON[2270]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:39:01 snickerdoodle CRON[2270]: pam_unix(cron:session): session closed for user root
+Jan  1 03:09:02 snickerdoodle CRON[2360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 03:09:02 snickerdoodle CRON[2360]: pam_unix(cron:session): session closed for user root
+Jan  1 03:17:01 snickerdoodle CRON[2398]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 03:17:01 snickerdoodle CRON[2398]: pam_unix(cron:session): session closed for user root
+Jan  1 03:39:01 snickerdoodle CRON[2458]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 03:39:01 snickerdoodle CRON[2458]: pam_unix(cron:session): session closed for user root
+Jan  1 04:09:01 snickerdoodle CRON[2548]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 04:09:01 snickerdoodle CRON[2548]: pam_unix(cron:session): session closed for user root
+Jan  1 04:17:01 snickerdoodle CRON[2589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 04:17:02 snickerdoodle CRON[2589]: pam_unix(cron:session): session closed for user root
+Jan  1 00:00:06 snickerdoodle sshd[1286]: Server listening on 0.0.0.0 port 22.
+Jan  1 00:00:06 snickerdoodle sshd[1286]: Server listening on :: port 22.
+Jan  1 00:00:09 snickerdoodle login[1465]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jan  1 00:00:09 snickerdoodle login[1515]: ROOT LOGIN  on '/dev/ttyPS1'
+Jan  1 00:00:09 snickerdoodle login[1496]: pam_unix(login:session): session opened for user root by (uid=0)
+Jan  1 00:00:09 snickerdoodle login[1540]: ROOT LOGIN  on '/dev/tty1'
+Jan  1 00:09:01 snickerdoodle CRON[1752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:09:02 snickerdoodle CRON[1752]: pam_unix(cron:session): session closed for user root
+Jan  1 00:17:01 snickerdoodle CRON[1770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:17:01 snickerdoodle CRON[1770]: pam_unix(cron:session): session closed for user root
+Jan  1 00:39:01 snickerdoodle CRON[1779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 00:39:01 snickerdoodle CRON[1779]: pam_unix(cron:session): session closed for user root
+Jan  1 01:09:01 snickerdoodle CRON[1824]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:09:02 snickerdoodle CRON[1824]: pam_unix(cron:session): session closed for user root
+Jan  1 01:17:01 snickerdoodle CRON[1843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:17:01 snickerdoodle CRON[1843]: pam_unix(cron:session): session closed for user root
+Jan  1 01:39:01 snickerdoodle CRON[1854]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 01:39:01 snickerdoodle CRON[1854]: pam_unix(cron:session): session closed for user root
+Jan  1 02:09:01 snickerdoodle CRON[1899]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:09:01 snickerdoodle CRON[1899]: pam_unix(cron:session): session closed for user root
+Jan  1 02:09:54 snickerdoodle sshd[1939]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.111.101  user=root
+Jan  1 02:09:55 snickerdoodle sshd[1939]: Failed password for root from 10.0.111.101 port 64027 ssh2
+Jan  1 02:11:35 snickerdoodle sshd[1939]: Failed password for root from 10.0.111.101 port 64027 ssh2
+Jan  1 02:11:35 snickerdoodle sshd[1939]: Connection closed by 10.0.111.101 [preauth]
+Jan  1 02:13:31 snickerdoodle sshd[1949]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.111.101  user=root
+Jan  1 02:13:33 snickerdoodle sshd[1949]: Failed password for root from 10.0.111.101 port 64084 ssh2
+Jan  1 02:13:49 snickerdoodle sshd[1949]: Connection closed by 10.0.111.101 [preauth]
+Jan  1 02:17:01 snickerdoodle CRON[1963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  1 02:17:01 snickerdoodle CRON[1963]: pam_unix(cron:session): session closed for user root
+Jan  1 02:25:58 snickerdoodle sshd[2000]: Connection closed by 10.0.111.101 [preauth]
+Jan  1 02:27:44 snickerdoodle sshd[2003]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.111.101  user=root
+Jan  1 02:27:46 snickerdoodle sshd[2003]: Failed password for root from 10.0.111.101 port 64242 ssh2
+Jan  1 02:27:51 snickerdoodle sshd[2003]: Failed password for root from 10.0.111.101 port 64242 ssh2
+Jan  1 02:27:51 snickerdoodle sshd[2003]: Connection closed by 10.0.111.101 [preauth]
+Jan  1 02:27:51 snickerdoodle sshd[2003]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.0.111.101  user=root

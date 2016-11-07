@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/include
+/usr/include/tinyxml.h
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libtinyxml.a
+/usr/lib/arm-linux-gnueabihf/pkgconfig
+/usr/lib/arm-linux-gnueabihf/pkgconfig/tinyxml.pc
+/usr/share
+/usr/share/doc
+/usr/share/doc/libtinyxml-dev
+/usr/share/doc/libtinyxml-dev/copyright
+/usr/lib/arm-linux-gnueabihf/libtinyxml.so
+/usr/share/doc/libtinyxml-dev/changelog.Debian.gz

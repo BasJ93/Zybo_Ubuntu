@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/x-qtiplot">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>QtiPlot document</comment>
+  <comment xml:lang="ast">QtiPlot document</comment>
+  <comment xml:lang="bs">QtiPlot dokument</comment>
+  <comment xml:lang="de">QtiPlot-Dokument</comment>
+  <comment xml:lang="en_AU">QtiPlot document</comment>
+  <comment xml:lang="en_GB">QtiPlot document</comment>
+  <comment xml:lang="es">Documento de QtiPilot</comment>
+  <comment xml:lang="eu">QtiPlot dokumentua</comment>
+  <comment xml:lang="gl">Documento QtiPlot</comment>
+  <comment xml:lang="id">Dokumen QtiPlot</comment>
+  <comment xml:lang="it">Documento QtiPlot</comment>
+  <comment xml:lang="lv">QtiPlot dokuments</comment>
+  <comment xml:lang="pt_BR">documento QtiPlot</comment>
+  <comment xml:lang="ru">Документ QtiPlot</comment>
+  <comment xml:lang="sl">Dokument QtiPlot</comment>
+  <comment xml:lang="uk">документ QtiPlot</comment>
+  <comment xml:lang="zh_TW">QtiPlot 文件</comment>
+  <sub-class-of type="text/plain"/>
+  <generic-icon name="x-office-document"/>
+  <glob pattern="*.qti"/>
+  <glob pattern="*.qti.gz"/>
+</mime-type>

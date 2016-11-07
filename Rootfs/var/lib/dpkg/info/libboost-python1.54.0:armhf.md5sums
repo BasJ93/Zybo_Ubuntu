@@ -1,0 +1,6 @@
+d56793de062145c41294adad48f687d0  usr/lib/arm-linux-gnueabihf/libboost_python-py27.so.1.54.0
+8a785a46a665a513e24082e9d976d393  usr/lib/arm-linux-gnueabihf/libboost_python-py33.so.1.54.0
+927aafb9b46b669a58fc4b29fedae151  usr/lib/arm-linux-gnueabihf/libboost_python-py34.so.1.54.0
+3c7a26438e95f4180272d9664b3d0f9b  usr/share/doc/libboost-python1.54.0/changelog.Debian.gz
+e66425771863c34de39265516529d049  usr/share/doc/libboost-python1.54.0/copyright
+b97cd69fb61d52d2d4c104101abcea1e  usr/share/lintian/overrides/libboost-python1.54.0

@@ -1,0 +1,5 @@
+libapache2-mod-php5: package-contains-empty-directory usr/lib/php5/20121212+lfs/
+libapache2-mod-php5: spelling-error-in-binary * ment meant
+libapache2-mod-php5: spelling-error-in-binary * taht that
+libapache2-mod-php5: embedded-library usr/lib/apache2/modules/libphp5.so: file
+libapache2-mod-php5: embedded-library ./usr/lib/apache2/modules/libphp5.so: file

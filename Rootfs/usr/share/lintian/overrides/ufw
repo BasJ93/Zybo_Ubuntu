@@ -1,0 +1,2 @@
+# Don't need to supply 'stop' for a firewall
+ufw binary: postrm-does-not-call-updaterc.d-for-init.d-script

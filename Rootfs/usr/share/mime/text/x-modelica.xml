@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="text/x-modelica">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>Modelica model</comment>
+  <comment xml:lang="ast">Modelica model</comment>
+  <comment xml:lang="bs">Modelica model</comment>
+  <comment xml:lang="de">Modelica-Modell</comment>
+  <comment xml:lang="en_AU">Modelica model</comment>
+  <comment xml:lang="en_GB">Modelica model</comment>
+  <comment xml:lang="es">Modelo de Modelica</comment>
+  <comment xml:lang="eu">Modelica modeloa</comment>
+  <comment xml:lang="gl">Modelo Modelica</comment>
+  <comment xml:lang="id">Model Modelica</comment>
+  <comment xml:lang="it">Modello Modelica</comment>
+  <comment xml:lang="lv">Modelica modelis</comment>
+  <comment xml:lang="pt_BR">Modelo Modelica</comment>
+  <comment xml:lang="sl">Model Modelica</comment>
+  <comment xml:lang="uk">модель Modelica</comment>
+  <comment xml:lang="zh_TW">Modelica 模型</comment>
+  <sub-class-of type="text/plain"/>
+  <glob pattern="*.mo"/>
+</mime-type>

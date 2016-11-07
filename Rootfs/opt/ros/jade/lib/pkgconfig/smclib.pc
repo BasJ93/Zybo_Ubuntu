@@ -1,0 +1,8 @@
+prefix=/opt/ros/jade
+
+Name: smclib
+Description: Description of smclib
+Version: 1.7.16
+Cflags: -I/opt/ros/jade/include
+Libs: -L/opt/ros/jade/lib 
+Requires: 

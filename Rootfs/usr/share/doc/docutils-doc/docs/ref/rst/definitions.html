@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.11: http://docutils.sourceforge.net/" />
+<title>reStructuredText Standard Definition Files</title>
+<meta name="author" content="David Goodger" />
+<meta name="date" content="2012-01-03" />
+<meta name="copyright" content="This document has been placed in the public domain." />
+<link rel="stylesheet" href="../../../css/html4css1.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="restructuredtext-standard-definition-files">
+<h1 class="title">reStructuredText Standard Definition Files</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>David Goodger</td></tr>
+<tr><th class="docinfo-name">Contact:</th>
+<td><a class="first last reference external" href="mailto:docutils-develop&#64;lists.sourceforge.net">docutils-develop&#64;lists.sourceforge.net</a></td></tr>
+<tr><th class="docinfo-name">Revision:</th>
+<td>7302</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2012-01-03</td></tr>
+<tr><th class="docinfo-name">Copyright:</th>
+<td>This document has been placed in the public domain.</td></tr>
+</tbody>
+</table>
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#substitution-definitions" id="id12">Substitution Definitions</a><ul>
+<li><a class="reference internal" href="#character-entity-sets" id="id13">Character Entity Sets</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#s5-html-definitions" id="id14">S5/HTML Definitions</a></li>
+</ul>
+</div>
+<p>This document describes standard definition files, such as sets of
+substitution definitions and interpreted text roles, that can be
+included in reStructuredText documents.  The <a class="reference external" href="directives.html#include">&quot;include&quot; directive</a>
+has a special syntax for these standard definition files, angle
+brackets around the file name:</p>
+<pre class="literal-block">
+.. include:: &lt;filename.txt&gt;
+</pre>
+<p>The individual data files are stored with the Docutils source code in
+the &quot;docutils&quot; package, in the <tt class="docutils literal">docutils/parsers/rst/include</tt>
+directory.</p>
+<div class="section" id="substitution-definitions">
+<h1><a class="toc-backref" href="#id12">Substitution Definitions</a></h1>
+<p>Many of the standard definition files contain sets of <a class="reference external" href="restructuredtext.html#substitution-definitions">substitution
+definitions</a>, which can be used in documents via <a class="reference external" href="restructuredtext.html#substitution-references">substitution
+references</a>.  For example, the copyright symbol is defined in
+<tt class="docutils literal">isonum.txt</tt> as &quot;copy&quot;:</p>
+<pre class="literal-block">
+.. include:: &lt;isonum.txt&gt;
+
+Copyright |copy| 2003 by John Q. Public, all rights reserved.
+</pre>
+<p>Individual substitution definitions can also be copied from definition
+files and pasted into documents.  This has two advantages: it removes
+dependencies, and it saves processing of unused definitions.  However,
+multiple substitution definitions add clutter to the document.</p>
+<p>Substitution references require separation from the surrounding text
+with whitespace or punctuation.  To use a substitution without
+intervening whitespace, you can use the disappearing-whitespace escape
+sequence, backslash-space:</p>
+<pre class="literal-block">
+.. include:: isonum.txt
+
+Copyright |copy| 2003, BogusMegaCorp\ |trade|.
+</pre>
+<p>Custom substitution definitions may use the <a class="reference external" href="directives.html#unicode">&quot;unicode&quot; directive</a>.
+Whitespace is ignored and removed, effectively sqeezing together the
+text:</p>
+<pre class="literal-block">
+.. |copy|   unicode:: U+000A9 .. COPYRIGHT SIGN
+.. |BogusMegaCorp (TM)| unicode:: BogusMegaCorp U+2122
+   .. with trademark sign
+
+Copyright |copy| 2003, |BogusMegaCorp (TM)|.
+</pre>
+<p>In addition, the &quot;ltrim&quot;, &quot;rtrim&quot;, and &quot;trim&quot; options may be used with
+the &quot;unicode&quot; directive to automatically trim spaces from the left,
+right, or both sides (respectively) of substitution references:</p>
+<pre class="literal-block">
+.. |---| unicode:: U+02014 .. em dash
+   :trim:
+</pre>
+<div class="section" id="character-entity-sets">
+<h2><a class="toc-backref" href="#id13">Character Entity Sets</a></h2>
+<p>The following files contain substitution definitions corresponding to
+XML character entity sets, from the following standards: ISO 8879 &amp;
+ISO 9573-13 (combined), MathML, and XHTML1.  They were generated by
+the <tt class="docutils literal">tools/dev/unicode2rstsubs.py</tt> program from the input file
+<a class="reference external" href="http://www.w3.org/2003/entities/xml/">unicode.xml</a>, which is maintained as part of the MathML 2
+Recommentation XML source.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="28%" />
+<col width="72%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head">Entity Set File</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isoamsa.txt">isoamsa.txt</a></td>
+<td>Added Mathematical Symbols: Arrows</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isoamsb.txt">isoamsb.txt</a></td>
+<td>Added Mathematical Symbols: Binary Operators</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isoamsc.txt">isoamsc.txt</a></td>
+<td>Added Mathematical Symbols: Delimiters</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isoamsn.txt">isoamsn.txt</a></td>
+<td>Added Mathematical Symbols: Negated Relations</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isoamso.txt">isoamso.txt</a></td>
+<td>Added Mathematical Symbols: Ordinary</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isoamsr.txt">isoamsr.txt</a></td>
+<td>Added Mathematical Symbols: Relations</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isobox.txt">isobox.txt</a></td>
+<td>Box and Line Drawing</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isocyr1.txt">isocyr1.txt</a></td>
+<td>Russian Cyrillic</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isocyr2.txt">isocyr2.txt</a></td>
+<td>Non-Russian Cyrillic</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isodia.txt">isodia.txt</a></td>
+<td>Diacritical Marks</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isogrk1.txt">isogrk1.txt</a></td>
+<td>Greek Letters</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isogrk2.txt">isogrk2.txt</a></td>
+<td>Monotoniko Greek</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isogrk3.txt">isogrk3.txt</a></td>
+<td>Greek Symbols</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isogrk4.txt">isogrk4.txt</a>  <a class="footnote-reference" href="#id11" id="id6">[1]</a></td>
+<td>Alternative Greek Symbols</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isolat1.txt">isolat1.txt</a></td>
+<td>Added Latin 1</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isolat2.txt">isolat2.txt</a></td>
+<td>Added Latin 2</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isomfrk.txt">isomfrk.txt</a>  <a class="footnote-reference" href="#id11" id="id7">[1]</a></td>
+<td>Mathematical Fraktur</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isomopf.txt">isomopf.txt</a>  <a class="footnote-reference" href="#id11" id="id8">[1]</a></td>
+<td>Mathematical Openface (Double-struck)</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isomscr.txt">isomscr.txt</a>  <a class="footnote-reference" href="#id11" id="id9">[1]</a></td>
+<td>Mathematical Script</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isonum.txt">isonum.txt</a></td>
+<td>Numeric and Special Graphic</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isopub.txt">isopub.txt</a></td>
+<td>Publishing</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/isotech.txt">isotech.txt</a></td>
+<td>General Technical</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/mmlalias.txt">mmlalias.txt</a></td>
+<td>MathML aliases for entities from other sets</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/mmlextra.txt">mmlextra.txt</a> <a class="footnote-reference" href="#id11" id="id10">[1]</a></td>
+<td>Extra names added by MathML</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/xhtml1-lat1.txt">xhtml1-lat1.txt</a></td>
+<td>XHTML Latin 1</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/xhtml1-special.txt">xhtml1-special.txt</a></td>
+<td>XHTML Special Characters</td>
+</tr>
+<tr><td><a class="reference external" href="../../../docutils/parsers/rst/include/xhtml1-symbol.txt">xhtml1-symbol.txt</a></td>
+<td>XHTML Mathematical, Greek and Symbolic Characters</td>
+</tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id11" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td><em>(<a class="fn-backref" href="#id6">1</a>, <a class="fn-backref" href="#id7">2</a>, <a class="fn-backref" href="#id8">3</a>, <a class="fn-backref" href="#id9">4</a>, <a class="fn-backref" href="#id10">5</a>)</em> There are <tt class="docutils literal"><span class="pre">*-wide.txt</span></tt> variants for each of these character
+entity set files, containing characters outside of the Unicode
+basic multilingual plane or BMP (wide-Unicode; code points greater
+than U+FFFF).  Most pre-built Python distributions are &quot;narrow&quot; and
+do not support wide-Unicode characters.  Python <em>can</em> be built with
+wide-Unicode support though; consult the Python build instructions
+for details.</td></tr>
+</tbody>
+</table>
+<p>For example, the copyright symbol is defined as the XML character
+entity <tt class="docutils literal">&amp;copy;</tt>.  The equivalent reStructuredText substitution
+reference (defined in both <tt class="docutils literal">isonum.txt</tt> and <tt class="docutils literal"><span class="pre">xhtml1-lat1.txt</span></tt>) is
+<tt class="docutils literal">|copy|</tt>.</p>
+</div>
+</div>
+<div class="section" id="s5-html-definitions">
+<h1><a class="toc-backref" href="#id14">S5/HTML Definitions</a></h1>
+<p>The &quot;<a class="reference external" href="../../../docutils/parsers/rst/include/s5defs.txt">s5defs.txt</a>&quot; standard definition file contains interpreted text
+roles (classes) and other definitions for documents destined to become
+<a class="reference external" href="../../user/slide-shows.html">S5/HTML slide shows</a>.</p>
+<!-- Local Variables:
+mode: indented-text
+indent-tabs-mode: nil
+sentence-end-double-space: t
+fill-column: 70
+End: -->
+</div>
+</div>
+</body>
+</html>

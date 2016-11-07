@@ -1,0 +1,16 @@
+142a0a107fc292b56ce6fd606c44d270  opt/ros/jade/etc/catkin/profile.d/10.rosbuild.sh
+5f069c9a5fa9a6fb859d49d00e4ace6b  opt/ros/jade/lib/pkgconfig/rosbuild.pc
+1d96c4e7135086b976617e787e94d4e8  opt/ros/jade/share/ros/core/rosbuild/FindPkgConfig.cmake
+f0390b063c6b39240295e4b3daea4504  opt/ros/jade/share/ros/core/rosbuild/ProcessorCount.cmake
+ccdccb8c671b5b3987700545d8d0ba3e  opt/ros/jade/share/ros/core/rosbuild/bin/check_same_directories.py
+137ce36d9d46783cfbafbf7f91c8e133  opt/ros/jade/share/ros/core/rosbuild/bin/download_checkmd5.py
+17b483beb24cb95fa795ff3dc0d3b677  opt/ros/jade/share/ros/core/rosbuild/private.cmake
+b9dc0d6193bbed55a748532d842c1042  opt/ros/jade/share/ros/core/rosbuild/public.cmake
+0dd42218cb2b18922245545961c93258  opt/ros/jade/share/ros/core/rosbuild/rosbuild.cmake
+9fb621fefe96cbeeb6a923dc2b29fa0f  opt/ros/jade/share/ros/core/rosbuild/rosconfig.cmake
+8126886986d361d368618b7c8a04a128  opt/ros/jade/share/ros/core/rosbuild/rostoolchain.cmake
+db09e6c10b40319268b356903d7f74e3  opt/ros/jade/share/ros/core/rosbuild/tests/count_cores.py
+ae842d4c51f5924949013f7afc769bdc  opt/ros/jade/share/rosbuild/cmake/rosbuildConfig-version.cmake
+cdd1935323284750ce8ece844a28020b  opt/ros/jade/share/rosbuild/cmake/rosbuildConfig.cmake
+0b984ca5be5e9b5c3df1df626f968b89  opt/ros/jade/share/rosbuild/package.xml
+8796608812d9e74e6252049309bab5de  usr/share/doc/ros-jade-rosbuild/changelog.Debian.gz

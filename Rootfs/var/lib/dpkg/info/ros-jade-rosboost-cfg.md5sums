@@ -1,0 +1,11 @@
+17dd1d4c195936c181ad7398329aa52c  opt/ros/jade/bin/rosboost-cfg
+3a22ed925e0dfd2b912dbabb48328f8e  opt/ros/jade/lib/pkgconfig/rosboost_cfg.pc
+9cb19013239aeca271d2456e16b004b7  opt/ros/jade/lib/python2.7/dist-packages/rosboost_cfg-1.12.5.egg-info
+1169e5eb630d46f0f0e9fdb8c0eb2595  opt/ros/jade/lib/python2.7/dist-packages/rosboost_cfg/__init__.py
+acf614184253858cb7e0e3f060583b3c  opt/ros/jade/lib/python2.7/dist-packages/rosboost_cfg/__init__.pyc
+dae38c151caa1476ecfee5faff4f5945  opt/ros/jade/lib/python2.7/dist-packages/rosboost_cfg/rosboost_cfg.py
+77121f81c0fc5c98a680d2a82743cfdd  opt/ros/jade/lib/python2.7/dist-packages/rosboost_cfg/rosboost_cfg.pyc
+ae842d4c51f5924949013f7afc769bdc  opt/ros/jade/share/rosboost_cfg/cmake/rosboost_cfgConfig-version.cmake
+36f95d4617501115fc1910c490c25385  opt/ros/jade/share/rosboost_cfg/cmake/rosboost_cfgConfig.cmake
+66d027773761a2b8ea0ae3e2654c345f  opt/ros/jade/share/rosboost_cfg/package.xml
+71921a1e83582ec6a7316015ca02005c  usr/share/doc/ros-jade-rosboost-cfg/changelog.Debian.gz

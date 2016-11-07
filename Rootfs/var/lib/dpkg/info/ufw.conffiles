@@ -1,0 +1,6 @@
+/etc/logrotate.d/ufw
+/etc/bash_completion.d/ufw
+/etc/rsyslog.d/20-ufw.conf
+/etc/init/ufw.conf
+/etc/default/ufw
+/etc/ufw/sysctl.conf
